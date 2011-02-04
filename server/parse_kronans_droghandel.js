@@ -1,9 +1,24 @@
+/*
+Kronans droghandel weeee!
+Horribel kod, så regexpar istället för att jquerya. Verkar konsekvent ha post för Mån-Fre i ett.
+Norrfjärden har fritext om speciella stängningstider, men går ej att förutse eller parsa. Fakk it.
+
+*/
+
 var scraper = require('./scraper'),
 	CouchClient = require('./couch-client'),
 	db = CouchClient("http://kra.couchone.com/mapotek"),
 	fs = require('fs');
 
 db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Kronans Droghandel" }, function(err, doc){
+	function getMatch(what,source,regexp,errors){
+		var match = source.match(regexp);
+		if (match && match.length>0){
+			return match[match.length>1?1:0];
+		}
+		errors.push("Couldn't find "+what+" in "+source);
+		return "";
+	}
 	doc.rows.forEach(function(row, i){
 		if(i != 0){ return; } // just one for now
 		var obj = row.value,
@@ -11,41 +26,28 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Kronans Droghandel" }, fun
 		
 		scraper(url, function(err, $) {
 		    if (err) {throw err;}
-			var info = $(".apoteksinfo"), rows = info.contents(), ret, text = rows.text(), imgsrc = $(".apoteksinforight img").attr("src");
+			var errors = [], info = $(".apoteksinfo"), rows = info.contents(), ret, text = rows.text(), imgsrc = $(".apoteksinforight img").attr("src");
 			ret = {
 				namn: $("h1").eq(0).text(),
 				chain: "Kronans Droghandel",
-				address: {},
+				address: {
+					street: getMatch("Street",text,/Adress\r\n\s*(.*)?\s*\r\n/,errors).replace(/\s$|\u00a0|,/g,""),
+					zipcode: getMatch("zipcode",text,/Adress\r\n.*\r\n(.*)\r\n/,errors).replace(/\s|\u00a0|,/g,""),
+					city: getMatch("city",text,/Adress\r\n.*\r\n.*\r\n(.*)\r\n/,errors).replace(/\s|\u00a0|,/g,"")
+				},
+				phone: getMatch("phone",text,/Tel:\s?(.*)\r\n/,errors).replace(/\s|\u00a0|,|\u2013/g,""),
 				hours: {},
-				coords: {}
+				coords: {
+					latitude: getMatch("latitude",imgsrc,/markers=(.*?),/,errors),
+					longitude: getMatch("longitude",imgsrc,/markers=.*,(.*),/,errors)
+				}
 			};
 			
-			// fetch street from swamp
-			var street = text.match(/Adress\r\n\s*(.*)?\s*\r\n/);
-			ret.address.street = (street.length >= 2 ? street[1] : "").replace(/\s$|\u00a0|,/g,"");
-
-			// fetch zipcode from bog
-			var zipcode = text.match(/Adress\r\n.*\r\n(.*)\r\n/);
-			ret.address.zipcode = (zipcode.length >= 2 ? zipcode[1] : "").replace(/\s|\u00a0|,/g,"");
-			
-			// fetch city from muck
-			var city = text.match(/Adress\r\n.*\r\n.*\r\n(.*)\r\n/);
-			ret.address.city = (city.length >= 2 ? city[1] : "").replace(/\s|\u00a0|,/g,"");
-						
-			// fetch phonenumber from poo, even though we already fakking know it
-			var phone = text.match(/Tel:\s?(.*)\r\n/);
-			ret.phone = (phone.length >= 2 ? phone[1] : "").replace(/\s|\u00a0|,|\u2013/g,"");
-			
-			// fetch coords from puss
-			var c = imgsrc.match(/markers=(.*?),/);
-			ret.coords.latitude = (c.length >= 2 ? c[1] : "");
-			c = imgsrc.match(/markers=.*,(.*),/);
-			ret.coords.longitude = (c.length >= 2 ? c[1] : "");
-			
-			var times = ( text.match(/Öppettider([\s\S]*?)Övrig information/g) || [""])[0].match(/\r\n(.*?:.*)\r\n/g);
+			var times = getMatch("opening hours",text,/Öppettider([\s\S]*?)Övrig information/g,errors).match(/\r\n(.*?:.*)\r\n/g) || [];
 			times.map(function(t){ // t is something like: '\r\n        M\u00e5n-Fre: 09.00-17.00\r\n'
 			    t = t.replace(/^\r?\n?\s*/g,"").replace(/\r?\n?$/g,"");
-				var day = t.match(/^(.*?):/), span = t.match(/\d?\d\.\d\d-\d?\d\.\d\d/g) || [];
+				var day = getMatch("day",t,/^(.*?):/,errors),
+					span = t.match(/\d?\d\.\d\d-\d?\d\.\d\d/g) || [];
 				var matcher = {
 					"Måndag": ["monday"],
 					"Tisdag": ["tuesday"],
@@ -56,13 +58,16 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Kronans Droghandel" }, fun
 					"Söndag": ["sunday"],
 					"Mån-Fre": ["monday","tuesday","wednesday","thursday","friday"]
 				};
-				if (day && day.length > 1 && matcher.hasOwnProperty(day[1])){
-					matcher[day[1]].map(function(d){
+				if (day && matcher.hasOwnProperty(day)){
+					matcher[day].map(function(d){
 						ret.hours[d] = span.slice(0);
 					});
 				}
+				else {
+					errors.push("Unknown day "+day);
+				}
 			});
-						
+			ret.errors = errors;			
 			console.log(ret);
 		});
 	});
