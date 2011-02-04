@@ -1,13 +1,12 @@
-var scraper = require('./scraper'),
-	redis = require("redis-node");
-	
-var client = redis.createClient();    // Create the client
-	client.select(6);
+var request = require('request'),
+	scraper = require('./scraper'),
+	CouchClient = require('./couch-client'),
+	db = CouchClient("http://kra.couchone.com/mapotek");
 	
 scraper('http://www.ica.se/curaapoteket', function(err, $) {
     if (err) {throw err}
 	var base = "http://www.ica.se";
     $('.contentarea td a').each(function() {
-        client.set(base + $(this).attr('href'), 1);
+		db.save({ apotek: 'Cura', href: base + $(this).attr('href') });
     });
 });

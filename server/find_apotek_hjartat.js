@@ -1,8 +1,6 @@
 var scraper = require('./scraper'),
-	redis = require("redis-node");
-	
-var client = redis.createClient();    // Create the client
-	client.select(4);
+	CouchClient = require('./couch-client'),
+	db = CouchClient("http://kra.couchone.com/mapotek");
 	
 var i = 0, max = 26;	
 function scrape(){
@@ -13,7 +11,7 @@ function scrape(){
 			console.log('oki');
 			$('.pharmacy-search-result h2 a').each(function(){
 				var href = $(this).attr('href');
-				client.set(href, 1);
+				db.save({ apotek: 'Apotek Hjärtat', href: href });
 			});
 			setTimeout(scrape, 400);
 		});

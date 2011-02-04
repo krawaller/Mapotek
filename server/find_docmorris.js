@@ -1,8 +1,6 @@
 var scraper = require('./scraper'),
-	redis = require("redis-node");
-	
-var client = redis.createClient();    // Create the client
-	client.select(7);
+	CouchClient = require('./couch-client'),
+	db = CouchClient("http://kra.couchone.com/mapotek");
 	
 scraper('http://www.docmorris.se/Hitta-apotek/', function(err, $) {
     if (err) {throw err}
@@ -10,6 +8,6 @@ scraper('http://www.docmorris.se/Hitta-apotek/', function(err, $) {
     $('.articlelist a').each(function() {
 		var val = base + $(this).attr('href');
         //console.log(val);
-		client.set(val, 1);
+		db.save({ apotek: 'DocMorris', href: val });
     });
 });

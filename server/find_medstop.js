@@ -1,13 +1,11 @@
 var scraper = require('./scraper'),
-	redis = require("redis-node");
-	
-var client = redis.createClient();    // Create the client
-	client.select(5);
+	CouchClient = require('./couch-client'),
+	db = CouchClient("http://kra.couchone.com/mapotek");
 	
 scraper('http://www.medstop.se/hitta-apotek', function(err, $) {
     if (err) {throw err}
 
     $('.item-list .item-list a').each(function() {
-        client.set('http://www.medstop.se' + $(this).attr('href'), 1);
+		db.save({ apotek: 'Medstop', href: 'http://www.medstop.se' + $(this).attr('href') });
     });
 });
