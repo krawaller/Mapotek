@@ -29,7 +29,7 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Kronans Droghandel" }, fun
 			var errors = [], ret, lis = $("ul.adress>li"), iframesrc = $("iframe").attr("src");
 			ret = {
 				namn: getMatch("Name",$("h1").text(),/Vårdapoteket, (.*)/,errors),
-				chain: "Kronans Droghandel",
+				chain: "Vårdapoteket",
 				address: {
 					street: lis.eq(1).text().replace(/^\s*/g,"").replace(/\s*$/g,""),
 					zipcode: getMatch("zipcode",lis.eq(2).text(),/(.*?),/,errors).replace(/\D/g,""),
