@@ -1,0 +1,316 @@
+Apoteket Pantern, Lyckeby
+Apoteket Ugglan, Karlshamn
+Apoteket Snäckan, Ronneby
+Apoteket Falken, Borlänge
+Apoteket Liljan, Ludvika
+Apoteket Kronan, Avesta
+Apoteket Visenten EA, Avesta
+Apoteket Kråkan, Svärdsjö
+Apoteket Falu lasarett EA, Falun
+Apoteket Blåklockan, Horndal
+Apoteket Solsidan, Ludvika
+Apoteket Leksand, Leksand
+Apoteket Bävern EA, Mora
+Apoteket Djurås, Gagnef
+Apoteket Tallen, Vansbro
+Apoteket Björnen, Älvdalen
+Apoteket, Särna
+Apoteket Shop Falun, Falun
+Apoteket Shop Kupolen, Borlänge
+Apoteket Liljan, Visby
+Apoteket Strandskatan, Visby
+Apoteket Syrenen, Gävle
+Apoteket Duvan, Storvik
+Apoteket Stjärnan, Hudiksvall
+Apoteket Lokatten, Harmånger
+Apoteket Rönnen, Iggesund
+Apoteket Nordstjärnan, Alfta
+Apoteket Linblomman, Bollnäs
+Apoteket Björnen, Bergsjö
+Apoteket Mården, Hamrånge
+Apoteket Måsen, Varberg
+Apoteket Snäckan, Åsa
+Apoteket Strömstaren, Oskarström
+Apoteket Forellen, Knäred
+Apoteket Vipan, Halmstad
+Apoteket Berguven, Halmstad
+Apoteket Anden, Unnaryd
+Apoteket Tjädern, Hyltebruk
+Apoteket Vakteln, Halmstad
+Apoteket Hägern, Särö
+Apoteket Sälen, Onsala
+Apoteket Shop Kungsbacka, Kungsbacka
+Apoteket Shop Halmstad, Halmstad
+Apoteket Falken, Falkenberg
+Apoteket Nornan, Östersund
+Apoteket Biet, Frösön
+Apoteket Älgen, Strömsund
+Apoteket Fjällämmeln, Gäddede
+Apoteket Björnen, Hammerdal
+Apoteket Kronan, Backe
+Apoteket Mården, Bräcke
+Apoteket Lokatten, Föllinge
+Apoteket Svanen, Krokom
+Apoteket Änge, Offerdal
+Apoteket Björken, Hoting
+Apoteket Örnen, Östersund
+Apoteket Lärkan, Habo
+Apoteket Ekorren, Bankeryd
+Apoteket Nyponet, Norrahammar
+Apoteket Vågen, Värnamo
+Apoteket Lejonet, Eksjö
+Apoteket Lejonet, Vetlanda
+Apoteket Furan, Mariannelund
+Apoteket Ryhov, Jönköping
+Apoteket Alnen, Rydaholm
+Apoteket Lejonet, Västervik
+Apoteket Kronan, Hultsfred
+Apoteket Lejonet, Oskarshamn
+Apoteket Malen, Högsby
+Apoteket Kronan, Mörbylånga
+Apoteket Hinden, Kalmar
+Apoteket Sundet, Kalmar
+Apoteket Solvändan, Kalmar
+Apoteket Shop Baronen, Kalmar
+Apoteket Svanen, Alvesta
+Apoteket Kronan, Ljungby
+Apoteket Svanen, Markaryd
+Apoteket Uttern, Tingsryd
+Apoteket Örnen, Lessebo
+Apoteket Birka, Växjö
+Apoteket Shop Växjö, Växjö
+Apoteket Lejonet, Luleå
+Apoteket Gammelstad, Gammelstad
+Apoteket Uttern, Råneå
+Apoteket Laxen, Boden
+Apoteket Harads, Harads
+Apoteket Vargen, Hortlax
+Apoteket Renen, Piteå
+Apoteket Manhem, Kalix
+Apoteket Aspen, Haparanda
+Apoteket Svarta Räven, Övertorneå
+Apoteket Björnen, Överkalix
+Apoteket Ripan, Kiruna
+Apoteket Lappugglan, Pajala
+Apoteket Blåklockan, Luleå
+Apoteket Viken, Luleå
+Apoteket Shop Luleå, Luleå
+Apoteket Väla, Ödåkra
+Apoteket Lejonet, Landskrona
+Apoteket Svanen, Råå
+Apoteket Biet, Helsingborg
+Apoteket S:t Lars, Lund
+Apoteket Svanen, Lund
+Apoteket Gladan, Dalby
+Apoteket Kronan, Kävlinge
+Apoteket Källan, Arlöv
+Apoteket Linero, Lund
+Apoteket Solrosen, Ängelholm
+Apoteket Lärkan, Munka-Ljungby
+Apoteket Fasanen, Malmö
+Apoteket Lejonet, Malmö
+Apoteket Hinden, Malmö
+Apoteket Vipan, Malmö
+Apoteket Spoven, Oxie
+Apoteket Gripen, Malmö
+Apoteket Doppingen, Ystad
+Apoteket Ängeln, Sjöbo
+Apoteket Lönnen, Svedala
+Apoteket Svea, Trelleborg
+Apoteket Fagerängen, Trelleborg
+Apoteket Storken, Tollarp
+Apoteket Ödlan, Bromölla
+Apoteket Kronan, Klippan
+Apoteket Linné, Hässleholm
+Apoteket Linden, Sösdala
+Apoteket Dufwan, Osby
+Apoteket Näckrosen, Perstorp
+Apoteket Ljungen, Örkelljunga
+Apoteket Shop Knutpunkten, Helsingborg
+Apoteket Norringen, Kristianstad
+Apoteket Mobilia, Malmö
+Apoteket Karolinen, Solna
+Apoteket Karolinen Ra, Solna
+Apoteket Humlan, Hägersten
+Apoteket Eken, Danderyd
+Apoteket Örnen, Rimbo
+Apoteket Livbojen, Åkersberga
+Apoteket Vita Björn, Stockholm
+Apoteket C W Scheele, Stockholm
+Apoteket Shop Ugglan, Stockholm
+Apoteket Korpen, Stockholm
+Apoteket Lejonet, Stockholm
+Apoteket Falken, Stockholm
+Apoteket Storken, Stockholm
+Apoteket Biet, Stockholm
+Apoteket Kungsmyntan, Stockholm
+Apoteket Hinden, Johanneshov
+Apoteket Fyren, Gustavsberg
+Apoteket Tussilagon, Enskede
+Apoteket Svanen, Nacka
+Apoteket Morkullan, Bandhagen
+Apoteket Sparvugglan, Haninge
+Apoteket Sjöhästen, Västerhaninge
+Apoteket Ulven, Solna
+Apoteket Stenbocken, Järfälla
+Apoteket Pelikanen, Spånga
+Apoteket Duvan, Bromma
+Apoteket Tidlösan, Ekerö
+Apoteket Malvan, Vällingby
+Apoteket Ekorren, Älvsjö
+Apoteket Gasellen, Hägersten
+Apoteket Spoven, Skärholmen
+Apoteket Källan, Norsborg
+Apoteket S:ta Ragnhild, Södertälje
+Apoteket Nova, Huddinge
+Apoteket Nyponet, Nykvarn
+Apoteket Linnéan, Skogås
+Apoteket Shop Södertälje, Södertälje
+Apoteket Orion, Täby
+Apoteket Hästhoven, Täby
+Apoteket Skutan, Gustavsberg
+Apoteket Stinsen, Sollentuna
+Apoteket Shop Drottningholmsvägen (del av Kungsmyntan, Stockholm), Stockholm
+Apoteket Globen, Johanneshov
+Apoteket Shop Götgatsbacken, Stockholm
+Apoteket Shop Järfälla, Järfälla
+Apoteket Svanen, Stockholm
+Apoteket Shop Hamngatan, Stockholm
+Apoteket Shop Kungsgatan, Stockholm
+Apoteket Shop Haninge, Haninge
+Apoteket Flamingon, Stockholm
+Apoteket Shop Farsta, Farsta
+Apoteket Shop Solna, Solna
+Apoteket Elefanten, Stockholm
+Apoteket Viggen, Lidingö
+Apoteket Västermalmsgallerian, Stockholm
+Apoteket Gripen, Nyköping
+Apoteket Kronan, Malmköping
+Apoteket Svanen, Torshälla
+Apoteket Nävertorp, Katrineholm
+Apoteket Shop Nyköping, Nyköping
+Apoteket Kronan, Uppsala
+Apoteket Ugglan EA, Enköping
+Apoteket Biet, Gimo
+Apoteket Örnen, Tierp
+Apoteket Röllekan, Uppsala
+Apoteket Lärkan, Forshaga
+Apoteket Lusten, Deje
+Apoteket Vargen, Karlstad
+Apoteket Björken, Karlstad
+Apoteket Björnen, Kristinehamn
+Apoteket Örnen, Karlstad
+Apoteket Källan, Karlstad
+Apoteket, Åmotfors
+Apoteket Tallen, Charlottenberg
+Apoteket Kronan, Årjäng
+Apoteket Svanen, Säffle
+Apoteket Orren, Grums
+Apoteket Stjärnan, Sunne
+Apoteket Foxen, Töcksfors
+Apoteket Shop Karlstad, Karlstad
+Apoteket Örnen, Byske
+Apoteket Tärnan, Skelleftehamn
+Apoteket Lärkan, Bureå
+Apoteket Bävern, Lövånger
+Apoteket Teg, Umeå
+Apoteket Diamanten, Robertsfors
+Apoteket Spoven, Skellefteå
+Apoteket Shop Skellefteå, Skellefteå
+Apoteket NUS öppenvård, Umeå
+Apoteket Shop Umeå, Umeå
+Apoteket Gripen, Sundsvall
+Apoteket, Matfors
+Apoteket, Timrå
+Apoteket, Söråker
+Apoteket Ugglan, Ånge
+Apoteket Vargen, Fränsta
+Apoteket Örnen, Örnsköldsvik
+Apoteket Myrten, Bredbyn
+Apoteket, Själevad
+Apoteket Skärvsta, Sollefteå
+Apoteket Myran, Nyland
+Apoteket Kronan, Härnösand
+Apoteket Shop Oskarsgallerian, Örnsköldsvik
+Apoteket Shop Galleria In, Sundsvall
+Apoteket Hjorten, Västerås
+Apoteket Vingen, Västerås
+Apoteket Renen, Sala
+Apoteket Illern, Surahammar
+Apoteket Lejonet, Fagersta
+Apoteket Tärnan, Köping
+Apoteket Kronan, Kungsör
+Apoteket Hälla, Västerås
+Apoteket Shop Västerås, Västerås
+Apoteket Kronan, Skara
+Apoteket Kvarnen, Grästorp
+Apoteket Kronan, Töreboda
+Apoteket Kärnan, Skövde
+Apoteket Tranan, Skövde
+Apoteket Svanen, Tibro
+Apoteket Kronan, Falköping
+Apoteket Enen, Floby
+Apoteket Fyren, Stenstorp
+Apoteket Juwelen, Borås
+Apoteket Måsen, Uddevalla
+Apoteket Korpen, Uddevalla
+Apoteket Kronan, Lysekil
+Apoteket Tärnan, Hunnebostrand
+Apoteket Laxen, Munkedal
+Apoteket Hjorten, Alingsås
+Apoteket Noltorp, Alingsås
+Apoteket Linden, Bollebygd
+Apoteket Biet, Borås
+Apoteket Orren, Floda
+Apoteket Stjärnan, Herrljunga
+Apoteket Hjorten, Lilla Edet
+Apoteket Rosen, Sandared
+Apoteket Tranan, Tranemo
+Apoteket Björnen, Trollhättan
+Apoteket Svanen, Trollhättan
+Apoteket Kronan, Ulricehamn
+Apoteket Älgen, Vargön
+Apoteket Tranan, Vänersborg
+Apoteket Skeppet, Älvängen
+Apoteket Almen, Lindome
+Apoteket Kråkan, Mölndal
+Apoteket Björken, Göteborg
+Apoteket Ekorren, Göteborg
+Apoteket Smörblomman, Göteborg
+Apoteket Korpen, Göteborg
+Apoteket Blåvingen, Landvetter
+Apoteket Svanen, Göteborg
+Apoteket Biet, Göteborg
+Apoteket Tumlaren, Göteborg
+Apoteket Shop Västra Frölunda, Västra Frölunda
+Apoteket Magnolian, Kungälv
+Apoteket Pionen, Kållered
+Apoteket Näckrosen, Lidköping
+Apoteket Shop Nils Ericsonplatsen, Göteborg
+Apoteket Shop Borås, Borås
+Apoteket Shop Partille, Partille
+Apoteket Shop Korsgatan, Göteborg
+Apoteket Svanen, Odensbacken
+Apoteket Universitetssjukhuset EA, Örebro
+Apoteket Älgen, Örebro
+Apoteket Lärkan, Karlskoga
+Apoteket Vågen, Degerfors
+Apoteket Lokatten, Lindesberg
+Apoteket Tybble VC, Örebro
+Apoteket Marieberg, Örebro
+Apoteket Shop Drottninggatan, Örebro
+Apoteket Viggen, Linköping
+Apoteket Kronan, Linköping
+Apoteket Kronan, Motala
+Apoteket Marieberg, Motala
+Apoteket Örnen, Vadstena
+Apoteket Kronan, Skänninge
+Apoteket Kronan, Ödeshög
+Apoteket Humlan, Linköping
+Apoteket Räven, Österbymo
+Apoteket Vrinnevisjukhuset EA, Norrköping
+Apoteket Hjorten, Norrköping
+Apoteket Fasanen, Norrköping
+Apoteket Vallonen, Finspång
+Apoteket Lambohov, Linköping
+Apoteket Shop Linköping, Linköping

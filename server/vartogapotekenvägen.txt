@@ -1,0 +1,927 @@
+Blekinge	 Karlskrona	 Karlskrona	 Blekingesjukhuset	 Apoteket Eken	 Grupp 7 (Vårdapoteket i Norden)
+Blekinge	 Karlskrona	 Karlskrona	 Landbrogatan 4	 Apoteket Göta Lejon	 Grupp 5 (Medstop)
+Blekinge	 Karlskrona	 Rödeby	 Movägen 4	 Apoteket Lärkan	 Grupp 1 (Apotek Hjärtat)
+Blekinge	 Karlskrona	 Jämjö	 Hammarbyvägen 6	 Apoteket Orren	 Småföretagare
+Blekinge	 Ronneby	 Ronneby	 Övre Brunnsvägen 2	 Apoteket Gripen	 Småföretagare
+Blekinge	 Karlskrona	 Lyckeby	 Källevägen 12	 Apoteket Pantern	 Kvar i Apoteket AB
+Blekinge	 Olofström	 Olofström	 Östra Storgatan 38	 Apoteket Svanen	 Grupp 1 (Apotek Hjärtat)
+Blekinge	 Sölvesborg	 Sölvesborg	 Järnvägsgatan 5A	 Apoteket Eken	 Grupp 1 (Apotek Hjärtat)
+Blekinge	 Ronneby	 Kallinge	 Kockumsvägen 32	 Apoteket Tre Nycklar	 Grupp 2 (Kronans Droghandel)
+Blekinge	 Karlshamn	 Karlshamn	 Kungsgatan 42	 Apoteket Elefanten	 Grupp 2 (Kronans Droghandel)
+Blekinge	 Karlshamn	 Karlshamn	 Länsmansvägen 1	 Apoteket Ugglan	 Kvar i Apoteket AB
+Blekinge	 Ronneby	 Ronneby	 Hälsovägen 2	 Apoteket Snäckan	 Kvar i Apoteket AB
+Dalarna	 Borlänge	 Borlänge	 Stationsgatan 4	 Apoteket Kronan	 Grupp 1 (Apotek Hjärtat)
+Dalarna	 Falun	 Falun	 Åsgatan 25	 Apoteket Vasen	 Grupp 2 (Kronans Droghandel)
+Dalarna	 Borlänge	 Borlänge	 Borlänge sjukhus Bergebyvägen	 Apoteket Domherren	 Grupp 2 (Kronans Droghandel)
+Dalarna	 Borlänge	 Borlänge	 Märkargatan 23 Kvarnsvedens vc	 Apoteket Falken	 Kvar i Apoteket AB
+Dalarna	 Smedjebacken	 Smedjebacken	 Johan Ahlbäcks plats 8	 Apoteket Örnen	 Småföretagare
+Dalarna	 Ludvika	 Ludvika	 Carlavägen 12	 Apoteket Liljan	 Kvar i Apoteket AB
+Dalarna	 Ludvika	 Ludvika	 Lasarettet	 Apoteket Blåsippan	 Grupp 2 (Kronans Droghandel)
+Dalarna	 Ludvika	 Sunnansjö	 Botbergsvägen 4	 Apoteket Mosippan	 Grupp 2 (Kronans Droghandel)
+Dalarna	 Ludvika	 Grängesberg	 Örabergsvägen 5	 Apoteket Dalporten	 Grupp 1 (Apotek Hjärtat)
+Dalarna	 Avesta	 Avesta	 Markustorget 1	 Apoteket Kronan	 Kvar i Apoteket AB
+Dalarna	 Avesta	 Avesta	 Lasarettet	 Apoteket Visenten EA	 Kvar i Apoteket AB
+Dalarna	 Hedemora	 Hedemora	 Hökargatan 4	 Apoteket Gustaf Wasa	 Grupp 1 (Apotek Hjärtat)
+Dalarna	 Hedemora	 Långshyttan	 Hyttgatan 5	 Apoteket Tidlösan	 Grupp 1 (Apotek Hjärtat)
+Dalarna	 Säter	 Säter	 Östra Långgatan 10	 Apoteket Daldockan	 Grupp 2 (Kronans Droghandel)
+Dalarna	 Falun	 Svärdsjö	 Industrivägen 1	 Apoteket Kråkan	 Kvar i Apoteket AB
+Dalarna	 Falun	 Falun	 Lasarettet	 Apoteket Falu lasarett EA	 Kvar i Apoteket AB
+Dalarna	 Avesta	 Horndal	 Åsvägen 3	 Apoteket Blåklockan	 Kvar i Apoteket AB
+Dalarna	 Ludvika	 Ludvika	 Vårdcentralen Solsidan	 Apoteket Solsidan	 Kvar i Apoteket AB
+Dalarna	 Falun	 Falun	 Drottningvägen 1	 Apoteket	 Grupp 2 (Kronans Droghandel)
+Dalarna	 Leksand	 Leksand	 Leksandsvägen 2	 Apoteket Leksand	 Kvar i Apoteket AB
+Dalarna	 Mora	 Mora	 Kyrkogatan 27	 Apoteket Örnen	 Grupp 2 (Kronans Droghandel)
+Dalarna	 Mora	 Mora	 Lasarettet	 Apoteket Bävern EA	 Kvar i Apoteket AB
+Dalarna	 Gagnef	 Gagnef	 Djurås Centrum	 Apoteket Djurås	 Kvar i Apoteket AB
+Dalarna	 Orsa	 Orsa	 Centralgatan 2	 Apoteket Berguven	 Grupp 1 (Apotek Hjärtat)
+Dalarna	 Rättvik	 Rättvik	 Vasagatan 2	 Apoteket Kronan	 Småföretagare
+Dalarna	 Vansbro	 Vansbro	 Allégatan 30	 Apoteket Tallen	 Kvar i Apoteket AB
+Dalarna	 Malung	 Malung	 Lisagatan 37	 Apoteket Hästhoven	 Grupp 2 (Kronans Droghandel)
+Dalarna	 Malung	 Lima	 Vårdcentralen	 Apoteket Lima	 Grupp 2 (Kronans Droghandel)
+Dalarna	 Älvdalen	 Älvdalen	 Furuvägen 3	 Apoteket Björnen	 Kvar i Apoteket AB
+Dalarna	 Älvdalen	 Särna	 Vårdcentralen	 Apoteket	 Kvar i Apoteket AB
+Dalarna	 Malung	 Sälen	 Centrumhuset	 Apoteket Dalripan	 Grupp 2 (Kronans Droghandel)
+Dalarna	 Borlänge	 Borlänge	 Kupolens Köpcentrum Entré 1	 Apoteket Kupolen	 Grupp 2 (Kronans Droghandel)
+Dalarna	 Falun	 Falun	 Kopparvägen 28	 Apoteket Norslund-Origo	 Småföretagare
+Dalarna	 Falun	 Falun	 Holmgatan 26	 Apoteket Shop Falun	 Kvar i Apoteket AB
+Dalarna	 Borlänge	 Borlänge	 Kupolen 13	 Apoteket Shop Kupolen	 Kvar i Apoteket AB
+Gotland	 Gotland	 Visby	 Österväg 7	 Apoteket Liljan	 Kvar i Apoteket AB
+Gotland	 Gotland	 Hemse	 Hagagatan 30	 Apoteket Kronan	 Småföretagare
+Gotland	 Gotland	 Klintehamn	 Verkstadsgatan 9	 Apoteket Törden	 Grupp 2 (Kronans Droghandel)
+Gotland	 Gotland	 Slite	 Tullhagsplan 2A	 Apoteket Rindi	 Grupp 2 (Kronans Droghandel)
+Gotland	 Gotland	 Visby	 Sankt Göransgatan 5	 Apoteket Strandskatan	 Kvar i Apoteket AB
+Gotland	 Gotland	 Visby	 Skarphällsgatan 8	 Apoteket Rosen	 Grupp 2 (Kronans Droghandel)
+Gotland	 Gotland	 Romakloster	 Visbyvägen 33	 Apoteket Cikorian	 Småföretagare
+Gävleborg	 Gävle	 Gävle	 N. Slottsgatan 5 Drottninggatan 12	 Apoteket Lejonet	 Grupp 1 (Apotek Hjärtat)
+Gävleborg	 Gävle	 Gävle	 Huvudentren Gävle sjukhus	 Apoteket Syrenen	 Kvar i Apoteket AB
+Gävleborg	 Gävle	 Gävle	 G:a Bönavägen 19	 Apoteket Svanen	 Småföretagare
+Gävleborg	 Gävle	 Hedesunda	 Hälsocentralen	 Apoteket Myggan	 Grupp 2 (Kronans Droghandel)
+Gävleborg	 Gävle	 Gävle	 Solgårdsgatan 2	 Apoteket Kronan	 Småföretagare
+Gävleborg	 Gävle	 Gävle	 Sätra Centrum	 Apoteket Pilen	 Småföretagare
+Gävleborg	 Gävle	 Valbo	 Valbo Köpcentrum	 Apoteket Valen	 Grupp 2 (Kronans Droghandel)
+Gävleborg	 Gävle	 Gävle	 Vinddraget 18	 Apoteket Konvaljen	 Grupp 1 (Apotek Hjärtat)
+Gävleborg	 Gävle	 Gävle	 Kaserngatan 48	 Apoteket Tre Ankare	 Grupp 2 (Kronans Droghandel)
+Gävleborg	 Sandviken	 Sandviken	 Köpmangatan 9	 Apoteket Örnen	 Grupp 2 (Kronans Droghandel)
+Gävleborg	 Sandviken	 Sandviken	 Lasarettleden	 Apoteket Tjädern	 Småföretagare
+Gävleborg	 Sandviken	 Storvik	 Thore Petregatan 47	 Apoteket Duvan	 Kvar i Apoteket AB
+Gävleborg	 Hofors	 Hofors	 Skolgatan 11	 Apoteket Orren	 Småföretagare
+Gävleborg	 Ockelbo	 Ockelbo	 Södra Åsgatan 34	 Apoteket Kronan	 Grupp 2 (Kronans Droghandel)
+Gävleborg	 Söderhamn	 Söderhamn	 Skolhusgatan 3B	 Apoteket Hjorten	 Grupp 1 (Apotek Hjärtat)
+Gävleborg	 Söderhamn	 Ljusne	 Nygatan 6	 Apoteket Kastanjen	 Grupp 1 (Apotek Hjärtat)
+Gävleborg	 Ljusdal	 Ljusdal	 Bokhandlargränd 6	 Apoteket Bävern	 Grupp 2 (Kronans Droghandel)
+Gävleborg	 Ljusdal	 Järvsö	 Stationsgatan 37	 Apoteket Kronan	 Grupp 1 (Apotek Hjärtat)
+Gävleborg	 Ljusdal	 Färila	 Annbacksvägen 14	 Apoteket Granen	 Grupp 2 (Kronans Droghandel)
+Gävleborg	 Ovanåker	 Edsbyn	 Sporthallsvägen 2	 Apoteket Svanen	 Grupp 1 (Apotek Hjärtat)
+Gävleborg	 Hudiksvall	 Hudiksvall	 Hudiksvalls sjukhus	 Apoteket Stjärnan	 Kvar i Apoteket AB
+Gävleborg	 Nordanstig	 Harmånger	 Backvägen 3	 Apoteket Lokatten	 Kvar i Apoteket AB
+Gävleborg	 Hudiksvall	 Iggesund	 Skolgatan	 Apoteket Rönnen	 Kvar i Apoteket AB
+Gävleborg	 Hudiksvall	 Hudiksvall	 Drottninggatan 10	 Apoteket Kronan	 Grupp 2 (Kronans Droghandel)
+Gävleborg	 Bollnäs	 Kilafors	 Stationsgatan 2	 Apoteket Tuppen	 Grupp 1 (Apotek Hjärtat)
+Gävleborg	 Ovanåker	 Alfta	 Långgatan 44	 Apoteket Nordstjärnan	 Kvar i Apoteket AB
+Gävleborg	 Bollnäs	 Arbrå	 Stationsesplanaden 10	 Apoteket Tranan	 Grupp 1 (Apotek Hjärtat)
+Gävleborg	 Bollnäs	 Bollnäs	 Bollnäs sjukhus	 Apoteket Linblomman	 Kvar i Apoteket AB
+Gävleborg	 Bollnäs	 Bollnäs	 Nygatan 8	 Apoteket Hjorten	 Grupp 1 (Apotek Hjärtat)
+Gävleborg	 Nordanstig	 Bergsjö	 Järnvägstorget	 Apoteket Björnen	 Kvar i Apoteket AB
+Gävleborg	 Hudiksvall	 Delsbo	 Björkgatan 3	 Apoteket Furan	 Grupp 2 (Kronans Droghandel)
+Gävleborg	 Söderhamn	 Bergvik	 H C Linden	 Apoteket Linden	 Grupp 1 (Apotek Hjärtat)
+Gävleborg	 Gävle	 Hamrånge	 Solbergsvägen 5	 Apoteket Mården	 Kvar i Apoteket AB
+Gävleborg	 Gävle	 Gävle	 Ingenjörsgatan 5	 Apoteket Hermelinen	 Grupp 1 (Apotek Hjärtat)
+Halland	 Varberg	 Varberg	 Torggatan 19	 Apoteket Kronan	 Grupp 4 (Medstop)
+Halland	 Varberg	 Tvååker	 Vårdcentralen Fogdevägen 1	 Apoteket Uttern	 Småföretagare
+Halland	 Falkenberg	 Ullared	 Danska vägen 1	 Apoteket Kronan	 Småföretagare
+Halland	 Varberg	 Veddige	 Vårdcentralen Ringvägen 11	 Apoteket Biet	 Småföretagare
+Halland	 Varberg	 Varberg	 Träslövsvägen Sjukhuset	 Apoteket Måsen	 Kvar i Apoteket AB
+Halland	 Kungsbacka	 Kungsbacka	 Kyrkogatan 6	 Apoteket Kronan	 Grupp 4 (Medstop)
+Halland	 Kungsbacka	 Åsa	 Pölagårdsvägen 29	 Apoteket Snäckan	 Kvar i Apoteket AB
+Halland	 Halmstad	 Oskarström	 Ågatan 25	 Apoteket Strömstaren	 Kvar i Apoteket AB
+Halland	 Laholm	 Knäred	 Vårdcentralen	 Apoteket Forellen	 Kvar i Apoteket AB
+Halland	 Laholm	 Laholm	 Stortorget 9	 Apoteket Kronan	 Grupp 1 (Apotek Hjärtat)
+Halland	 Falkenberg	 Falkenberg	 Nygatan 38	 Apoteket Lejonet	 Grupp 4 (Medstop)
+Halland	 Halmstad	 Halmstad	 Vallås Centrum	 Apoteket Vipan	 Kvar i Apoteket AB
+Halland	 Halmstad	 Halmstad	 Nyhems torg	 Apoteket Svalan	 Grupp 1 (Apotek Hjärtat)
+Halland	 Halmstad	 Halmstad	 lasarettsvägen	 Apoteket Berguven	 Kvar i Apoteket AB
+Halland	 Hylte	 Unnaryd	 Torget 1	 Apoteket Anden	 Kvar i Apoteket AB
+Halland	 Hylte	 Hyltebruk	 Storgatan 8	 Apoteket Tjädern	 Kvar i Apoteket AB
+Halland	 Hylte	 Torup	 G:a Nissastigen 27	 Apoteket Trasten	 Grupp 1 (Apotek Hjärtat)
+Halland	 Halmstad	 Halmstad	 Bäckagårds Vårdcentral	 Apoteket Lärkan	 Småföretagare
+Halland	 Halmstad	 Halmstad	 Storgatan 14	 Apoteket Vakteln	 Kvar i Apoteket AB
+Halland	 Kungsbacka	 Särö	 Vårdcentralen	 Apoteket Hägern	 Kvar i Apoteket AB
+Halland	 Kungsbacka	 Onsala	 Mariedalsvägen 6 Vårdcentralen	 Apoteket Sälen	 Kvar i Apoteket AB
+Halland	 Halmstad	 Getinge	 Doktorsgatan 4	 Apoteket Ekorren	 Småföretagare
+Halland	 Kungsbacka	 Kungsbacka	 Kungsmässan Borgmästargatan 5	 Apoteket Shop Kungsbacka	 Kvar i Apoteket AB
+Halland	 Kungsbacka	 Kungsbacka	 Tölövägen 7	 Apoteket Tärnan	 Småföretagare
+Halland	 Varberg	 Varberg	 Västra Vallgatan 8A	 Apoteket Gladan	 Småföretagare
+Halland	 Halmstad	 Halmstad	 Prästvägen Eurostop	 Apoteket Laxen	 Grupp 2 (Kronans Droghandel)
+Halland	 Halmstad	 Halmstad	 Storgatan 34	 Apoteket Shop Halmstad	 Kvar i Apoteket AB
+Halland	 Falkenberg	 Falkenberg	 Gallerian Stortorget 1	 Apoteket Falken	 Kvar i Apoteket AB
+Halland	 Kungsbacka	 Kungsbacka	 Kungsmässan	 Apoteket Kungsörnen	 Grupp 1 (Apotek Hjärtat)
+Jämtland	 Östersund	 Östersund	 Östersunds sjukhus	 Apoteket Nornan	 Kvar i Apoteket AB
+Jämtland	 Östersund	 Frösön	 Önevägen 8	 Apoteket Biet	 Kvar i Apoteket AB
+Jämtland	 Strömsund	 Strömsund	 Amaliagatan 2C	 Apoteket Älgen	 Kvar i Apoteket AB
+Jämtland	 Strömsund	 Gäddede	 Läkarvägen 6	 Apoteket Fjällämmeln	 Kvar i Apoteket AB
+Jämtland	 Strömsund	 Hammerdal	 Storgatan 40B	 Apoteket Björnen	 Kvar i Apoteket AB
+Jämtland	 Strömsund	 Backe	 Torgvägen	 Apoteket Kronan	 Kvar i Apoteket AB
+Jämtland	 Berg	 Svenstavik	 Vallmovägen 2	 Apoteket Blåsippan	 Grupp 2 (Kronans Droghandel)
+Jämtland	 Bräcke	 Bräcke	 Centralstationen	 Apoteket Mården	 Kvar i Apoteket AB
+Jämtland	 Ragunda	 Hammarstrand	 Centralgatan 24	 Apoteket Wildhussen	 Småföretagare
+Jämtland	 Östersund	 Lit	 Sörevägen 8D	 Apoteket Häggen	 Grupp 1 (Apotek Hjärtat)
+Jämtland	 Krokom	 Föllinge	 Storgatan 4	 Apoteket Lokatten	 Kvar i Apoteket AB
+Jämtland	 Krokom	 Krokom	 Genvägen 2A	 Apoteket Svanen	 Kvar i Apoteket AB
+Jämtland	 Östersund	 Brunflo	 Gränsvägen 20	 Apoteket Brunkullan	 Grupp 2 (Kronans Droghandel)
+Jämtland	 Östersund	 Östersund	 Klövervägen 2	 Apoteket Oden	 Grupp 2 (Kronans Droghandel)
+Jämtland	 Östersund	 Östersund	 Prästgatan 51	 Apoteket Hjorten	 Grupp 1 (Apotek Hjärtat)
+Jämtland	 Åre	 Åre	 Årevägen 51	 Apoteket Karolinen	 Småföretagare
+Jämtland	 Åre	 Järpen	 Gastkullevägen 1	 Apoteket Fjällbjörken	 Småföretagare
+Jämtland	 Härjedalen	 Funäsdalen	 Rörosvägen 35	 Apoteket Ripan	 Grupp 1 (Apotek Hjärtat)
+Jämtland	 Härjedalen	 Hede	 Storgatan 18B	 Apoteket Mosippan	 Grupp 1 (Apotek Hjärtat)
+Jämtland	 Härjedalen	 Sveg	 Vallarvägen 8	 Apoteket Tjädern	 Grupp 1 (Apotek Hjärtat)
+Jämtland	 Krokom	 Offerdal	 Hälsocentralen	 Apoteket Änge	 Kvar i Apoteket AB
+Jämtland	 Strömsund	 Hoting	 Hälsocentralen	 Apoteket Björken	 Kvar i Apoteket AB
+Jämtland	 Östersund	 Östersund	 Chaufförvägen 27A	 Apoteket Örnen	 Kvar i Apoteket AB
+Jönköping	 Habo	 Habo	 Vårdcentrum Kärrsvägen 37	 Apoteket Lärkan	 Kvar i Apoteket AB
+Jönköping	 Mullsjö	 Mullsjö	 Kyrkvägen 10	 Apoteket Ärlan	 Grupp 2 (Kronans Droghandel)
+Jönköping	 Jönköping	 Jönköping	 Fabriksgatan 19	 Apoteket Tre Rosor	 Grupp 2 (Kronans Droghandel)
+Jönköping	 Jönköping	 Jönköping	 Smedjegatan 2	 Apoteket Lejonet	 Grupp 1 (Apotek Hjärtat)
+Jönköping	 Värnamo	 Värnamo	 Vråenvägen 31	 Apoteket Vråen	 Grupp 1 (Apotek Hjärtat)
+Jönköping	 Jönköping	 Jönköping	 Tornfalksgatan 11	 Apoteket Ugglan	 Småföretagare
+Jönköping	 Jönköping	 Jönköping	 Rosenlunds vårdcentrum	 Apoteket Rosenlund	 Småföretagare
+Jönköping	 Jönköping	 Bankeryd	 Sjöåkravägen 18	 Apoteket Ekorren	 Kvar i Apoteket AB
+Jönköping	 Jönköping	 Norrahammar	 Postgatan 7	 Apoteket Nyponet	 Kvar i Apoteket AB
+Jönköping	 Jönköping	 Gränna	 Hävdevägen 31	 Apoteket Kronan	 Grupp 2 (Kronans Droghandel)
+Jönköping	 Jönköping	 Huskvarna	 Jönköpingsvägen 19	 Apoteket Svanen	 Grupp 2 (Kronans Droghandel)
+Jönköping	 Jönköping	 Huskvarna	 Öxnehaga vårdcentral	 Apoteket Lärkan	 Grupp 2 (Kronans Droghandel)
+Jönköping	 Gislaved	 Smålandsstenar	 Torggatan 4-6	 Apoteket Enen	 Småföretagare
+Jönköping	 Gislaved	 Reftele	 Vårdcentralen Järnvägsgatan 24	 Apoteket Hägern	 Grupp 1 (Apotek Hjärtat)
+Jönköping	 Gnosjö	 Gnosjö	 Järnvägsgatan 49	 Apoteket Tranan	 Småföretagare
+Jönköping	 Gislaved	 Anderstorp	 Storgatan 25	 Apoteket Uttern	 Grupp 2 (Kronans Droghandel)
+Jönköping	 Gislaved	 Gislaved	 Köpmangatan 3A	 Apoteket Hjorten	 Grupp 2 (Kronans Droghandel)
+Jönköping	 Vaggeryd	 Vaggeryd	 Linnégatan 7	 Apoteket Hinden	 Småföretagare
+Jönköping	 Vaggeryd	 Skillingaryd	 Ljungbergsgatan 2	 Apoteket Linnean	 Grupp 2 (Kronans Droghandel)
+Jönköping	 Värnamo	 Värnamo	 Doktorsgatan	 Apoteket Vågen	 Kvar i Apoteket AB
+Jönköping	 Värnamo	 Värnamo	 Myntgatan 13	 Apoteket Kronan	 Grupp 2 (Kronans Droghandel)
+Jönköping	 Jönköping	 Jönköping	 A6-center Kompanigatan 3	 Apoteket Knekten	 Grupp 1 (Apotek Hjärtat)
+Jönköping	 Eksjö	 Eksjö	 Lasarettsvägen	 Apoteket Lejonet	 Kvar i Apoteket AB
+Jönköping	 Vetlanda	 Vetlanda	 Storgatan 5	 Apoteket Lejonet	 Kvar i Apoteket AB
+Jönköping	 Tranås	 Tranås	 Storgatan 30	 Apoteket Örnen	 Grupp 2 (Kronans Droghandel)
+Jönköping	 Nässjö	 Bodafors	 Torget 1	 Apoteket Strömstaren	 Grupp 1 (Apotek Hjärtat)
+Jönköping	 Nässjö	 Nässjö	 Skansgatan 9	 Apoteket Eken	 Grupp 2 (Kronans Droghandel)
+Jönköping	 Nässjö	 Nässjö	 Rådhusgatan 30	 Apoteket Kronan	 Grupp 1 (Apotek Hjärtat)
+Jönköping	 Aneby	 Aneby	 Storgatan 51	 Apoteket Mården	 Småföretagare
+Jönköping	 Eksjö	 Mariannelund	 Esmarchgatan 1	 Apoteket Furan	 Kvar i Apoteket AB
+Jönköping	 Sävsjö	 Sävsjö	 Västra Järnvägsgatan 11	 Apoteket Kronan	 Grupp 2 (Kronans Droghandel)
+Jönköping	 Sävsjö	 Vrigstad	 Jönköpingsvägen 3	 Apoteket Kronan	 Grupp 1 (Apotek Hjärtat)
+Jönköping	 Jönköping	 Jönköping	 Länssjukhuset Ryhov	 Apoteket Ryhov	 Kvar i Apoteket AB
+Jönköping	 Vetlanda	 Landsbro	 Valåkravägen 1	 Apoteket Älgen	 Grupp 2 (Kronans Droghandel)
+Jönköping	 Värnamo	 Rydaholm	 Dahlgrens väg	 Apoteket Alnen	 Kvar i Apoteket AB
+Jönköping	 Eksjö	 Eksjö	 Norra Storgatan	 Apoteket Tigern	 Grupp 2 (Kronans Droghandel)
+Kalmar	 Västervik	 Västervik	 Östra Kyrkogatan 48	 Apoteket Lejonet	 Kvar i Apoteket AB
+Kalmar	 Hultsfred	 Virserum	 Storgatan 22	 Apoteket Anden	 Grupp 2 (Kronans Droghandel)
+Kalmar	 Hultsfred	 Hultsfred	 Bryggerigatan 2	 Apoteket Kronan	 Kvar i Apoteket AB
+Kalmar	 Oskarshamn	 Oskarshamn	 Oskarshamns sjukhus	 Apoteket Blå Jungfrun	 Grupp 1 (Apotek Hjärtat)
+Kalmar	 Oskarshamn	 Oskarshamn	 Stora Torget 3	 Apoteket Lejonet	 Kvar i Apoteket AB
+Kalmar	 Högsby	 Högsby	 Storgatan 21	 Apoteket Malen	 Kvar i Apoteket AB
+Kalmar	 Mönsterås	 Mönsterås	 Häradshövdingegatan 3	 Apoteket Kronan	 Småföretagare
+Kalmar	 Västervik	 Ankarsrum	 Kungsvägen 40	 Apoteket Gladan	 Grupp 1 (Apotek Hjärtat)
+Kalmar	 Västervik	 Gamleby	 Gamleby Centrum	 Apoteket Uttern	 Grupp 1 (Apotek Hjärtat)
+Kalmar	 Västervik	 Överum	 Bruksgatan 16	 Apoteket Bikupan	 Grupp 2 (Kronans Droghandel)
+Kalmar	 Vimmerby	 Vimmerby	 Norrtullsgatan 5	 Apoteket Tranan	 Grupp 1 (Apotek Hjärtat)
+Kalmar	 Emmaboda	 Emmaboda	 Järnvägsgatan 26	 Apoteket Linnean	 Småföretagare
+Kalmar	 Mörbylånga	 Mörbylånga	 Köpmangatan 17	 Apoteket Kronan	 Kvar i Apoteket AB
+Kalmar	 Borgholm	 Borgholm	 Storgatan 14	 Apoteket Hjorten	 Småföretagare
+Kalmar	 Kalmar	 Kalmar	 Berga Centrum	 Apoteket Hinden	 Kvar i Apoteket AB
+Kalmar	 Kalmar	 Kalmar	 Lasarettsvägen	 Apoteket Sundet	 Kvar i Apoteket AB
+Kalmar	 Kalmar	 Kalmar	 Västra Sjögatan 22	 Apoteket Lejonet	 Småföretagare
+Kalmar	 Mörbylånga	 Färjestaden	 Ölands Köpstad	 Apoteket Näktergalen	 Småföretagare
+Kalmar	 Kalmar	 Kalmar	 Förlösavägen 4	 Apoteket Solvändan	 Kvar i Apoteket AB
+Kalmar	 Kalmar	 Ljungbyholm	 Tunnbindarevägen 4	 Apoteket Tärnan	 Grupp 1 (Apotek Hjärtat)
+Kalmar	 Nybro	 Nybro	 Storgatan 6	 Apoteket Örnen	 Grupp 1 (Apotek Hjärtat)
+Kalmar	 Hultsfred	 Mörlunda	 Doktorsvägen 6	 Apoteket Svalan	 Grupp 1 (Apotek Hjärtat)
+Kalmar	 Kalmar	 Kalmar	 Ingelstorpsvägen 1	 Apoteket Hästhoven	 Grupp 1 (Apotek Hjärtat)
+Kalmar	 Torsås	 Torsås	 Norra Tångvägen 3	 Apoteket Vildrosen	 Grupp 2 (Kronans Droghandel)
+Kalmar	 Mönsterås	 Blomstermåla	 Vårdcentralen	 Apoteket Guldfisken	 Grupp 1 (Apotek Hjärtat)
+Kalmar	 Kalmar	 Kalmar	 Polhemsgatan 13	 Apoteket Giraffen	 Grupp 2 (Kronans Droghandel)
+Kalmar	 Borgholm	 Löttorp	 Löttorpsvägen 57	 Apoteket Brunkullan	 Grupp 1 (Apotek Hjärtat)
+Kalmar	 Kalmar	 Kalmar	 Baronen Köpcentrum Skeppsbrogatan 12	 Apoteket Shop Baronen	 Kvar i Apoteket AB
+Kalmar	 Västervik	 Västervik	 Fiskartorget	 Apoteket Gudingen	 Grupp 2 (Kronans Droghandel)
+Kronoberg	 Växjö	 Växjö	 Linnégallerian Klostergatan 10-12	 Apoteket Lejonet	 Grupp 2 (Kronans Droghandel)
+Kronoberg	 Växjö	 Växjö	 Vallviksvägen 1	 Apoteket Teleborg	 Småföretagare
+Kronoberg	 Växjö	 Växjö	 Brittsommarvägen 2A	 Linnéapoteket	 Grupp 1 (Apotek Hjärtat)
+Kronoberg	 Växjö	 Växjö	 Centrallasarettet	 Apoteket Måsen	 Grupp 7 (Vårdapoteket i Norden)
+Kronoberg	 Växjö	 Lammhult	 Centrumgatan 6	 Apoteket Storken	 Grupp 1 (Apotek Hjärtat)
+Kronoberg	 Älmhult	 Älmhult	 Norra Esplanaden 6	 Apoteket Kronan	 Grupp 1 (Apotek Hjärtat)
+Kronoberg	 Alvesta	 Vislanda	 Postgatan 6	 Apoteket Linden	 Grupp 2 (Kronans Droghandel)
+Kronoberg	 Alvesta	 Moheda	 Storgatan 2 Vårdcentralen	 Apoteket Svalan	 Grupp 2 (Kronans Droghandel)
+Kronoberg	 Alvesta	 Alvesta	 Storgatan 14D	 Apoteket Svanen	 Kvar i Apoteket AB
+Kronoberg	 Markaryd	 Strömsnäsbruk	 Lagastigsgatan 59	 Apoteket Tranan	 Grupp 5 (Medstop)
+Kronoberg	 Ljungby	 Lagan	 Värnamovägen 8	 Apoteket Anden	 Grupp 1 (Apotek Hjärtat)
+Kronoberg	 Ljungby	 Ljungby	 Lasarettet Kyrkogatan 2	 Apoteket Pärlan	 Grupp 7 (Vårdapoteket i Norden)
+Kronoberg	 Ljungby	 Ljungby	 Eskilsgatan 5	 Apoteket Kronan	 Kvar i Apoteket AB
+Kronoberg	 Markaryd	 Markaryd	 Kungsgatan 36B	 Apoteket Svanen	 Kvar i Apoteket AB
+Kronoberg	 Tingsryd	 Tingsryd	 Storgatan 87	 Apoteket Uttern	 Kvar i Apoteket AB
+Kronoberg	 Tingsryd	 Ryd	 Hantverkaregatan 6	 Apoteket Bäckasinen	 Grupp 1 (Apotek Hjärtat)
+Kronoberg	 Lessebo	 Lessebo	 Storgatan 71	 Apoteket Örnen	 Kvar i Apoteket AB
+Kronoberg	 Uppvidinge	 Åseda	 Olofsgatan 11	 Apoteket Ripan	 Småföretagare
+Kronoberg	 Uppvidinge	 Lenhovda	 Storgatan 31	 Apoteket Älgen	 Småföretagare
+Kronoberg	 Växjö	 Ingelstad	 Helenetorpsvägen 2	 Apoteket Elgen	 Grupp 2 (Kronans Droghandel)
+Kronoberg	 Växjö	 Rottne	 Löpanäsvägen 5	 Apoteket Lommen	 Grupp 1 (Apotek Hjärtat)
+Kronoberg	 Växjö	 Växjö	 Birkagatan 24A	 Apoteket Birka	 Kvar i Apoteket AB
+Kronoberg	 Växjö	 Växjö	 Storgatan 25	 Apoteket Shop Växjö	 Kvar i Apoteket AB
+Norrbotten	 Luleå	 Luleå	 Storgatan 44	 Apoteket Lejonet	 Kvar i Apoteket AB
+Norrbotten	 Luleå	 Gammelstad	 Stadsötorget 9	 Apoteket Gammelstad	 Kvar i Apoteket AB
+Norrbotten	 Luleå	 Luleå	 Höstvägen 7	 Apoteket Björkskatan	 Grupp 1 (Apotek Hjärtat)
+Norrbotten	 Luleå	 Luleå	 Producentvägen 4	 Apoteket Humlan	 Grupp 2 (Kronans Droghandel)
+Norrbotten	 Luleå	 Råneå	 Klockarvägen 1A	 Apoteket Uttern	 Kvar i Apoteket AB
+Norrbotten	 Luleå	 Luleå	 Mjölkuddsvägen 73	 Apoteket Skeppet	 Grupp 1 (Apotek Hjärtat)
+Norrbotten	 Luleå	 Luleå	 Storstigen 26	 Apoteket Örnen	 Grupp 1 (Apotek Hjärtat)
+Norrbotten	 Boden	 Boden	 Kungsgatan 42	 Apoteket Laxen	 Kvar i Apoteket AB
+Norrbotten	 Boden	 Harads	 Edestrandsvägen 4D	 Apoteket Harads	 Kvar i Apoteket AB
+Norrbotten	 Älvsbyn	 Älvsbyn	 Storgatan 27	 Apoteket Pärlan	 Grupp 1 (Apotek Hjärtat)
+Norrbotten	 Piteå	 Öjebyn	 Hällanvägen 11	 Apoteket Trasten	 Grupp 1 (Apotek Hjärtat)
+Norrbotten	 Piteå	 Norrfjärden	 Vårdgränd 1	 Apoteket Myran	 Grupp 2 (Kronans Droghandel)
+Norrbotten	 Piteå	 Hortlax	 Dammbrovägen 1	 Apoteket Vargen	 Kvar i Apoteket AB
+Norrbotten	 Piteå	 Piteå	 Piteå älvdals sjukhus	 Apoteket Lärkan	 Grupp 1 (Apotek Hjärtat)
+Norrbotten	 Piteå	 Piteå	 Uddmansgatan 7	 Apoteket Renen	 Kvar i Apoteket AB
+Norrbotten	 Arjeplog	 Arjeplog	 Storgatan 1	 Apoteket Myggan	 Grupp 2 (Kronans Droghandel)
+Norrbotten	 Arvidsjaur	 Arvidsjaur	 Östra Skolgatan 18A	 Apoteket Polstjärnan	 Grupp 2 (Kronans Droghandel)
+Norrbotten	 Kalix	 Kalix	 Skolgatan 1	 Apoteket Manhem	 Kvar i Apoteket AB
+Norrbotten	 Kalix	 Kalix	 Strandgatan 10	 Apoteket Kronan	 Småföretagare
+Norrbotten	 Haparanda	 Haparanda	 Lasarettsgatan 34	 Apoteket Aspen	 Kvar i Apoteket AB
+Norrbotten	 Övertorneå	 Övertorneå	 Matarengivägen 27	 Apoteket Svarta Räven	 Kvar i Apoteket AB
+Norrbotten	 Överkalix	 Överkalix	 Hantverksgatan 2	 Apoteket Björnen	 Kvar i Apoteket AB
+Norrbotten	 Kiruna	 Kiruna	 Thulegatan 29	 Apoteket Ripan	 Kvar i Apoteket AB
+Norrbotten	 Kiruna	 Kiruna	 Meschplan 3 (fd posten)	 Apoteket Renen	 Grupp 1 (Apotek Hjärtat)
+Norrbotten	 Kiruna	 Vittangi	 Vårdcentralen	 Apoteket Vittangi	 Grupp 1 (Apotek Hjärtat)
+Norrbotten	 Gällivare	 Malmberget	 Stallvägen 3 Malmbergets vårdcentral	 Apoteket Polstjärnan	 Grupp 2 (Kronans Droghandel)
+Norrbotten	 Gällivare	 Gällivare	 Storgatan 15	 Apoteket Älgen	 Småföretagare
+Norrbotten	 Gällivare	 Gällivare	 Källgatan 14	 Apoteket Diamanten	 Grupp 2 (Kronans Droghandel)
+Norrbotten	 Pajala	 Pajala	 Malmen	 Apoteket Lappugglan	 Kvar i Apoteket AB
+Norrbotten	 Jokkmokk	 Jokkmokk	 Storgatan 40	 Apoteket Akkjan	 Småföretagare
+Norrbotten	 Luleå	 Luleå	 Sunderby sjukhus	 Apoteket Blåklockan	 Kvar i Apoteket AB
+Norrbotten	 Luleå	 Luleå	 Robertviksgatan 9	 Apoteket Viken	 Kvar i Apoteket AB
+Norrbotten	 Boden	 Boden	 Ugglegatan 14	 Apoteket Lavskrikan	 Småföretagare
+Norrbotten	 Luleå	 Luleå	 Smedjan Storgatan 36-38	 Apoteket Shop Luleå	 Kvar i Apoteket AB
+Norrbotten	 Luleå	 Luleå	 Storhedsvägen 1	 Apoteket Tärnan	 Småföretagare
+Norrbotten	 Piteå	 Piteå	 Storgatan 41	 Apoteket Falken	 Grupp 2 (Kronans Droghandel)
+Norrbotten	 Haparanda	 Haparanda	 Norrskensgatan 4 Ikanohuset	 Apoteket Hjortronet	 Grupp 2 (Kronans Droghandel)
+Skåne	 Helsingborg	 Helsingborg	 Drottninggatan 14	 Apoteket Björnen	 Småföretagare
+Skåne	 Helsingborg	 Ödåkra	 Väla Centrum	 Apoteket Väla	 Kvar i Apoteket AB
+Skåne	 Helsingborg	 Helsingborg	 Lasarettet E-Plan	 Apoteket Kärnan	 Grupp 7 (Vårdapoteket i Norden)
+Skåne	 Helsingborg	 Helsingborg	 Södergatan 19	 Apoteket Lejonet	 Grupp 5 (Medstop)
+Skåne	 Helsingborg	 Helsingborg	 O.D. Krooksgatan 53	 Apoteket Stattena	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Helsingborg	 Helsingborg	 Blåkullagatan 5	 Apoteket Staren	 Grupp 5 (Medstop)
+Skåne	 Svalöv	 Svalöv	 Herrevadsgatan 11	 Apoteket Linden	 Småföretagare
+Skåne	 Landskrona	 Landskrona	 Storgatan 34	 Apoteket Lejonet	 Kvar i Apoteket AB
+Skåne	 Landskrona	 Landskrona	 Vattenverksallén	 Apoteket Kronan	 Grupp 7 (Vårdapoteket i Norden)
+Skåne	 Landskrona	 Landskrona	 Pjäsgatan 4	 Apoteket Vipan	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Höganäs	 Höganäs	 Storgatan 33A	 Apoteket Puman	 Grupp 5 (Medstop)
+Skåne	 Helsingborg	 Råå	 Rååvägen 45	 Apoteket Svanen	 Kvar i Apoteket AB
+Skåne	 Bjuv	 Bjuv	 Mejerigatan 1B	 Apoteket Bjuv	 Småföretagare
+Skåne	 Helsingborg	 Helsingborg	 Elinebergsplatsen 5	 Apoteket Biet	 Kvar i Apoteket AB
+Skåne	 Lund	 Lund	 Mårtenstorget 12	 Apoteket Hjorten	 Grupp 8 (Apotek Hjärtat)
+Skåne	 Lund	 Lund	 S:t Lars Sjukhusområde	 Apoteket S:t Lars	 Kvar i Apoteket AB
+Skåne	 Lund	 Lund	 Getingevägen 8	 Apoteket Getingen	 Grupp 7 (Vårdapoteket i Norden)
+Skåne	 Lund	 Lund	 Fäladstorget 20	 Apoteket S:t Hans	 Grupp 5 (Medstop)
+Skåne	 Lund	 Lund	 Kyrkogatan 5	 Apoteket Svanen	 Kvar i Apoteket AB
+Skåne	 Lomma	 Lomma	 Strandvägen 96	 Apoteket Tärnan	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Lund	 Dalby	 Kristers väg 21	 Apoteket Gladan	 Kvar i Apoteket AB
+Skåne	 Lund	 Södra Sandby	 Revingevägen 2	 Apoteket Ugglan	 Grupp 5 (Medstop)
+Skåne	 Eslöv	 Eslöv	 Södergatan 8c	 Apoteket Storken	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Eslöv	 Löberöd	 Storgatan 27	 Apoteket Fasanen	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Hörby	 Hörby	 Storgatan 17A	 Apoteket Kronan	 Grupp 2 (Kronans Droghandel)
+Skåne	 Höör	 Höör	 Storgatan 2	 Apoteket Kronan	 Grupp 5 (Medstop)
+Skåne	 Kävlinge	 Kävlinge	 Kvarngatan 21	 Apoteket Kronan	 Kvar i Apoteket AB
+Skåne	 Staffanstorp	 Staffanstorp	 Storgatan 4	 Apoteket Humlan	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Lomma	 Bjärred	 Vikingavägen 1	 Apoteket Vågen	 Småföretagare
+Skåne	 Burlöv	 Arlöv	 Kronetorpsvägen 2	 Apoteket Källan	 Kvar i Apoteket AB
+Skåne	 Lund	 Lund	 Vikingavägen 31	 Apoteket Linero	 Kvar i Apoteket AB
+Skåne	 Kristianstad	 Degerberga	 Brades väg 5	 Apoteket Gladan	 Grupp 2 (Kronans Droghandel)
+Skåne	 Båstad	 Förslöv	 Färgerivägen 2A	 Apoteket Anden	 Grupp 2 (Kronans Droghandel)
+Skåne	 Ängelholm	 Ängelholm	 Midgårdsgatan 1	 Apoteket Solrosen	 Kvar i Apoteket AB
+Skåne	 Ängelholm	 Munka-Ljungby	 Östra Storgatan 14	 Apoteket Lärkan	 Kvar i Apoteket AB
+Skåne	 Malmö	 Malmö	 Kronprinstorget	 Apoteket Kronprinsen	 Grupp 5 (Medstop)
+Skåne	 Malmö	 Limhamn	 Linnégatan 41	 Apoteket Svanen	 Grupp 2 (Kronans Droghandel)
+Skåne	 Malmö	 Malmö	 MAS Ingång 42	 Apoteket Stjärnan UMAS	 Grupp 7 (Vårdapoteket i Norden)
+Skåne	 Malmö	 Malmö	 Kirsebergstorg 15	 Apoteket Måsen	 Småföretagare
+Skåne	 Malmö	 Malmö	 Östra Förstadsgatan 56 Värnhemstorget	 Apoteket Fasanen	 Kvar i Apoteket AB
+Skåne	 Malmö	 Malmö	 Svansjögatan 1	 Apoteket Fläkta Örn	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Malmö	 Malmö	 Anna Lindhs plats 2, Malmö	 Apoteket Ellenbogen	 Grupp 5 (Medstop)
+Skåne	 Malmö	 Malmö	 Stortorget 8	 Apoteket Lejonet	 Kvar i Apoteket AB
+Skåne	 Malmö	 Malmö	 Nydalatorget 1	 Apoteket Hinden	 Kvar i Apoteket AB
+Skåne	 Malmö	 Malmö	 Munkhättegatan 174	 Apoteket Ärlan	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Malmö	 Malmö	 Jägersro Center Jägersrovägen	 Apoteket Hägern	 Grupp 8 (Apotek Hjärtat)
+Skåne	 Malmö	 Malmö	 Nobelvägen 36	 Apoteket Vipan	 Kvar i Apoteket AB
+Skåne	 Malmö	 Oxie	 Stengodsvägen 133	 Apoteket Spoven	 Kvar i Apoteket AB
+Skåne	 Malmö	 Malmö	 Bergsgatan 48	 Apoteket Gripen	 Kvar i Apoteket AB
+Skåne	 Malmö	 Malmö	 Rosengård Centrum	 Apoteket Nyponet	 Grupp 2 (Kronans Droghandel)
+Skåne	 Malmö	 Malmö	 Södra Förstadsgatan 34	 Apoteket Hjorten	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Ystad	 Ystad	 Stora Östergatan 11	 Apoteket Svanen	 Grupp 5 (Medstop)
+Skåne	 Ystad	 Ystad	 Kristianstadvägen 3	 Apoteket Doppingen	 Kvar i Apoteket AB
+Skåne	 Skurup	 Skurup	 St Torggatan 7	 Apoteket Svanen	 Grupp 5 (Medstop)
+Skåne	 Sjöbo	 Sjöbo	 Västergatan 7	 Apoteket Ängeln	 Kvar i Apoteket AB
+Skåne	 Vellinge	 Vellinge	 Östergatan 7	 Apoteket Pilen	 Småföretagare
+Skåne	 Svedala	 Svedala	 Storgatan 26	 Apoteket Lönnen	 Kvar i Apoteket AB
+Skåne	 Trelleborg	 Anderslöv	 Landsvägen 30	 Apoteket Falken	 Grupp 2 (Kronans Droghandel)
+Skåne	 Trelleborg	 Trelleborg	 Lasarettet	 Apoteket Palmen	 Grupp 7 (Vårdapoteket i Norden)
+Skåne	 Trelleborg	 Trelleborg	 Valens Köpcentrum Algatan 16	 Apoteket Svea	 Kvar i Apoteket AB
+Skåne	 Vellinge	 Höllviken	 Falsterbovägen 68	 Apoteket Snäckan	 Grupp 5 (Medstop)
+Skåne	 Vellinge	 Skanör	 Södergatan 13	 Apoteket Gässlingen	 Grupp 5 (Medstop)
+Skåne	 Trelleborg	 Trelleborg	 Syster Jennys väg 2	 Apoteket Fagerängen	 Kvar i Apoteket AB
+Skåne	 Malmö	 Malmö	 Stora Nygatan 31	 Apoteket Kronan	 Grupp 5 (Medstop)
+Skåne	 Kristianstad	 Kristianstad	 Domus Östra Boulevarden 5	 Apoteket Svanen	 Grupp 5 (Medstop)
+Skåne	 Kristianstad	 Kristianstad	 Ubbesväg 7	 Apoteket Björken	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Kristianstad	 Kristianstad	 Centralsjukhuset	 Apoteket Bikupan	 Grupp 7 (Vårdapoteket i Norden)
+Skåne	 Kristianstad	 Åhus	 Köpmannagatan 22	 Apoteket Flädern	 Småföretagare
+Skåne	 Kristianstad	 Tollarp	 Särlagatan 15-17	 Apoteket Storken	 Kvar i Apoteket AB
+Skåne	 Östra Göinge	 Broby	 Tydingegatan 1	 Apoteket Kronan	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Tomelilla	 Brösarp	 Brunnsviksvägen 2	 Apoteket Hjorten	 Småföretagare
+Skåne	 Tomelilla	 Tomelilla	 Centralgatan 2	 Apoteket Örnen	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Simrishamn	 Borrby	 Köpmangatan 2	 Apoteket Storken	 Småföretagare
+Skåne	 Simrishamn	 Simrishamn	 Sjukhuset C Barnekows väg	 Apoteket Ankaret	 Grupp 7 (Vårdapoteket i Norden)
+Skåne	 Simrishamn	 Simrishamn	 Storgatan 14B	 Apoteket Lejonet	 Småföretagare
+Skåne	 Bromölla	 Bromölla	 Bruksgatan 5	 Apoteket Ödlan	 Kvar i Apoteket AB
+Skåne	 Ängelholm	 Ängelholm	 Laxgatan 6	 Apoteket Kronan	 Grupp 5 (Medstop)
+Skåne	 Ängelholm	 Ängelholm	 Sjukhuset	 Apoteket Linden	 Grupp 7 (Vårdapoteket i Norden)
+Skåne	 Båstad	 Båstad	 Köpmansgatan 72	 Apoteket Svanen	 Grupp 2 (Kronans Droghandel)
+Skåne	 Klippan	 Klippan	 Torggränd 1	 Apoteket Kronan	 Kvar i Apoteket AB
+Skåne	 Åstorp	 Åstorp	 Esplanaden 11	 Apoteket Klinten	 Småföretagare
+Skåne	 Hässleholm	 Bjärnum	 Södra vägen 1	 Apoteket Svalan	 Grupp 5 (Medstop)
+Skåne	 Hässleholm	 Hässleholm	 Frykholmsgatan 4	 Apoteket Kronan	 Grupp 5 (Medstop)
+Skåne	 Hässleholm	 Hässleholm	 Esplanadgatan Sjukhuset	 Apoteket Linné	 Kvar i Apoteket AB
+Skåne	 Hässleholm	 Sösdala	 Föreningsgatan 5	 Apoteket Linden	 Kvar i Apoteket AB
+Skåne	 Hässleholm	 Vinslöv	 Stora Torggatan 1	 Apoteket Eken	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Hässleholm	 Tyringe	 Hantverksgatan 19	 Apoteket Källan	 Grupp 2 (Kronans Droghandel)
+Skåne	 Osby	 Osby	 Västra Järnvägsgatan 22	 Apoteket Dufwan	 Kvar i Apoteket AB
+Skåne	 Osby	 Lönsboda	 Bokelundsgatan 5	 Apoteket Graniten	 Småföretagare
+Skåne	 Perstorp	 Perstorp	 Torget 1	 Apoteket Näckrosen	 Kvar i Apoteket AB
+Skåne	 Örkelljunga	 Örkelljunga	 Ängelholmsvägen 1B	 Apoteket Ljungen	 Kvar i Apoteket AB
+Skåne	 Östra Göinge	 Knislinge	 Påls väg 2	 Apoteket Lärkan	 Småföretagare
+Skåne	 Helsingborg	 Helsingborg	 Skaragatan 92	 Apoteket Rosen	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Kävlinge	 Löddeköpinge	 Center Syd	 Apoteket Haren	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Lund	 Lund	 Knut den Stores torg 2	 Apoteket S:t Knut	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Helsingborg	 Helsingborg	 Knutpunkten	 Apoteket Shop Knutpunkten	 Kvar i Apoteket AB
+Skåne	 Kristianstad	 Kristianstad	 Stridsvagnsvägen 1	 Apoteket Norringen	 Kvar i Apoteket AB
+Skåne	 Lund	 Lund	 Företagsvägen 10 Nova Lund	 Apoteket Shop Lund	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Helsingborg	 Ödåkra	 Väla Centrum	 Apoteket Shop Ödåkra	 Grupp 5 (Medstop)
+Skåne	 Malmö	 Malmö	 Mobilia Shoppingcenter	 Apoteket Mobilia	 Kvar i Apoteket AB
+Skåne	 Malmö	 Malmö	 Triangelns köpcentrum	 Apoteket Shop Triangeln	 Grupp 1 (Apotek Hjärtat)
+Skåne	 Åstorp	 Hyllinge	 Familia köpcentrum	 Apoteket Nässlan	 Grupp 5 (Medstop)
+Skåne	 Malmö	 Malmö	 Skomakaregatan 5	 Apoteket Shop Skomakaregatan	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Stockholm	 S:t Göransplan 1	 Apoteket Kastanjen	 Grupp 6 (Vårdapoteket i Norden)
+Stockholm	 Sigtuna	 Sigtuna	 Stora gatan 56	 Apoteket Kronan	 Småföretagare
+Stockholm	 Sigtuna	 Arlanda	 Sky City Arlanda Flygplats	 Flygplatsapoteket Arlanda	 Småföretagare
+Stockholm	 Solna	 Solna	 Karolinska Universitetssjukhuset i Solna	 Apoteket Karolinen	 Kvar i Apoteket AB
+Stockholm	 Solna	 Solna	 RadiumhemmetKarolinska Universitetssjukhuset i Solna	 Apoteket Karolinen Ra	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Karlbergsvägen 43B	 Apoteket Draken	 Småföretagare
+Stockholm	 Stockholm	 Stockholm	 Scheelegatan 1	 Apoteket Påfågeln	 Grupp 3 (Medstop)
+Stockholm	 Stockholm	 Stockholm	 Söderhallarna 104	 Apoteket Gripen	 Grupp 3 (Medstop)
+Stockholm	 Stockholm	 Stockholm	 Storholmsgatan 21	 Apoteket Grisslan	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Hägersten	 Fruängstorget 2-6	 Apoteket Humlan	 Kvar i Apoteket AB
+Stockholm	 Botkyrka	 Tumba	 Tumba Torg 1	 Apoteket Näckrosen	 Grupp 3 (Medstop)
+Stockholm	 Täby	 Täby	 Stortorget 218	 Apoteket Svalan	 Grupp 8 (Apotek Hjärtat)
+Stockholm	 Täby	 Täby	 Midgårdsvägen 4	 Apoteket Frigga	 Grupp 3 (Medstop)
+Stockholm	 Solna	 Solna	 Bergshamra torg	 Apoteket Najaden	 Småföretagare
+Stockholm	 Täby	 Täby	 Eskadervägen 4	 Apoteket Skeppet	 Småföretagare
+Stockholm	 Österåker	 Åkersberga	 Stationsvägen 5 Åkersberga Centrum	 Apoteket Ankaret	 Grupp 3 (Medstop)
+Stockholm	 Vaxholm	 Vaxholm	 Hamngatan 14	 Apoteket Lotsen	 Småföretagare
+Stockholm	 Vallentuna	 Vallentuna	 Tuna Torg 20	 Apoteket Runan	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Danderyd	 Danderyd	 Mörby Centrum Golfvägen 4	 Apoteket Eken	 Kvar i Apoteket AB
+Stockholm	 Danderyd	 Djursholm	 Vendevägen 14	 Apoteket Tre Rosor	 Småföretagare
+Stockholm	 Norrtälje	 Rimbo	 Uppsalavägen 1	 Apoteket Örnen	 Kvar i Apoteket AB
+Stockholm	 Norrtälje	 Hallstavik	 Carl Wahrens väg 38C	 Apoteket Rospiggen	 Grupp 2 (Kronans Droghandel)
+Stockholm	 Danderyd	 Danderyd	 Danderyds sjukhus	 Apoteket Misteln	 Grupp 6 (Vårdapoteket i Norden)
+Stockholm	 Österåker	 Åkersberga	 ALCEA-huset	 Apoteket Livbojen	 Kvar i Apoteket AB
+Stockholm	 Norrtälje	 Norrtälje	 Norrtälje sjukhus	 Apoteket Solrosen	 Grupp 6 (Vårdapoteket i Norden)
+Stockholm	 Sollentuna	 Sollentuna	 Sollentuna Centrum	 Apoteket Strutsen	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Sollentuna	 Rotebro	 Kung Hans väg 12B	 Apoteket Vallmon	 Småföretagare
+Stockholm	 Sollentuna	 Sollentuna	 Edsbergs torg 6	 Apoteket Snäckan	 Grupp 3 (Medstop)
+Stockholm	 Upplands-Väsby	 Upplands-Väsby	 Väsby Centrum	 Apoteket Kronan	 Grupp 8 (Apotek Hjärtat)
+Stockholm	 Upplands-Väsby	 Upplands Väsby	 Löwenströmska sjukhuset	 Apoteket Löwenströmska sjukhuset	 Småföretagare
+Stockholm	 Sigtuna	 Märsta	 Nymärsta kulle 2	 Apoteket Höken	 Grupp 3 (Medstop)
+Stockholm	 Sigtuna	 Märsta	 Hammargatan 5	 Apoteket Vipan	 Småföretagare
+Stockholm	 Stockholm	 Stockholm	 Norrtullsgatan 6	 Apoteket Örnen	 Grupp 8 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Stockholm	 Sturegallerian 38	 Apoteket Vita Björn	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Odengatan 30	 Apoteket Mården	 Grupp 3 (Medstop)
+Stockholm	 Stockholm	 Stockholm	 Sveavägen 43	 Apoteket Leoparden	 Grupp 3 (Medstop)
+Stockholm	 Stockholm	 Stockholm	 Klarabergsgatan 64	 Apoteket C W Scheele	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Drottninggatan 59	 Apoteket Shop Ugglan	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Västerlånggatan 16	 Apoteket Korpen	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Hamngatan 31	 Apoteket Lejonet	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Drottning Kristinas väg 1	 Apoteket Elgen	 Småföretagare
+Stockholm	 Stockholm	 Stockholm	 Karlaplan 13	 Apoteket Falken	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Storgatan 28	 Apoteket Storken	 Kvar i Apoteket AB
+Stockholm	 Lidingö	 Lidingö	 Stockholmsvägen 54 E	 Apoteket Tärnan	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Lidingö	 Lidingö	 Högsätravägen 2	 Apoteket Doppingen	 Grupp 2 (Kronans Droghandel)
+Stockholm	 Stockholm	 Stockholm	 Polhemsgatan 50	 Apoteket S:t Erik	 Småföretagare
+Stockholm	 Stockholm	 Stockholm	 Rålambsvägen 12	 Apoteket Biet	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Drottningholmsvägen 14	 Apoteket Kungsmyntan	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Krukmakargatan 13	 Apoteket Enhörningen	 Grupp 8 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Stockholm	 Renstiernas gata 26	 Apoteket Renen	 Grupp 2 (Kronans Droghandel)
+Stockholm	 Stockholm	 Stockholm	 Ringvägen 113	 Apoteket Sälen	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Stockholm	 Långholmsgatan 29	 Apoteket Lokatten	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Johanneshov	 Gullmarsplan 1	 Apoteket Myran	 Småföretagare
+Stockholm	 Stockholm	 Bagarmossen	 Svartågatan 1	 Apoteket Liljan	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Årsta	 Hjälmarsvägen 26	 Apoteket Uttern	 Småföretagare
+Stockholm	 Stockholm	 Enskededalen	 Dalens allé 5-7	 Apoteket Råbocken	 Grupp 2 (Kronans Droghandel)
+Stockholm	 Stockholm	 Johanneshov	 Lågskärsvägen 12	 Apoteket Sländan	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Johanneshov	 Finn Malmgrens väg 9	 Apoteket Hinden	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Sjukhusbacken 10	 Apoteket Ringblomman	 Grupp 6 (Vårdapoteket i Norden)
+Stockholm	 Nacka	 Nacka	 Nacka Närsjukhus Lasarettsvägen 4	 Apoteket Delfinen	 Småföretagare
+Stockholm	 Nacka	 Saltsjöbaden	 Saltsjöbaden Centrum	 Apoteket Baggen	 Småföretagare
+Stockholm	 Nacka	 Saltsjö-Boo	 Orminge Centrum	 Apoteket Tumlaren	 Småföretagare
+Stockholm	 Värmdö	 Gustavsberg	 Gustavsberg Centrum	 Apoteket Fyren	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Enskede	 Tussmötevägen 179	 Apoteket Tussilagon	 Kvar i Apoteket AB
+Stockholm	 Nacka	 Nacka	 Romansvägen 10	 Apoteket Svanen	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Farsta	 Farstaplan 2	 Apoteket Beckasinen	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Sköndal	 Sköndalsvägen 87	 Apoteket Näktergalen	 Småföretagare
+Stockholm	 Stockholm	 Enskede	 Gubbängstorget 114	 Apoteket Trasten	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Bandhagen	 Högdalsgången 19	 Apoteket Shop Fasanen (del av Fasanen, Bandhagen)	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Bandhagen	 Hagsätra Torg 11	 Apoteket Morkullan	 Kvar i Apoteket AB
+Stockholm	 Tyresö	 Tyresö	 Bollmoravägen 24D	 Apoteket Gladan	 Grupp 2 (Kronans Droghandel)
+Stockholm	 Haninge	 Haninge	 Haninge Centrum	 Apoteket Rudan	 Grupp 8 (Apotek Hjärtat)
+Stockholm	 Haninge	 Haninge	 Jordbro Centrum	 Apoteket Jordstjärnan	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Haninge	 Haninge	 Brandbergens Centrum	 Apoteket Sparvugglan	 Kvar i Apoteket AB
+Stockholm	 Haninge	 Västerhaninge	 Västerhaninge Centrum	 Apoteket Sjöhästen	 Kvar i Apoteket AB
+Stockholm	 Nynäshamn	 Nynäshamn	 Centralgatan 16	 Apoteket Måsen	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Nacka	 Älta	 Älta centrum Oxelvägen 42	 Apoteket Stensötan	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Solna	 Solna	 Hotellgatan 1 Solna Centrum	 Apoteket Kvarnen	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Solna	 Solna	 Storgatan 70	 Apoteket Ulven	 Kvar i Apoteket AB
+Stockholm	 Sundbyberg	 Rissne	 Rissne torg 3	 Apoteket Rissne	 Grupp 2 (Kronans Droghandel)
+Stockholm	 Sundbyberg	 Sundbyberg	 Sturegatan 4	 Apoteket Kronan	 Grupp 3 (Medstop)
+Stockholm	 Sundbyberg	 Sundbyberg	 Hallonbergens centrum	 Apoteket Hjorten	 Småföretagare
+Stockholm	 Järfälla	 Järfälla	 Jakobsbergs Centrum Riddarplatsen 20	 Apoteket Skytten	 Grupp 2 (Kronans Droghandel)
+Stockholm	 Järfälla	 Järfälla	 Viksjö Centrum Viksjöplan 47	 Apoteket Stenbocken	 Kvar i Apoteket AB
+Stockholm	 Järfälla	 Järfälla	 Gjutarplan 37 Kallhälls centrum	 Apoteket Väduren	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Upplands-Bro	 Bro	 Bro Centrum	 Apoteket Fenix	 Småföretagare
+Stockholm	 Upplands-Bro	 Kungsängen	 Furuhällsplan 3	 Apoteket Liljan	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Vällingby	 Vällingbygången 4	 Apoteket Ormen	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Hässelby	 Hässelby Torg 22	 Apoteket Staren	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Hässelby	 Åkermyntans Centrum	 Apoteket Åkermyntan	 Småföretagare
+Stockholm	 Stockholm	 Spånga	 Värsta Allé 9	 Apoteket Pelikanen	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Spånga	 Tenstagången 25	 Apoteket Pingvinen	 Grupp 3 (Medstop)
+Stockholm	 Stockholm	 Spånga	 Rinkebytorg 8	 Apoteket Jaguaren	 Grupp 2 (Kronans Droghandel)
+Stockholm	 Stockholm	 Bromma	 Brommaplan	 Apoteket Duvan	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Bromma	 Tranebergsplan 1	 Apoteket Tranan	 Småföretagare
+Stockholm	 Stockholm	 Bromma	 Nockeby Torg 2-4	 Apoteket Domherren	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Bromma	 Blackebergs centrum	 Apoteket Rödhaken	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Ekerö	 Ekerö	 Tegelbruksvägen 1C	 Apoteket Tidlösan	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Vällingby	 Indalsbacken 17	 Apoteket Malvan	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Kista	 Kista Galleria	 Apoteket Vasen	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Kista	 Edvard Griegsgången 11	 Apoteket Grävlingen	 Småföretagare
+Stockholm	 Stockholm	 Stockholm	 Liljeholmstorget 11	 Apoteket Ärlan	 Grupp 2 (Kronans Droghandel)
+Stockholm	 Stockholm	 Älvsjö	 Solberga hagväg 1	 Apoteket Ekorren	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Hägersten	 Telefonplan	 Apoteket Orren	 Småföretagare
+Stockholm	 Stockholm	 Hägersten	 Axelsbergs torg 5	 Apoteket Gasellen	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Hägersten	 Störtloppsvägen 34	 Apoteket Pantern	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Älvsjö	 Annebodavägen 4-6	 Apoteket Liseberg	 Grupp 2 (Kronans Droghandel)
+Stockholm	 Stockholm	 Skärholmen	 Bredängstorget 4	 Apoteket Spoven	 Kvar i Apoteket AB
+Stockholm	 Botkyrka	 Norsborg	 Alby Centrum	 Apoteket Opalen	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Botkyrka	 Norsborg	 Hallunda Centrum	 Apoteket Källan	 Kvar i Apoteket AB
+Stockholm	 Södertälje	 Järna	 Storgatan 11	 Apoteket Misteln	 Småföretagare
+Stockholm	 Södertälje	 Södertälje	 Kringlan GallerianStorgatan 4-6	 Apoteket S:ta Ragnhild	 Kvar i Apoteket AB
+Stockholm	 Salem	 Rönninge	 Säby Torg 6	 Apoteket Hägern	 Småföretagare
+Stockholm	 Botkyrka	 Tullinge	 Kvällsvägen 5	 Apoteket Mullvaden	 Småföretagare
+Stockholm	 Huddinge	 Huddinge	 Stuvsta Torget 10	 Apoteket Vargen	 Grupp 2 (Kronans Droghandel)
+Stockholm	 Huddinge	 Huddinge	 Sjödalstorget 5	 Apoteket Ejdern	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Huddinge	 Huddinge	 Karolinska Universitetssjukhuset i Huddinge	 Apoteket Nova	 Kvar i Apoteket AB
+Stockholm	 Södertälje	 Södertälje	 S:ta Ragnhildsgatan 3 Gallerian Luna	 Apoteket Kronan	 Grupp 8 (Apotek Hjärtat)
+Stockholm	 Nykvarn	 Nykvarn	 Centrumvägen 28	 Apoteket Nyponet	 Kvar i Apoteket AB
+Stockholm	 Södertälje	 Södertälje	 Rosenborgsgatan 6-10	 Apoteket Rosen Södertälje sjukhus	 Grupp 6 (Vårdapoteket i Norden)
+Stockholm	 Huddinge	 Skogås	 Skogåstorget 9	 Apoteket Linnéan	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Värtavägen 55	 Apoteket Hägern	 Småföretagare
+Stockholm	 Södertälje	 Södertälje	 Storgatan 17 Stortorget	 Apoteket Shop Södertälje	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Holländargatan 4	 Apoteket Orfeus	 Småföretagare
+Stockholm	 Nacka	 Nacka	 Simbagatan 23 Sickla	 Apoteket Atlas	 Grupp 3 (Medstop)
+Stockholm	 Täby	 Täby	 Attundafältet 16	 Apoteket Orion	 Kvar i Apoteket AB
+Stockholm	 Täby	 Täby	 Saluvägen Arninge Centrum	 Apoteket Hästhoven	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Bandhagen	 Högdalsgången 32	 Apoteket Fasanen	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Värmdö	 Gustavsberg	 Värmdö Köpcentrum	 Apoteket Skutan	 Kvar i Apoteket AB
+Stockholm	 Sollentuna	 Sollentuna	 Köpcentrum Stinsen	 Apoteket Stinsen	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Drottningholmsvägen 16	 Apoteket Shop Drottningholmsvägen (del av Kungsmyntan, Stockholm)	 Kvar i Apoteket AB
+Stockholm	 Huddinge	 Kungens kurva	 Diagonalvägen 10	 Apoteket Kungsfågeln	 Grupp 2 (Kronans Droghandel)
+Stockholm	 Solna	 Solna	 Centralvägen 14 Solna Centrum	 Apoteket Fjärilen	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Stockholm	 Sergelgatan 29	 Apoteket Shop Sergelgatan	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Johanneshov	 Arenavägen 63	 Apoteket Globen	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Kista	 Kista Galleria	 Apoteket Shop Kista	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Stockholm	 Götgatan 23	 Apoteket Shop Götgatsbacken	 Kvar i Apoteket AB
+Stockholm	 Järfälla	 Järfälla	 Jakobsbergs Centrum	 Apoteket Shop Järfälla	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Kungsgatan 15	 Apoteket Svanen	 Kvar i Apoteket AB
+Stockholm	 Tyresö	 Tyresö	 Kumla Allé 3	 Apoteket Trollsländan	 Småföretagare
+Stockholm	 Stockholm	 Stockholm	 Hamngatan 10-14 PK-Huset	 Apoteket Shop Hamngatan	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Kungsgatan 51	 Apoteket Shop Kungsgatan	 Kvar i Apoteket AB
+Stockholm	 Haninge	 Haninge	 Haninge Centrum	 Apoteket Shop Haninge	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Skärholmstorget 3	 Apoteket Flamingon	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Farsta	 Farstaplan 25	 Apoteket Shop Farsta	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Mäster Samuelsgatan 49	 Apoteket Nordstjärnan	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Solna	 Solna	 Bibliotekstorget	 Apoteket Shop Solna	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Humlegårdsgatan 10	 Apoteket Elefanten	 Kvar i Apoteket AB
+Stockholm	 Lidingö	 Lidingö	 Herserudsvägen 1	 Apoteket Viggen	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 S:t Eriksgatan 45	 Apoteket Västermalmsgallerian	 Kvar i Apoteket AB
+Stockholm	 Stockholm	 Stockholm	 Hammarby allé 91	 Apoteket Nyckelpigan	 Småföretagare
+Stockholm	 Sundbyberg	 Sundbyberg	 Stationsgatan 1-5	 Apoteket Järven	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Norrtälje	 Norrtälje	 Tullportsgatan 13	 Apoteket Aklejan	 Grupp 1 (Apotek Hjärtat)
+Stockholm	 Stockholm	 Stockholm	 Lindhagensgatan 118	 Apoteket Linden	 Grupp 2 (Kronans Droghandel)
+Stockholm	 Stockholm	 Stockholm	 Liljeholmstorget	 Apoteket Murgrönan	 Grupp 2 (Kronans Droghandel)
+Stockholm	 Nynäshamn	 Nynäshamn	 Centralgatan 9, 149 32 NYNÄSHAMN	 Apoteket Havsörnen	 Grupp 2 (Kronans Droghandel)
+Södermanland	 Vingåker	 Vingåker	 Bondegatan 8-10	 Apoteket Kronan	 Småföretagare
+Södermanland	 Gnesta	 Gnesta	 Marieströmsgatan 6	 Apoteket Katten	 Småföretagare
+Södermanland	 Trosa	 Trosa	 Tomtaklintgatan 2	 Apoteket Kronan	 Småföretagare
+Södermanland	 Nyköping	 Nyköping	 Västra Storgatan 25	 Apoteket Gripen	 Kvar i Apoteket AB
+Södermanland	 Nyköping	 Nyköping	 Lasarettet	 Apoteket Nyköpings lasarett EA	 Grupp 6 (Vårdapoteket i Norden)
+Södermanland	 Nyköping	 Nyköping	 Hälsovägen 1	 Apoteket Ekensberg	 Grupp 2 (Kronans Droghandel)
+Södermanland	 Oxelösund	 Oxelösund	 Järntorget 2	 Apoteket Ejdern	 Småföretagare
+Södermanland	 Katrineholm	 Katrineholm	 Hantverkaregatan 1	 Apoteket Svanen	 Grupp 3 (Medstop)
+Södermanland	 Katrineholm	 Katrineholm	 Kullbergska sjukhuset	 Apoteket Linden	 Grupp 6 (Vårdapoteket i Norden)
+Södermanland	 Flen	 Flen	 Norra Kungsgatan 11	 Apoteket Hjorten	 Grupp 2 (Kronans Droghandel)
+Södermanland	 Flen	 Malmköping	 Siegrothsvägen 14	 Apoteket Kronan	 Kvar i Apoteket AB
+Södermanland	 Eskilstuna	 Eskilstuna	 Kungsgatan 37	 Apoteket Kronan	 Grupp 1 (Apotek Hjärtat)
+Södermanland	 Eskilstuna	 Eskilstuna	 Mälarsjukhuset	 Apoteket Vita Tigern	 Grupp 6 (Vårdapoteket i Norden)
+Södermanland	 Eskilstuna	 Eskilstuna	 Vårdcentralen Skiftinge	 Apoteket Lärkan	 Grupp 2 (Kronans Droghandel)
+Södermanland	 Eskilstuna	 Eskilstuna	 Sturegatan 9	 Apoteket Ekorren	 Grupp 1 (Apotek Hjärtat)
+Södermanland	 Strängnäs	 Mariefred	 Vårdcentralen	 Apoteket Kronan	 Småföretagare
+Södermanland	 Strängnäs	 Strängnäs	 Trädgårdsgatan 8	 Apoteket Kronan	 Grupp 3 (Medstop)
+Södermanland	 Eskilstuna	 Torshälla	 Östra torget	 Apoteket Svanen	 Kvar i Apoteket AB
+Södermanland	 Katrineholm	 Katrineholm	 Kerstinbodagatan 37	 Apoteket Nävertorp	 Kvar i Apoteket AB
+Södermanland	 Eskilstuna	 Eskilstuna	 Sveaplan Centrum	 Apoteket Lejonet	 Grupp 3 (Medstop)
+Södermanland	 Eskilstuna	 Eskilstuna	 Albertina Nyströms väg 2	 Apoteket Tuna Park	 Grupp 2 (Kronans Droghandel)
+Södermanland	 Eskilstuna	 Eskilstuna	 Kungsgatan 21	 Apoteket Shop Eskiltuna	 Grupp 3 (Medstop)
+Södermanland	 Nyköping	 Nyköping	 Västerport	 Apoteket Shop Nyköping	 Kvar i Apoteket AB
+Södermanland	 Nyköping	 Nyköping	 Stenbocksvägen 11	 Apoteket Stenbocken	 Grupp 1 (Apotek Hjärtat)
+Uppsala	 Uppsala	 Uppsala	 Svavagallerian	 Apoteket Uplands Vapen	 Småföretagare
+Uppsala	 Uppsala	 Uppsala	 Svartbäcksgatan 8	 Apoteket Kronan	 Kvar i Apoteket AB
+Uppsala	 Uppsala	 Uppsala	 Akademiska sjukhuset Ingång 70	 Apoteket Linnéan	 Grupp 6 (Vårdapoteket i Norden)
+Uppsala	 Uppsala	 Uppsala	 Skolgatan 33B	 Apoteket Hägern	 Grupp 1 (Apotek Hjärtat)
+Uppsala	 Knivsta	 Knivsta	 Ängbyvägen 8	 Apoteket Mården	 Småföretagare
+Uppsala	 Uppsala	 Uppsala	 Västertorg 5B	 Apoteket Näckrosen	 Grupp 1 (Apotek Hjärtat)
+Uppsala	 Uppsala	 Uppsala	 Heidenstamstorg	 Apoteket Sirius	 Grupp 1 (Apotek Hjärtat)
+Uppsala	 Uppsala	 Uppsala	 Svartbäcksgatan 52A	 Apoteket Svartbäcken	 Småföretagare
+Uppsala	 Uppsala	 Uppsala	 Affärshuset Kvarnen Vaksalagatan 30	 Apoteket Lärkan	 Grupp 2 (Kronans Droghandel)
+Uppsala	 Uppsala	 Uppsala	 Brantingstorg 9A	 Apoteket Källan	 Grupp 1 (Apotek Hjärtat)
+Uppsala	 Uppsala	 Uppsala	 Valthornsvägen 7	 Apoteket Björnen	 Grupp 3 (Medstop)
+Uppsala	 Håbo	 Bålsta	 Bålsta Centrum	 Apoteket Vikingen	 Grupp 1 (Apotek Hjärtat)
+Uppsala	 Enköping	 Enköping	 Stora Torget	 Apoteket Fyra Liljor	 Grupp 1 (Apotek Hjärtat)
+Uppsala	 Enköping	 Enköping	 Lasarettet Kungsgatan 71A	 Apoteket Ugglan EA	 Kvar i Apoteket AB
+Uppsala	 Östhammar	 Östhammar	 Rådhusgatan 1	 Apoteket Kronan	 Grupp 2 (Kronans Droghandel)
+Uppsala	 Östhammar	 Gimo	 Vårdcentralen	 Apoteket Biet	 Kvar i Apoteket AB
+Uppsala	 Östhammar	 Alunda	 Centrumvägen 3	 Apoteket Älgen	 Grupp 2 (Kronans Droghandel)
+Uppsala	 Östhammar	 Österbybruk	 Dannemoravägen 2	 Apoteket Eken	 Grupp 1 (Apotek Hjärtat)
+Uppsala	 Östhammar	 Öregrund	 Rådhusgatan 6	 Apoteket Sälen	 Grupp 2 (Kronans Droghandel)
+Uppsala	 Älvkarleby	 Skutskär	 Lillängsgatan 8	 Apoteket Furan	 Småföretagare
+Uppsala	 Tierp	 Tierp	 Centralgatan 17	 Apoteket Fenix	 Grupp 1 (Apotek Hjärtat)
+Uppsala	 Tierp	 Tierp	 Liljevägen	 Apoteket Örnen	 Kvar i Apoteket AB
+Uppsala	 Uppsala	 Storvreta	 Ärentunavägen 9	 Apoteket Björken	 Grupp 2 (Kronans Droghandel)
+Uppsala	 Uppsala	 Uppsala	 Västgötaresan 64	 Apoteket Röllekan	 Kvar i Apoteket AB
+Uppsala	 Uppsala	 Uppsala	 Gränby Centrum	 Apoteket Gripen	 Grupp 2 (Kronans Droghandel)
+Uppsala	 Heby	 Heby	 Brogatan 16	 Apoteket Kronan	 Småföretagare
+Uppsala	 Heby	 Östervåla	 Åbygränd 2	 Apoteket	 Grupp 1 (Apotek Hjärtat)
+Uppsala	 Uppsala	 Uppsala	 Gränby Centrum. Marknadsgatan 1	 Apoteket Aros	 Grupp 1 (Apotek Hjärtat)
+Uppsala	 Uppsala	 Uppsala	 Rapsgatan 1K	 Apoteket Liljan	 Småföretagare
+Värmland	 Karlstad	 Vålberg	 Brattgårdsgatan 36	 Apoteket Myran	 Grupp 2 (Kronans Droghandel)
+Värmland	 Karlstad	 Molkom	 Skolgatan 3A	 Apoteket Ulven	 Småföretagare
+Värmland	 Forshaga	 Forshaga	 Storgatan 38	 Apoteket Lärkan	 Kvar i Apoteket AB
+Värmland	 Forshaga	 Deje	 Älvdalsvägen 17	 Apoteket Lusten	 Kvar i Apoteket AB
+Värmland	 Karlstad	 Karlstad	 Universitetsgatan 2	 Apoteket Beckasinen	 Grupp 2 (Kronans Droghandel)
+Värmland	 Karlstad	 Karlstad	 Centralsjukhuset	 Apoteket Vargen	 Kvar i Apoteket AB
+Värmland	 Karlstad	 Karlstad	 Nolbygatan 4	 Apoteket Björken	 Kvar i Apoteket AB
+Värmland	 Hammarö	 Skoghall	 Åråsvägen 1	 Apoteket Fyren	 Småföretagare
+Värmland	 Kil	 Kil	 Storgatan 28	 Apoteket Svalan	 Grupp 2 (Kronans Droghandel)
+Värmland	 Kristinehamn	 Kristinehamn	 Tegelslagaregatan 21	 Apoteket Kronan	 Grupp 1 (Apotek Hjärtat)
+Värmland	 Kristinehamn	 Kristinehamn	 Sandbäcksgränd 2	 Apoteket Björnen	 Kvar i Apoteket AB
+Värmland	 Storfors	 Storfors	 Hälsans hus Hammargatan 3	 Apoteket Humlan	 Småföretagare
+Värmland	 Filipstad	 Filipstad	 Viktoriagatan 3	 Apoteket Kronan	 Småföretagare
+Värmland	 Karlstad	 Karlstad	 Våxnäs Centrum	 Apoteket Vågen	 Småföretagare
+Värmland	 Karlstad	 Karlstad	 Järnvägsgatan 2	 Apoteket Örnen	 Kvar i Apoteket AB
+Värmland	 Karlstad	 Karlstad	 Centrumvägen 8	 Apoteket Källan	 Kvar i Apoteket AB
+Värmland	 Karlstad	 Karlstad	 Rudstorget 5	 Apoteket Rönnen	 Småföretagare
+Värmland	 Arvika	 Arvika	 Storgatan 28	 Apoteket Älgen	 Grupp 1 (Apotek Hjärtat)
+Värmland	 Arvika	 Arvika	 Arvika Sjukhus	 Apoteket Uttern	 Grupp 1 (Apotek Hjärtat)
+Värmland	 Eda	 Åmotfors	 Älvuddsgatan 19	 Apoteket	 Kvar i Apoteket AB
+Värmland	 Eda	 Koppom	 Doktorsvägen 2	 Apoteket	 Grupp 1 (Apotek Hjärtat)
+Värmland	 Eda	 Charlottenberg	 Charlottenbergs köpcenter	 Apoteket Tallen	 Kvar i Apoteket AB
+Värmland	 Årjäng	 Årjäng	 Storgatan 47	 Apoteket Kronan	 Kvar i Apoteket AB
+Värmland	 Torsby	 Likenäs	 Apoteksvägen 1	 Apoteket Tjädern	 Grupp 2 (Kronans Droghandel)
+Värmland	 Säffle	 Säffle	 Östra Storgatan 8	 Apoteket Svanen	 Kvar i Apoteket AB
+Värmland	 Grums	 Grums	 Gamla vägen 89	 Apoteket Orren	 Kvar i Apoteket AB
+Värmland	 Hagfors	 Hagfors	 Storgatan 3-5	 Apoteket Lokatten	 Grupp 1 (Apotek Hjärtat)
+Värmland	 Hagfors	 Ekshärad	 Postvägen 1	 Apoteket Rödhaken	 Grupp 1 (Apotek Hjärtat)
+Värmland	 Munkfors	 Munkfors	 Torget 2B	 Apoteket Laxen	 Grupp 1 (Apotek Hjärtat)
+Värmland	 Torsby	 Torsby	 Nya Torget 5	 Apoteket Kronan	 Grupp 2 (Kronans Droghandel)
+Värmland	 Sunne	 Sunne	 Kvarngatan 17	 Apoteket Stjärnan	 Kvar i Apoteket AB
+Värmland	 Årjäng	 Töcksfors	 Töcksfors Shoppingcenter	 Apoteket Foxen	 Kvar i Apoteket AB
+Värmland	 Karlstad	 Karlstad	 Bergvik köpcentra	 Apoteket Berguven	 Grupp 1 (Apotek Hjärtat)
+Värmland	 Karlstad	 Karlstad	 Drottninggatan 16	 Apoteket Shop Karlstad	 Kvar i Apoteket AB
+Västerbotten	 Skellefteå	 Skellefteå	 Lasarettet	 Apoteket Ugglan	 Grupp 1 (Apotek Hjärtat)
+Västerbotten	 Skellefteå	 Byske	 Storgatan 4	 Apoteket Örnen	 Kvar i Apoteket AB
+Västerbotten	 Skellefteå	 Skellefteå	 Anderstorpsleden 1	 Apoteket Biet	 Grupp 1 (Apotek Hjärtat)
+Västerbotten	 Skellefteå	 Kåge	 Nygatan 13	 Apoteket Vågen	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Skellefteå	 Skelleftehamn	 S:t Örjansvägen 7	 Apoteket Tärnan	 Kvar i Apoteket AB
+Västerbotten	 Skellefteå	 Jörn	 Storgatan 33	 Apoteket Hjortronet	 Grupp 1 (Apotek Hjärtat)
+Västerbotten	 Skellefteå	 Boliden	 Ringen 76	 Apoteket Mineral	 Grupp 1 (Apotek Hjärtat)
+Västerbotten	 Skellefteå	 Burträsk	 Björnåkersgatan 8	 Apoteket Björnen	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Skellefteå	 Bureå	 Burviksvägen	 Apoteket Lärkan	 Kvar i Apoteket AB
+Västerbotten	 Skellefteå	 Lövånger	 Kungsvägen 15	 Apoteket Bävern	 Kvar i Apoteket AB
+Västerbotten	 Skellefteå	 Skellefteå	 Trädgårdsgatan 7	 Apoteket Nordstjärnan	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Norsjö	 Nornan	 Storgatan 74	 Apoteket Nornan	 Småföretagare
+Västerbotten	 Umeå	 Umeå	 Renmarkstorget 9	 Apoteket Renen	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Umeå	 Umeå	 Ridvägen 12	 Apoteket Dragonen	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Umeå	 Umeå	 Tegsplan 3C	 Apoteket Teg	 Kvar i Apoteket AB
+Västerbotten	 Umeå	 Sävar	 Generalsvägen 19	 Apoteket Sävar	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Umeå	 Umeå	 Morkullevägen 9	 Apoteket Mariehem	 Grupp 1 (Apotek Hjärtat)
+Västerbotten	 Umeå	 Holmsund	 Himmelska Fridens torg 4	 Apoteket Skeppet	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Umeå	 Umeå	 Examensvägen 3	 Apoteket Ålidhem	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Nordmaling	 Nordmaling	 Storgatan 4	 Apoteket Kronan	 Grupp 1 (Apotek Hjärtat)
+Västerbotten	 Umeå	 Hörnefors	 Bruksgatan 4	 Apoteket Hörnefors	 Grupp 1 (Apotek Hjärtat)
+Västerbotten	 Robertsfors	 Robertsfors	 Storgatan 20D	 Apoteket Diamanten	 Kvar i Apoteket AB
+Västerbotten	 Vännäs	 Vännäs	 Östra Järnvägsgatan 16A	 Apoteket Svalan	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Bjurholm	 Bjurholm	 Storgatan 10 A	 Apoteket Bävern	 Grupp 1 (Apotek Hjärtat)
+Västerbotten	 Vindeln	 Vindeln	 Storvägen 56	 Apoteket Laxen	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Lycksele	 Lycksele	 Storgatan 41	 Apoteket Myskoxen	 Grupp 1 (Apotek Hjärtat)
+Västerbotten	 Sorsele	 Sorsele	 Burevägen 13	 Apoteket Ormen	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Storuman	 Tärnaby	 Granvägen 6	 Apoteket Kantarellen	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Storuman	 Storuman	 Skolgatan 17A	 Apoteket Lämmeln	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Vilhelmina	 Vilhelmina	 Volgsjövägen 34	 Apoteket Hjortronet	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Dorotea	 Dorotea	 Storgatan 33	 Apoteket Björnen	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Åsele	 Åsele	 Bryggaregatan 11	 Apoteket Pärlan	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Malå	 Malå	 Storgatan 19	 Apoteket Myran	 Småföretagare
+Västerbotten	 Umeå	 Umeå	 Formvägen 4	 Apoteket Ersboda	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Umeå	 Umeå	 Manusgränd 3	 Apoteket Backen	 Grupp 2 (Kronans Droghandel)
+Västerbotten	 Umeå	 Umeå	 Strömpilsplatsen 53	 Apoteket Strömpilen	 Grupp 1 (Apotek Hjärtat)
+Västerbotten	 Skellefteå	 Skellefteå	 Varugatan 24	 Apoteket Spoven	 Kvar i Apoteket AB
+Västerbotten	 Skellefteå	 Skellefteå	 Nygatan 50	 Apoteket Shop Skellefteå	 Kvar i Apoteket AB
+Västerbotten	 Umeå	 Umeå	 Norrlands Universitetssjukhus	 Apoteket NUS öppenvård	 Kvar i Apoteket AB
+Västerbotten	 Umeå	 Umeå	 Kungsgatan 52-54	 Apoteket Shop Umeå	 Kvar i Apoteket AB
+Västerbotten	 Skellefteå	 Skellefteå	 Gymnasievägen 8	 Apoteket Staren	 Grupp 1 (Apotek Hjärtat)
+Västernorrland	 Kramfors	 Bollstabruk	 Ådalsvägen 20	 Apoteket	 Grupp 1 (Apotek Hjärtat)
+Västernorrland	 Sundsvall	 Sundsvall	 Storgatan 18	 Apoteket Gripen	 Kvar i Apoteket AB
+Västernorrland	 Sundsvall	 Matfors	 Skölevägen 19	 Apoteket	 Kvar i Apoteket AB
+Västernorrland	 Sundsvall	 Alnö	 Raholmsvägen 17	 Apoteket Furan	 Grupp 2 (Kronans Droghandel)
+Västernorrland	 Sundsvall	 Liden	 Vårdcentralen	 Apoteket Liden	 Grupp 1 (Apotek Hjärtat)
+Västernorrland	 Sundsvall	 Sundsvall	 Medborgargatan 30D	 Apoteket Granen	 Grupp 2 (Kronans Droghandel)
+Västernorrland	 Sundsvall	 Sundsvall	 Lasarettsvägen 21	 Apoteket Skvadern	 Grupp 1 (Apotek Hjärtat)
+Västernorrland	 Timrå	 Timrå	 Köpmangatan 31	 Apoteket	 Kvar i Apoteket AB
+Västernorrland	 Timrå	 Söråker	 Folketshusvägen 5	 Apoteket	 Kvar i Apoteket AB
+Västernorrland	 Sundsvall	 Kvissleby	 Affärsgatan 14A	 Apoteket Spoven	 Grupp 2 (Kronans Droghandel)
+Västernorrland	 Ånge	 Ånge	 Centraltorget 3	 Apoteket Ugglan	 Kvar i Apoteket AB
+Västernorrland	 Ånge	 Fränsta	 Mårtens väg	 Apoteket Vargen	 Kvar i Apoteket AB
+Västernorrland	 Örnsköldsvik	 Örnsköldsvik	 Nygatan 12	 Apoteket Örnen	 Kvar i Apoteket AB
+Västernorrland	 Örnsköldsvik	 Örnsköldsvik	 Sjukhuset	 Apoteket Älgen	 Grupp 1 (Apotek Hjärtat)
+Västernorrland	 Örnsköldsvik	 Husum	 Bruksvägen 187B	 Apoteket	 Grupp 1 (Apotek Hjärtat)
+Västernorrland	 Örnsköldsvik	 Bjästa	 Nätragatan 33	 Apoteket Linblomman	 Grupp 1 (Apotek Hjärtat)
+Västernorrland	 Örnsköldsvik	 Domsjö	 Sundsvägen 13	 Apoteket Tallen	 Småföretagare
+Västernorrland	 Örnsköldsvik	 Bredbyn	 Olympiavägen 8	 Apoteket Myrten	 Kvar i Apoteket AB
+Västernorrland	 Örnsköldsvik	 Själevad	 Sjukhemsvägen 2	 Apoteket	 Kvar i Apoteket AB
+Västernorrland	 Sollefteå	 Ramsele	 Centrumhuset	 Apoteket Nipsippan	 Grupp 1 (Apotek Hjärtat)
+Västernorrland	 Sollefteå	 Sollefteå	 Lasarettet	 Apoteket Skärvsta	 Kvar i Apoteket AB
+Västernorrland	 Sollefteå	 Sollefteå	 Storgatan 54-56	 Apoteket Kronan	 Grupp 1 (Apotek Hjärtat)
+Västernorrland	 Kramfors	 Nyland	 Biskopsgatan 1	 Apoteket Myran	 Kvar i Apoteket AB
+Västernorrland	 Kramfors	 Kramfors	 Kungsgatan 5A	 Apoteket Nordstjärnan	 Grupp 1 (Apotek Hjärtat)
+Västernorrland	 Härnösand	 Härnösand	 Södra vägen 3-5	 Apoteket Kronan	 Kvar i Apoteket AB
+Västernorrland	 Härnösand	 Härnösand	 Storgatan 28	 Apoteket Bävern	 Grupp 2 (Kronans Droghandel)
+Västernorrland	 Kramfors	 Ullånger	 Sundbrolund	 Apoteket Höga Kusten	 Grupp 1 (Apotek Hjärtat)
+Västernorrland	 Sundsvall	 Sundsvall	 Västra Vägen 50	 Apoteket Lokatten Granlo	 Småföretagare
+Västernorrland	 Sundsvall	 Sundsvall	 Norra vägen 10	 Apoteket Bydalen	 Grupp 1 (Apotek Hjärtat)
+Västernorrland	 Örnsköldsvik	 Örnsköldsvik	 Oskargallerian Lasarettsgatan 20	 Apoteket Shop Oskarsgallerian	 Kvar i Apoteket AB
+Västernorrland	 Sundsvall	 Sundsvall	 Galleria in Storgatan 36	 Apoteket Shop Galleria In	 Kvar i Apoteket AB
+Västernorrland	 Sundsvall	 Sundsvall	 Gesällvägen 1 Birsta	 Apoteket Shop Gesällvägen	 Grupp 2 (Kronans Droghandel)
+Västernorrland	 Sundsvall	 Sundsvall	 Gesällvägen 5 Birsta	 Apoteket Kolibrin	 Grupp 2 (Kronans Droghandel)
+Västmanland	 Västerås	 Västerås	 Stora gatan 34	 Apoteket Hjorten	 Kvar i Apoteket AB
+Västmanland	 Västerås	 Skultuna	 Västeråsvägen 32	 Apoteket	 Grupp 1 (Apotek Hjärtat)
+Västmanland	 Västerås	 Västerås	 Stenbygatan 1	 Apoteket Mården	 Grupp 3 (Medstop)
+Västmanland	 Västerås	 Västerås	 Skiljeboplatsen 2	 Apoteket Misteln	 Grupp 1 (Apotek Hjärtat)
+Västmanland	 Västerås	 Västerås	 Regementsgatan 2	 Apoteket Vingen	 Kvar i Apoteket AB
+Västmanland	 Västerås	 Västerås	 Bäckby Torg 1	 Apoteket Bäckby	 Grupp 3 (Medstop)
+Västmanland	 Västerås	 Västerås	 Repslagargatan 1-2	 Apoteket Humlan	 Småföretagare
+Västmanland	 Västerås	 Västerås	 Centrallasarettet	 Apoteket Västerås lasarett EA	 Grupp 6 (Vårdapoteket i Norden)
+Västmanland	 Sala	 Sala	 Drottninggatan 11	 Apoteket Renen	 Kvar i Apoteket AB
+Västmanland	 Surahammar	 Surahammar	 Köpmangatan 27-29	 Apoteket Illern	 Kvar i Apoteket AB
+Västmanland	 Fagersta	 Fagersta	 Bergslagssjukhuset	 Apoteket Bergslagssjukhuset	 Grupp 1 (Apotek Hjärtat)
+Västmanland	 Fagersta	 Fagersta	 Stationsvägen 19	 Apoteket Lejonet	 Kvar i Apoteket AB
+Västmanland	 Skinnskatteberg	 Skinnskatteberg	 Kyrkvägen 1	 Apoteket Svanen	 Grupp 1 (Apotek Hjärtat)
+Västmanland	 Norberg	 Norberg	 Engelbrektsgatan 50	 Apoteket Kronan	 Småföretagare
+Västmanland	 Köping	 Köping	 Glasgatan 3	 Apoteket Scheele	 Grupp 2 (Kronans Droghandel)
+Västmanland	 Köping	 Köping	 Lasarettet	 Apoteket Tärnan	 Kvar i Apoteket AB
+Västmanland	 Köping	 Kolsva	 Vårdcentralen	 Apoteket Myran	 Grupp 2 (Kronans Droghandel)
+Västmanland	 Arboga	 Arboga	 Ahllövsgatan 18-20	 Apoteket Örnen	 Grupp 1 (Apotek Hjärtat)
+Västmanland	 Kungsör	 Kungsör	 Torsgatan 12A	 Apoteket Kronan	 Kvar i Apoteket AB
+Västmanland	 Hallstahammar	 Hallstahammar	 Hammartorget 10	 Apoteket Hästen	 Grupp 1 (Apotek Hjärtat)
+Västmanland	 Västerås	 Västerås	 Vildrosgatan 2	 Apoteket Önsta-Gryta	 Grupp 2 (Kronans Droghandel)
+Västmanland	 Västerås	 Västerås	 Glasvingegatan 5	 Apoteket Hälla	 Kvar i Apoteket AB
+Västmanland	 Västerås	 Västerås	 Löpkranegatan 3	 Apoteket Erikslund	 Grupp 2 (Kronans Droghandel)
+Västmanland	 Västerås	 Västerås	 Varuhuset Punkt Stora gatan 7-21	 Apoteket Shop Västerås	 Kvar i Apoteket AB
+Västra Götaland	 Mark	 Skene	 Varbergsvägen 71	 Apoteket Kronan	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Lidköping	 Lidköping	 Nya Stadens torg 10	 Apoteket Lejonet	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Skara	 Skara	 Malmgatan 36	 Apoteket Vipan	 Småföretagare
+Västra Götaland	 Skara	 Skara	 Järnvägsgatan 14	 Apoteket Kronan	 Kvar i Apoteket AB
+Västra Götaland	 Götene	 Götene	 Doktorsvägen 3	 Apoteket Aspen	 Småföretagare
+Västra Götaland	 Vara	 Vara	 Vårdcentralen Allégatan 46	 Apoteket Lejonet	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Essunga	 Nossebro	 Vårdcentralen Ängsgatan 2	 Apoteket Misteln	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Vara	 Kvänum	 Sveagatan 2	 Apoteket Blåklockan	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Grästorp	 Grästorp	 Vårdcentrum Jon jespersgatan 30	 Apoteket Kvarnen	 Kvar i Apoteket AB
+Västra Götaland	 Mariestad	 Mariestad	 Lockerudsvägen 12	 Apoteket Eken	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Mariestad	 Mariestad	 Österlånggatan 15	 Apoteket Lejonet	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Gullspång	 Hova	 Roslunds väg 5	 Apoteket Phoenix	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Gullspång	 Gullspång	 Vårdcentralen Hemgatan 12	 Apoteket Laxen	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Töreboda	 Töreboda	 Norra Torggatan 7	 Apoteket Kronan	 Kvar i Apoteket AB
+Västra Götaland	 Skövde	 Skövde	 Kärnsjukhuset	 Apoteket Kärnan	 Kvar i Apoteket AB
+Västra Götaland	 Skövde	 Skövde	 Ekängsvägen 15	 Apoteket Tranan	 Kvar i Apoteket AB
+Västra Götaland	 Tibro	 Tibro	 Centrumgatan 15	 Apoteket Svanen	 Kvar i Apoteket AB
+Västra Götaland	 Hjo	 Hjo	 Bangatan 13	 Apoteket Kronan	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Karlsborg	 Karlsborg	 Kungsgatan 14	 Apoteket Kronan	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Skövde	 Skövde	 Långgatan 15	 Apoteket Lejonet	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Falköping	 Falköping	 Storgatan 2	 Apoteket Kronan	 Kvar i Apoteket AB
+Västra Götaland	 Falköping	 Falköping	 Danska Vägen 62	 Apoteket Mösseberg	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Falköping	 Floby	 Storgatan 53	 Apoteket Enen	 Kvar i Apoteket AB
+Västra Götaland	 Falköping	 Stenstorp	 Storgatan 14A	 Apoteket Fyren	 Kvar i Apoteket AB
+Västra Götaland	 Tidaholm	 Tidaholm	 Torggatan 1	 Apoteket Örnen	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Lidköping	 Lidköping	 Östbygatan 21	 Apoteket Guldvingen	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Mark	 Sätila	 Björlandavägen 3	 Apoteket Lärkan	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Borås	 Borås	 Allégatan 43	 Apoteket Kronan	 Grupp 4 (Medstop)
+Västra Götaland	 Borås	 Borås	 Brämhultsvägen 53	 Apoteket Juwelen	 Kvar i Apoteket AB
+Västra Götaland	 Uddevalla	 Uddevalla	 Västerlånggatan 2	 Apoteket Lejonet	 Grupp 4 (Medstop)
+Västra Götaland	 Uddevalla	 Ljungkile	 Vällebergsvägen 12	 Apoteket Viken	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Uddevalla	 Uddevalla	 Lövskogsgatan 7	 Apoteket Ugglan	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Uddevalla	 Uddevalla	 Torp Köpcentrum	 Apoteket Måsen	 Kvar i Apoteket AB
+Västra Götaland	 Uddevalla	 Uddevalla	 Uddevalla Sjukhus Fjällvägen 9	 Apoteket Korpen	 Kvar i Apoteket AB
+Västra Götaland	 Strömstad	 Strömstad	 Södra Hamngatan 4	 Apoteket Snäckan	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Tanum	 Tanumshede	 Affärsvägen 1	 Apoteket Kronan	 Småföretagare
+Västra Götaland	 Lysekil	 Lysekil	 Kungsgatan 33-35	 Apoteket Kronan	 Kvar i Apoteket AB
+Västra Götaland	 Lysekil	 Brastad	 Läkarvägen 4	 Apoteket Runan	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Sotenäs	 Kungshamn	 Hvitfeldtsgatan 25	 Apoteket Räkan	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Sotenäs	 Hunnebostrand	 Skolgatan 1	 Apoteket Tärnan	 Kvar i Apoteket AB
+Västra Götaland	 Orust	 Henån	 Centrumhuset	 Apoteket Kompassen	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Orust	 Ellös	 Ravinvägen 3	 Apoteket Ankaret	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Munkedal	 Munkedal	 Forum 4	 Apoteket Laxen	 Kvar i Apoteket AB
+Västra Götaland	 Tanum	 Fjällbacka	 Nestorsvägen 9	 Apoteket Sälen	 Småföretagare
+Västra Götaland	 Orust	 Svanesund	 VC Eklunden	 Apoteket Ejdern	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Alingsås	 Alingsås	 Kungsgatan 29Affärshuset Storken	 Apoteket Hjorten	 Kvar i Apoteket AB
+Västra Götaland	 Alingsås	 Alingsås	 Säterigatan 122 Noltorps VC	 Apoteket Noltorp	 Kvar i Apoteket AB
+Västra Götaland	 Alingsås	 Alingsås	 Alingsås Lasarett	 Apoteket Sörhaga	 Grupp 7 (Vårdapoteket i Norden)
+Västra Götaland	 Bengtsfors	 Bengtsfors	 Storgatan 7	 Apoteket Örnen	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Bollebygd	 Bollebygd	 Vårdcentralen	 Apoteket Linden	 Kvar i Apoteket AB
+Västra Götaland	 Borås	 Borås	 Trandareds VC Kindsgatan 1	 Apoteket Biet	 Kvar i Apoteket AB
+Västra Götaland	 Borås	 Borås	 Skaraborgsvägen 35	 Apoteket Bävern	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Borås	 Borås	 Boda Vårdcentral	 Apoteket Humlan	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Borås	 Borås	 Sjöbo Torg	 Apoteket Uttern	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Vänersborg	 Brålanda	 Törnrosgatan 14	 Apoteket Tjuren	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Borås	 Dalsjöfors	 Vårdcentralen Uppegårdsgatan 2	 Apoteket Vipan	 Småföretagare
+Västra Götaland	 Ulricehamn	 Dalum	 Vårdcentralen Dalatorget	 Apoteket Gullvivan	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Dals-Ed	 Ed	 Magasinsgatan 10	 Apoteket Korpen	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Lerum	 Floda	 Rurik Holms väg 10	 Apoteket Orren	 Kvar i Apoteket AB
+Västra Götaland	 Borås	 Fristad	 Tärnavägen 6	 Apoteket Tranan	 Småföretagare
+Västra Götaland	 Färgelanda	 Färgelanda	 Centrumvägen 10	 Apoteket Bävern	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Lerum	 Gråbo	 Lundbyvägen 35-37	 Apoteket	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Herrljunga	 Herrljunga	 Horsbyvägen 16	 Apoteket Stjärnan	 Kvar i Apoteket AB
+Västra Götaland	 Mark	 Kinna	 Klockaregatan 3	 Apoteket Örnen	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Lerum	 Lerum	 Göteborgsvägen 9	 Apoteket Eken	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Lilla Edet	 Lilla Edet	 Järnvägsgatan 10	 Apoteket Hjorten	 Kvar i Apoteket AB
+Västra Götaland	 Mellerud	 Mellerud	 Norra Kungsgatan 1	 Apoteket Kronan	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Ale	 Nödinge	 Ale torg 7	 Apoteket Alen	 Grupp 4 (Medstop)
+Västra Götaland	 Borås	 Sandared	 Strandvägen 11	 Apoteket Rosen	 Kvar i Apoteket AB
+Västra Götaland	 Alingsås	 Sollebrunn	 Gästgivaregatan 3	 Apoteket Rönnen	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Svenljunga	 Svenljunga	 Torggatan 1	 Apoteket Svalan	 Småföretagare
+Västra Götaland	 Tranemo	 Tranemo	 Storgatan 40	 Apoteket Tranan	 Kvar i Apoteket AB
+Västra Götaland	 Trollhättan	 Trollhättan	 Norra Älvsborgs Länssjukhus	 Apoteket Björnen	 Kvar i Apoteket AB
+Västra Götaland	 Trollhättan	 Trollhättan	 Granngårdens Centrum Lantmannavägen 92	 Apoteket Sländan	 Grupp 4 (Medstop)
+Västra Götaland	 Trollhättan	 Trollhättan	 Kungsgatan 32	 Apoteket Svanen	 Kvar i Apoteket AB
+Västra Götaland	 Ulricehamn	 Ulricehamn	 Storgatan 1	 Apoteket Kronan	 Kvar i Apoteket AB
+Västra Götaland	 Vänersborg	 Vargön	 Nordkroksvägen 3	 Apoteket Älgen	 Kvar i Apoteket AB
+Västra Götaland	 Borås	 Viskafors	 Hagkällevägen 2	 Apoteket Sländan	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Vårgårda	 Vårgårda	 Centrumgatan 2	 Apoteket Axet	 Småföretagare
+Västra Götaland	 Vänersborg	 Vänersborg	 Sundsgatan 8A	 Apoteket Tranan	 Kvar i Apoteket AB
+Västra Götaland	 Vänersborg	 Vänersborg	 Torpavägen 23	 Apoteket Lärkan	 Småföretagare
+Västra Götaland	 Åmål	 Åmål	 Mellanbrogatan 3	 Apoteket Lejonet	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Ale	 Älvängen	 Torggatan 1	 Apoteket Skeppet	 Kvar i Apoteket AB
+Västra Götaland	 Öckerö	 Öckerö	 Norgårdsvägen 10	 Apoteket Kaprifolen	 Småföretagare
+Västra Götaland	 Partille	 Sävedalen	 Vallhamra Torg 5	 Apoteket Tallen	 Småföretagare
+Västra Götaland	 Härryda	 Mölnlycke	 Biblioteksgatan 4A	 Apoteket Ugglan	 Grupp 4 (Medstop)
+Västra Götaland	 Göteborg	 Angered	 Angereds Torg 7	 Apoteket Ormen	 Grupp 4 (Medstop)
+Västra Götaland	 Mölndal	 Lindome	 Almåsgången 7	 Apoteket Almen	 Kvar i Apoteket AB
+Västra Götaland	 Mölndal	 Mölndal	 Mölndals Torg 4	 Apoteket Strömstaren	 Grupp 4 (Medstop)
+Västra Götaland	 Mölndal	 Mölndal	 Mölndals Sjukhus	 Apoteket Kråkan	 Kvar i Apoteket AB
+Västra Götaland	 Göteborg	 Angered	 Bergsgårdsgärdet 89B	 Apoteket Atomen	 Småföretagare
+Västra Götaland	 Göteborg	 Göteborg	 Stabbegatan 2	 Apoteket Björken	 Kvar i Apoteket AB
+Västra Götaland	 Göteborg	 Göteborg	 Munkebäcks torg 7	 Apoteket Trasten	 Småföretagare
+Västra Götaland	 Göteborg	 Göteborg	 Rymdtorget 9	 Apoteket Gripen	 Grupp 4 (Medstop)
+Västra Götaland	 Göteborg	 Göteborg	 Hundraårsgatan 32	 Apoteket Ekorren	 Kvar i Apoteket AB
+Västra Götaland	 Göteborg	 Göteborg	 Treriksgatan 2	 Apoteket Måsen	 Grupp 4 (Medstop)
+Västra Götaland	 Göteborg	 Göteborg	 Östra Sjukhuset	 Apoteket Smörblomman	 Kvar i Apoteket AB
+Västra Götaland	 Partille	 Partille	 Gamla Kronvägen 54	 Apoteket Enen	 Grupp 4 (Medstop)
+Västra Götaland	 Göteborg	 Göteborg	 Redbergsvägen 4	 Apoteket Korpen	 Kvar i Apoteket AB
+Västra Götaland	 Härryda	 Landvetter	 Centrumhuset	 Apoteket Blåvingen	 Kvar i Apoteket AB
+Västra Götaland	 Göteborg	 Göteborg	 Götgatan 12	 Apoteket Vasen	 Grupp 8 (Apotek Hjärtat)
+Västra Götaland	 Göteborg	 Göteborg	 Linnégatan 16	 Apoteket Svanen	 Kvar i Apoteket AB
+Västra Götaland	 Göteborg	 Göteborg	 Mariaplan 4	 Apoteket Najaden	 Grupp 4 (Medstop)
+Västra Götaland	 Göteborg	 Göteborg	 Amund Grefwegatan 5	 Apoteket Duvan	 Småföretagare
+Västra Götaland	 Göteborg	 Göteborg	 Dr Fries Torg	 Apoteket Ärlan	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Göteborg	 Göteborg	 Engelbrektsgatan 34C	 Apoteket Biet	 Kvar i Apoteket AB
+Västra Götaland	 Göteborg	 Göteborg	 Eklandagatan 76	 Apoteket Svalan	 Småföretagare
+Västra Götaland	 Göteborg	 Göteborg	 Vita Stråket 13	 Apoteket Hajen	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Göteborg	 Göteborg	 Karl Johansgatan 72	 Apoteket Hjorten	 Småföretagare
+Västra Götaland	 Göteborg	 Göteborg	 Kungsportsplatsen	 Apoteket Kronan	 Grupp 4 (Medstop)
+Västra Götaland	 Göteborg	 Göteborg	 Gamla Flygplatsvägen 40	 Apoteket Viggen	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Göteborg	 Göteborg	 Tuve torg 9	 Apoteket Stenbocken	 Småföretagare
+Västra Götaland	 Göteborg	 Göteborg	 Höstvädersgatan 1	 Apoteket Tumlaren	 Kvar i Apoteket AB
+Västra Götaland	 Göteborg	 Västra Frölunda	 Frölunda Torg	 Apoteket Vågen	 Grupp 8 (Apotek Hjärtat)
+Västra Götaland	 Göteborg	 Västra Frölunda	 Frölunda Torg	 Apoteket Shop Västra Frölunda	 Kvar i Apoteket AB
+Västra Götaland	 Göteborg	 Västra Frölunda	 Långedragsvägen 134	 Apoteket Vipan	 Småföretagare
+Västra Götaland	 Göteborg	 Göteborg	 Markmyntsgatan 4	 Apoteket Älvan	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Göteborg	 Askim	 Sisjö Centrum	 Apoteket Lärkan	 Grupp 4 (Medstop)
+Västra Götaland	 Göteborg	 Göteborg	 Kolhamnsgatan 1	 Apoteket Sälen	 Grupp 4 (Medstop)
+Västra Götaland	 Göteborg	 Hisings Backa	 Selma Lagerlöfs Torg 1	 Apoteket Stora Björn	 Grupp 4 (Medstop)
+Västra Götaland	 Göteborg	 Hisings Kärra	 Kärraplatsen 16	 Apoteket Kärra	 Småföretagare
+Västra Götaland	 Tjörn	 Kållekärr	 Sundsbyvägen 1	 Apoteket Fyren	 Småföretagare
+Västra Götaland	 Kungälv	 Kungälv	 Uddevallavägen 3	 Apoteket Kronan	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Kungälv	 Kungälv	 Kungälvs sjukhus	 Apoteket Magnolian	 Kvar i Apoteket AB
+Västra Götaland	 Kungälv	 Kungälv	 Nordmannatorget	 Apoteket Nordmannatorget	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Kungälv	 Ytterby	 Lekmannagatan 2	 Apoteket Ytterby	 Småföretagare
+Västra Götaland	 Göteborg	 Göteborg	 Wieselgrensplatsen 5	 Apoteket Nordstjärnan	 Grupp 4 (Medstop)
+Västra Götaland	 Stenungsund	 Stenungsund	 Västra Köpmansgatan 35	 Apoteket Skeppet	 Grupp 4 (Medstop)
+Västra Götaland	 Göteborg	 Västra Frölunda	 Opalgatan 79	 Apoteket Ejdern	 Småföretagare
+Västra Götaland	 Mölndal	 Kållered	 Gamla Riksvägen 44	 Apoteket Pionen	 Kvar i Apoteket AB
+Västra Götaland	 Lidköping	 Lidköping	 Framnäsvägen 1	 Apoteket Näckrosen	 Kvar i Apoteket AB
+Västra Götaland	 Göteborg	 Göteborg	 Centralhuset Nils Ericsonsplatsen 1-8	 Apoteket Shop Nils Ericsonplatsen	 Kvar i Apoteket AB
+Västra Götaland	 Strömstad	 Nordby	 Nordby Köpcenter Västra	 Apoteket Shop Nordby	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Trollhättan	 Trollhättan	 SIBA-huset Överby	 Apoteket Överby	 Småföretagare
+Västra Götaland	 Göteborg	 Göteborg	 Åvägen 42 Gårda Affärscentrum	 Apoteket Strutsen	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Kungälv	 Marstrand	 Återvändsgatan 4	 Apoteket Marstrand	 Grupp 2 (Kronans Droghandel)
+Västra Götaland	 Borås	 Borås	 Stora Brogatan 7	 Apoteket Shop Borås	 Kvar i Apoteket AB
+Västra Götaland	 Partille	 Partille	 Allum 324 Nils Henrikssons väg 3	 Apoteket Shop Partille	 Kvar i Apoteket AB
+Västra Götaland	 Göteborg	 Göteborg	 Korsgatan 24	 Apoteket Shop Korsgatan	 Kvar i Apoteket AB
+Västra Götaland	 Skövde	 Skövde	 Köpmannagatan 3	 Apoteket Konvaljen	 Grupp 1 (Apotek Hjärtat)
+Västra Götaland	 Strömstad	 Strömstad	 Nordby shoppingcenter, 452 92 STRÖMSTAD	 Apoteket Pärlan	 Grupp 2 (Kronans Droghandel)
+Örebro	 Örebro	 Örebro	 Drottninggatan 29	 Apoteket Hjorten	 Grupp 3 (Medstop)
+Örebro	 Kumla	 Kumla	 Köpmangatan 13-17	 Apoteket Kronan	 Grupp 3 (Medstop)
+Örebro	 Örebro	 Örebro	 Lindhultsvägen 2	 Apoteket Adolfsbergs VC	 Småföretagare
+Örebro	 Lekeberg	 Fjugesta	 Storgatan 21B	 Apoteket Kronan	 Småföretagare
+Örebro	 Örebro	 Odensbacken	 Valstavägen 1	 Apoteket Svanen	 Kvar i Apoteket AB
+Örebro	 Hallsberg	 Pålsboda	 Köpmangatan 4	 Apoteket Älgen	 Grupp 2 (Kronans Droghandel)
+Örebro	 Örebro	 Örebro	 Universitetssjukhuset	 Apoteket Universitetssjukhuset EA	 Kvar i Apoteket AB
+Örebro	 Örebro	 Örebro	 Ringgatan 15	 Apoteket Älgen	 Kvar i Apoteket AB
+Örebro	 Örebro	 Örebro	 Haga Centrum	 Apoteket Humlan	 Småföretagare
+Örebro	 Askersund	 Askersund	 Sundsbrogatan 12	 Apoteket Vasen	 Småföretagare
+Örebro	 Hallsberg	 Hallsberg	 Östra Storgatan 1	 Apoteket Rallaren	 Grupp 2 (Kronans Droghandel)
+Örebro	 Karlskoga	 Karlskoga	 Lasarettet Degerforsvägen	 Apoteket Lärkan	 Kvar i Apoteket AB
+Örebro	 Karlskoga	 Karlskoga	 Österleden 10	 Apoteket Vargen	 Grupp 2 (Kronans Droghandel)
+Örebro	 Karlskoga	 Karlskoga	 vid Torget	 Apoteket Örnen	 Grupp 1 (Apotek Hjärtat)
+Örebro	 Degerfors	 Degerfors	 Medborgargatan 10	 Apoteket Vågen	 Kvar i Apoteket AB
+Örebro	 Laxå	 Laxå	 Postgatan 21	 Apoteket Laxen	 Grupp 1 (Apotek Hjärtat)
+Örebro	 Lindesberg	 Lindesberg	 Kungsgatan 37	 Apoteket Lejonet	 Grupp 1 (Apotek Hjärtat)
+Örebro	 Lindesberg	 Lindesberg	 Lindesbergs lasarett	 Apoteket Lokatten	 Kvar i Apoteket AB
+Örebro	 Lindesberg	 Fellingsbro	 Bergsvägen 24	 Apoteket Svanen	 Grupp 2 (Kronans Droghandel)
+Örebro	 Lindesberg	 Frövi	 Järnvägsgatan 6B	 Apoteket Svalan	 Grupp 2 (Kronans Droghandel)
+Örebro	 Hällefors	 Hällefors	 Stationsvägen 1	 Apoteket Bävern	 Småföretagare
+Örebro	 Nora	 Nora	 Prästgatan 8B	 Apoteket Kronan	 Småföretagare
+Örebro	 Ljusnarsberg	 Kopparberg	 Konstmästaregatan 9	 Apoteket Misteln	 Grupp 2 (Kronans Droghandel)
+Örebro	 Örebro	 Örebro	 Ribbingsgatan 6-8	 Apoteket Olaus Petri VC	 Grupp 1 (Apotek Hjärtat)
+Örebro	 Örebro	 Örebro	 Sörbyängsvägen 4	 Apoteket Tybble VC	 Kvar i Apoteket AB
+Örebro	 Örebro	 Örebro	 Mariebergs Centrum Varuvägen 10	 Apoteket Marieberg	 Kvar i Apoteket AB
+Örebro	 Lindesberg	 Storå	 Kopparbergsvägen 17	 Apoteket Storå VC	 Grupp 1 (Apotek Hjärtat)
+Örebro	 Örebro	 Örebro	 Drottninggatan 23	 Apoteket Shop Drottninggatan	 Kvar i Apoteket AB
+Örebro	 Örebro	 Örebro	 Olaigatan 15	 Apoteket Falken	 Grupp 1 (Apotek Hjärtat)
+Örebro	 Örebro	 Örebro	 Boglundsgatan 2	 Apoteket Hinden	 Småföretagare
+Östergötland	 Linköping	 Linköping	 Stora Torget 9	 Apoteket Wasen	 Småföretagare
+Östergötland	 Linköping	 Linköping	 Nya Tanneforsvägen 60	 Apoteket Gyllene Axet	 Småföretagare
+Östergötland	 Linköping	 Linköping	 Skäggetorps Centrum	 Apoteket Ärlan	 Grupp 2 (Kronans Droghandel)
+Östergötland	 Linköping	 Linköping	 Universitetssjukhuset	 Apoteket J J Berzelius EA	 Grupp 6 (Vårdapoteket i Norden)
+Östergötland	 Linköping	 Linköping	 Ekholmen Centrum	 Apoteket Viggen	 Kvar i Apoteket AB
+Östergötland	 Linköping	 Linköping	 Ryds centrum	 Apoteket Malmen	 Grupp 2 (Kronans Droghandel)
+Östergötland	 Linköping	 Linköping	 Skogslyckegatan 7	 Apoteket Lärkan	 Grupp 2 (Kronans Droghandel)
+Östergötland	 Linköping	 Linköping	 Berga Centrum	 Apoteket Eken	 Småföretagare
+Östergötland	 Linköping	 Linköping	 Repslagaregatan 25	 Apoteket Kronan	 Kvar i Apoteket AB
+Östergötland	 Linköping	 Ljungsbro	 Evastigen 9	 Apoteket Svalan	 Småföretagare
+Östergötland	 Kinda	 Kisa	 Stora Torget 2	 Apoteket Gripen	 Småföretagare
+Östergötland	 Motala	 Motala	 Kungsgatan 4D	 Apoteket Kronan	 Kvar i Apoteket AB
+Östergötland	 Motala	 Motala	 Lasarettsgatan 37	 Apoteket Ekorren	 Grupp 6 (Vårdapoteket i Norden)
+Östergötland	 Motala	 Motala	 Mariebergsgatan 2A	 Apoteket Marieberg	 Kvar i Apoteket AB
+Östergötland	 Motala	 Borensberg	 Hamnvägen 3	 Apoteket Vågen	 Grupp 2 (Kronans Droghandel)
+Östergötland	 Vadstena	 Vadstena	 Rådhustorget 7	 Apoteket Örnen	 Kvar i Apoteket AB
+Östergötland	 Mjölby	 Mjölby	 Galleria Kvarnen	 Apoteket Kronan	 Grupp 1 (Apotek Hjärtat)
+Östergötland	 Boxholm	 Boxholm	 Storgatan 12	 Apoteket Svanen	 Grupp 1 (Apotek Hjärtat)
+Östergötland	 Mjölby	 Skänninge	 Östra Kyrkogatan 5	 Apoteket Kronan	 Kvar i Apoteket AB
+Östergötland	 Åtvidaberg	 Åtvidaberg	 Adelsvärdsgatan 4A	 Apoteket Kopparormen	 Småföretagare
+Östergötland	 Ödeshög	 Ödeshög	 Skolgatan 3	 Apoteket Kronan	 Kvar i Apoteket AB
+Östergötland	 Linköping	 Linköping	 Kärnabrunnsgatan 10	 Apoteket Humlan	 Kvar i Apoteket AB
+Östergötland	 Mjölby	 Mantorp	 Häradsvägen 18	 Apoteket Hästhoven	 Grupp 2 (Kronans Droghandel)
+Östergötland	 Ydre	 Österbymo	 Ydregatan 13	 Apoteket Räven	 Kvar i Apoteket AB
+Östergötland	 Norrköping	 Norrköping	 Gamla Övägen 25	 Apoteket Vrinnevisjukhuset EA	 Kvar i Apoteket AB
+Östergötland	 Norrköping	 Kolmården	 Munkvägen 13	 Apoteket Eken	 Småföretagare
+Östergötland	 Norrköping	 Norrköping	 Slåttergatan 100	 Apoteket Vesslan	 Grupp 2 (Kronans Droghandel)
+Östergötland	 Norrköping	 Åby	 Nyköpingsvägen 21	 Apoteket Mården	 Småföretagare
+Östergötland	 Norrköping	 Vikbolandet	 Bygdevägen 13	 Apoteket Vikbolandet	 Grupp 1 (Apotek Hjärtat)
+Östergötland	 Norrköping	 Norrköping	 Drottninggatan 56	 Apoteket Kronan	 Grupp 1 (Apotek Hjärtat)
+Östergötland	 Norrköping	 Skärblacka	 Bergslagsvägen 34	 Apoteket Svanen	 Grupp 1 (Apotek Hjärtat)
+Östergötland	 Norrköping	 Norrköping	 Kungsgatan 36	 Apoteket Östgöta Lejon	 Småföretagare
+Östergötland	 Norrköping	 Norrköping	 Hantverkaregatan 24	 Apoteket Hjorten	 Kvar i Apoteket AB
+Östergötland	 Norrköping	 Norrköping	 Vilbergen Centrum	 Apoteket Fasanen	 Kvar i Apoteket AB
+Östergötland	 Norrköping	 Norrköping	 Kneipgatan 4	 Apoteket Ripan	 Småföretagare
+Östergötland	 Norrköping	 Norrköping	 Hageby Centrum Timmermansgatan 54	 Apoteket Hägern	 Grupp 1 (Apotek Hjärtat)
+Östergötland	 Finspång	 Finspång	 Bergslagsvägen 9	 Bruksapoteket	 Grupp 1 (Apotek Hjärtat)
+Östergötland	 Finspång	 Finspång	 Lasarettet	 Apoteket Vallonen	 Kvar i Apoteket AB
+Östergötland	 Söderköping	 Söderköping	 Hagatorget 1	 Apoteket Kronan	 Småföretagare
+Östergötland	 Valdemarsvik	 Valdemarsvik	 Storgatan 17	 Apoteket Kronan	 Småföretagare
+Östergötland	 Linköping	 Linköping	 Tröskaregatan 28	 Apoteket Lambohov	 Kvar i Apoteket AB
+Östergötland	 Linköping	 Linköping	 IKANO-huset Svedengatan	 Apoteket Tornugglan	 Grupp 1 (Apotek Hjärtat)
+Östergötland	 Linköping	 Linghem	 Himnavägen 153	 Apoteket Lingonet	 Grupp 1 (Apotek Hjärtat)
+Östergötland	 Linköping	 Linköping	 Westmansgatan 25	 Apoteket Kastanjen	 Grupp 1 (Apotek Hjärtat)
+Östergötland	 Linköping	 Linköping	 Tanneforsgatan 1	 Apoteket Shop Linköping	 Kvar i Apoteket AB
+Östergötland	 Norrköping	 Norrköping	 Hageby Centrum	 Apoteket Delfinen	 Grupp 2 (Kronans Droghandel)
+Östergötland	 Norrköping	 Norrköping	 Järngatan 6	 Apoteket Hermelinen	 Grupp 2 (Kronans Droghandel)
