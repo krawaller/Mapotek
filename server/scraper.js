@@ -71,7 +71,7 @@ module.exports = function scrape(requestOptions, callback, fetchOptions) {
 						$('body').append($(
 							str
 						).find('body').html());
-						callback(null, $, requestOptions['uri']);
+						callback(null, $, requestOptions['uri'], str);
 					});
 				} else {
 					callback(new Error('Request to '+requestOptions['uri']+' ended with status code: '+(typeof response !== 'undefined' ? response.statusCode : 'unknown')), null, null);
