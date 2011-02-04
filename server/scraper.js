@@ -12,7 +12,23 @@ var requestDefaults = {
 var fetchDefaults = {
 	'reqPerSec': 0
 };
-var jquery = fs.readFileSync('jquery.js').toString();
+var jquery = fs.readFileSync('jquery-1.4.4.min.js').toString();
+
+var running = 0,
+	timeout = 200,
+	concurrency = 4,
+	queue = [],
+	windows = [],
+	requests = 0;
+
+var window, tag;
+for(var i = 0; i < concurrency; i++){
+	window = jsdom.jsdom().createWindow();
+	tag = window.document.createElement("script");
+	tag.text = jquery;
+	windows.push(window);
+}
+
 module.exports = function scrape(requestOptions, callback, fetchOptions) {
 	if (!fetchOptions) {
 		fetchOptions = {};
@@ -26,20 +42,12 @@ module.exports = function scrape(requestOptions, callback, fetchOptions) {
 		}
 	});
 
-	var fetches = [];
-	var queue = [];
-
-	if (!Array.isArray(requestOptions)) {
-		fetches.push(requestOptions);
-	} else {
-		fetches = requestOptions;
-	}
-
-	fetches.forEach(function(requestOptions, index) {
+	(Array.isArray(requestOptions) ? requestOptions : [requestOptions]).forEach(function(requestOptions, index) {
 		queue.push(function() {
 			Object.keys(requestDefaults).forEach(function(key) {
 				requestOptions[key] = requestOptions[key] || requestDefaults[key];
 			});
+			//console.log('req', requestOptions);
 			if (typeof requestOptions === 'string') {
 				requestOptions = {
 					'uri': requestOptions
@@ -50,49 +58,39 @@ module.exports = function scrape(requestOptions, callback, fetchOptions) {
 				callback(new Error('You must supply an uri.'), null, null);
 			}
 
+			running++;
 			request(requestOptions, function (err, response, body) {
-				setTimeout(runNextFetch, timeSpacing);
+				setTimeout(runNextFetch, timeout);
 				if (err) {
 					callback(err, null, null);
 				}
-				if (response && response.statusCode == 200) {
-					//console.log(body);
-					var window = jsdom.jsdom().createWindow();
-					
+				if (response && response.statusCode == 200) {					
 					var str = body
 						.replace(/<\s*script/g, '<skript')
 						.replace(/<\s*\/\s*script/g, '</skript')
-						.replace(/\/\/\s*<!\[CDATA\[/g, '')
-						//.replace(/&#(\d)+/g, function($0, $1){ return String.fromCharCode($1) || ''; });
-					
-					//console.log(str.toString());
-					
-					jsdom.jQueryify(window, 'jquery.js', function(win, $) {
-						$('body').append($(
-							str
-						).find('body').html());
-						callback(null, $, requestOptions['uri'], str);
-					});
+						.replace(/\/\/\s*<!\[CDATA\[/g, '');
+					var $ = windows[requests%concurrency].jQuery;
+					$('body').html($(
+						str
+					).find('body').html());
+					callback(null, $, requestOptions['uri'],str);					
 				} else {
 					callback(new Error('Request to '+requestOptions['uri']+' ended with status code: '+(typeof response !== 'undefined' ? response.statusCode : 'unknown')), null, null);
 				}
+				requests++;
+				running--;
 			});
-		})
+		});
 	});
 
-	var concurrentConnections = !fetchOptions['reqPerSec'] ? queue.length : (Math.floor(fetchOptions['reqPerSec']) || 1);
-	var timeSpacing = !fetchOptions['reqPerSec'] ? 0 : 1000/fetchOptions['reqPerSec'];
-
-	for (var i=0; i < concurrentConnections; i++) {
-		runNextFetch(i);
+	//console.log('current queue: ' + queue.length);
+	for (var i=0; i < concurrency - running; i++) {
+		runNextFetch();
 	};
 
 	function runNextFetch(i) {
-		if (!i) {
-			i = 0;
-		}
-		if (queue[i]) {
-			queue[i]();
+		if (queue[0]) {
+			queue[0]();
 			queue.shift();
 		}
 	}

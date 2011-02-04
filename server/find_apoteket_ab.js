@@ -11,7 +11,7 @@ var pad = function(num, totalChars) {
     return num;
 };
 
-var i = 0, max = 9999;
+var i = 0, max = 3000;
 function req(){
 	var id = 'a'+pad(++i, 4)+'0001';
 	console.log('trying i: ' + i + ' => ' + id);
