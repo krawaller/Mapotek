@@ -7,7 +7,7 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Apotek Hjärtat" }, functi
 	doc.rows.forEach(function(row, i){
 		if(i != 0){ return; } // just one for now
 		var obj = row.value,
-			url =  'http://localhost/mapotek/server/tmp/parse_apotek_hjartat.html'; // should be obj.href
+			url =  'http://localhost/mapotek/server/tmp/parse_apotek_hjartat_2.html'; // should be obj.href
 		
 		scraper(url, function(err, $) {
 		    if (err) {throw err;}
