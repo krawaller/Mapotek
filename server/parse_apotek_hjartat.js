@@ -33,7 +33,8 @@ function parseStore(err, $) {
 			latitude: vcard.find("#pharmacy-lat").text(),
 			longitude: vcard.find("#pharmacy-long").text()
 		},
-		hours: {}
+		hours: {},
+		pic: $("div.image>img").eq(1).attr("src")
 	};
 	
 	ret.name = ret.address.street.replace(/\d/g,"").replace(/ *$/g,"")+" "+ret.address.city;
