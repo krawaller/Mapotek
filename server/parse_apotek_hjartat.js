@@ -34,7 +34,7 @@ function parseStore(err, $) {
 			longitude: vcard.find("#pharmacy-long").text()
 		},
 		hours: {},
-		pic: $("div.image>img").eq(1).attr("src")
+		pic: "http://www.apotekhjartat.se"+$("div.image>img").eq(1).attr("src")
 	};
 	
 	ret.name = ret.address.street.replace(/\d/g,"").replace(/ *$/g,"")+" "+ret.address.city;

@@ -6,6 +6,11 @@ Medstop verkar aldrig ha lunchrast, så inget stöd för det. Dock inte alltid a
 Saknar postnummer.
 */
 
+/*
+Ack! Vi är inte klara här! Medstop har inte en sida per apotek, utan en sida per STAD. En stadssida kan innehålla många apotek! :P
+
+*/
+
 
 var scraper = require('./scraper'),
 	CouchClient = require('./couch-client'),
