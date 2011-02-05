@@ -19,6 +19,15 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Vårdapoteket" }, function
 		errors.push("Couldn't find "+what+" in "+source);
 		return "";
 	}
+	function ensureOkString(what,str,errors, longisok){
+		if (!str){
+			errors.push("Couldn't find "+what+"!");
+		}
+		if (!longisok && str.length > 30){
+			errors.push(what+" is suspiciously long!");
+		}
+		return str || "";
+	}
 	doc.rows.forEach(function(row, i){
 		if(i != 0){ return; } // just one for now
 		var obj = row.value,
@@ -31,11 +40,11 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Vårdapoteket" }, function
 				namn: getMatch("Name",$("h1").text(),/Vårdapoteket, (.*)/,errors),
 				chain: "Vårdapoteket",
 				address: {
-					street: lis.eq(1).text().replace(/^\s*/g,"").replace(/\s*$/g,""),
+					street: ensureOkString("street",lis.eq(1).text().replace(/^\s*/g,"").replace(/\s*$/g,""),errors),
 					zipcode: getMatch("zipcode",lis.eq(2).text(),/(.*?),/,errors).replace(/\D/g,""),
 					city: getMatch("zipcode",lis.eq(2).text(),/,(.*)$/,errors).replace(/^\s*/g,"").replace(/\s*$/g,"")
 				},
-				phone:lis.eq(3).text().replace(/\D/g,""),
+				phone:ensureOkString("phone",lis.eq(3).text().replace(/\D/g,""),errors),
 				hours: {
 					monday: [],
 					tuesday: [],
@@ -50,7 +59,7 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Vårdapoteket" }, function
 					latitude: getMatch("latitude",iframesrc,/&ll=(.*?),/,errors),
 					longitude: getMatch("longitude",iframesrc,/&ll=[\d|\.]*,(.*?)&/,errors)
 				},
-				pic: "http://www.vardapoteket.se"+$("div.butik-images>img").attr("src")
+				pic: ensureOkString("picurl","http://www.vardapoteket.se"+$("div.butik-images>img").attr("src"),errors,true)
 			};
 			function addHours(key,time){
 				var matcher = {
@@ -68,7 +77,7 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Vårdapoteket" }, function
 					"vardagar": ["monday","tuesday","wednesday","thursday","friday"],
 					"mån-tors": ["monday","tuesday","wednesday","thursday"]
 				};
-				if (!key || !time){
+				if ((!key) || (!time)){
 					errors.push("Strange hours parsing! "+key+", "+time);
 					return;
 				}
@@ -76,7 +85,6 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Vårdapoteket" }, function
 				if (matcher[key]){
 					if (times && times.length == 2){
 						matcher[key].map(function(d){
-						//	console.log(d,times);
 							ret.hours[d].push(times);
 						});
 					}
@@ -91,7 +99,7 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Vårdapoteket" }, function
 				day = row.find("td").eq(0).text().toLowerCase();
 				time = row.find("td").eq(1).text().toLowerCase();
 				if (day !== "helgdagar"){
-					var multimatch = time.match(/[^,| ]{3,} \d?\d:\d\d.{0,}?\d?\d:\d\d/g)
+					var multimatch = time.match(/[^,| ]{3,} \d?\d:\d\d.{0,}?\d?\d:\d\d/g);
 					if (multimatch){ // morons have written lots of stuff in the same field (Ängelholm)
 						multimatch.map(function(m){
 							var multiday = getMatch("multikey",m,/\D{3,}/g,errors).replace(" ",""),
@@ -103,6 +111,9 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Vårdapoteket" }, function
 						addHours(day,time);
 					}
 				}
+			}
+			if (ret.hours.monday.length + ret.hours.tuesday.length + ret.hours.wednesday.length + ret.hours.thursday.length + ret.hours.friday.length + ret.hours.saturday.length + ret.hours.sunday.length < 1){
+				errors.push("No opening hours?!");
 			}
 			ret.errors = errors;			
 			console.log(ret);

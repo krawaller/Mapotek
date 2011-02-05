@@ -22,6 +22,15 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Apoteksgruppen" }, functio
 		errors.push("Couldn't find "+what+" in "+source);
 		return "";
 	}
+	function ensureOkString(what,str,errors, longisok){
+		if (!str){
+			errors.push("Couldn't find "+what+"!");
+		}
+		if (!longisok && str.length > 30){
+			errors.push(what+" is suspiciously long!");
+		}
+		return str || "";
+	}
 	doc.rows.forEach(function(row, i){
 		if(i != 0){ return; } // just one for now
 		var obj = row.value,
@@ -32,16 +41,16 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Apoteksgruppen" }, functio
 			var errors = [], ret, 
 				address = $(".toggletext > p").eq(1).find("span").text(),
 				dayrows = $(".toggletext > table > tr");
-			console.log(dayrows.length);
+			//console.log(dayrows.length);
 			ret = {
 				namn: $("h2 > span").eq(0).text().replace("Apoteket ",""),
 				chain: "Apoteksgruppen",
 				address: {
-					street: $("h2 > span").eq(2).text(),
+					street: ensureOkString("street",$("h2 > span").eq(2).text(),errors),
 					zipcode: getMatch("zipcode",address,/\d\d\d\s*\d\d/,errors),
-					city: $("h2 > span").eq(1).text()
+					city: ensureOkString("city",$("h2 > span").eq(1).text(),errors)
 				},
-				phone: $(".toggletext > p").eq(0).find("strong").text().replace(/\D/g,""),
+				phone: ensureOkString("phone",$(".toggletext > p").eq(0).find("strong").text().replace(/\D/g,""),errors),
 				hours: {
 					monday: [],
 					tuesday: [],
@@ -73,14 +82,14 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Apoteksgruppen" }, functio
 					timestr = tds.eq(2).find("strong").text();
 				if (rdays){
 					rdays.map(function(d){
-						console.log("OK, checking ",d,timestr);
+						//console.log("OK, checking ",d,timestr);
 						var spans = timestr.match(/\d\d:\d\d-\d\d:\d\d/g);
 						if (spans && spans.length){
 							spans.map(function(s){
 								var open = getMatch("open",s,/(\d\d:\d\d)-/,errors),
 									close = getMatch("open",s,/-(\d\d:\d\d)/,errors);
 								ret.hours[d].push([open,close]);
-								console.log(d,open,close);
+								//console.log(d,open,close);
 							});
 						}
 					});
@@ -88,6 +97,9 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Apoteksgruppen" }, functio
 				else {
 					errors.push("Unknown day "+day);
 				}
+			}
+			if (ret.hours.monday.length + ret.hours.tuesday.length + ret.hours.wednesday.length + ret.hours.thursday.length + ret.hours.friday.length + ret.hours.saturday.length + ret.hours.sunday.length < 1){
+				errors.push("No opening hours?!");
 			}
 			ret.errors = errors;			
 			console.log(ret);

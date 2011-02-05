@@ -13,7 +13,16 @@ Number.prototype.zp = function(n) { return this.toString().zp(n); };
 	
 var rTime = /([\d]{1,2}):([\d]{1,2})\s*-\s*([\d]{1,2}):([\d]{1,2})/g;	
 function parseStore(err, $) {
-    if (err) {throw err}
+	function ensureOkString(what,str,errors, longisok){
+		if (!str){
+			errors.push("Couldn't find "+what+"!");
+		}
+		if (!longisok && str.length > 30){
+			errors.push(what+" is suspiciously long!");
+		}
+		return str || "";
+	}
+    if (err) {throw err;}
 	var ret,
 		res = $('.hitta_001'),
 		d = ($('.hitta_001:eq(0) tr:eq(2) td:eq(0)').text().trim().match(/^([^\s]+)/)||[null,null])[1],
@@ -22,21 +31,22 @@ function parseStore(err, $) {
 		hours = res.eq(0).find('tr'),
 		addressParts = res.eq(2).find('p').text().trim().match(/([^\r\n]+)[\r\n\s]*(\d{5})\s*([^$]+)/)||[null,null,null,null],
 		pos = $('#googlemap img').attr('src').match(/markers=([\d.]+),([\d.]+)/)||[null,null,null],
-		s;
+		s,
+		errors = [];
 		
 	ret = {
-		name: $('.pagetitle h1').text().trim(),
+		name: ensureOkString("name",$('.pagetitle h1').text().trim(),errors),
 		chain: "Apoteket AB",
 		address: {
-			street: addressParts[1],
-			zipcode:  addressParts[2],
-			city:  addressParts[3]
+			street: ensureOkString("street",addressParts[1],errors),
+			zipcode:  ensureOkString("zipcode",addressParts[2],errors),
+			city:  ensureOkString("city",addressParts[3],errors)
 		},
 		coords: {
-			latitude: pos[1],
-			longitude: pos[2]
+			latitude: ensurOkString("latitude",pos[1],errors),
+			longitude: ensureOkString("longitude",pos[2],errors)
 		},
-		phone: res.eq(1).find('td:eq(1)').text().replace(/\D+/g, ''),
+		phone: ensureOkString("phone",res.eq(1).find('td:eq(1)').text().replace(/\D+/g, ''),errors),
 		hours: {}
 	};
 	
@@ -47,7 +57,10 @@ function parseStore(err, $) {
 		}
 		ret.hours[days[i]] = spans;
 	}
-	
+	if (ret.hours.monday.length + ret.hours.tuesday.length + ret.hours.wednesday.length + ret.hours.thursday.length + ret.hours.friday.length + ret.hours.saturday.length + ret.hours.sunday.length < 1){
+		errors.push("No opening hours?!");
+	}
+	ret.errors = errors;
 	apotek.save(ret);
 }
 

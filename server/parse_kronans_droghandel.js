@@ -19,6 +19,15 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Kronans Droghandel" }, fun
 		errors.push("Couldn't find "+what+" in "+source);
 		return "";
 	}
+	function ensureOkString(what,str,errors, longisok){
+		if (!str){
+			errors.push("Couldn't find "+what+"!");
+		}
+		if (!longisok && str.length > 30){
+			errors.push(what+" is suspiciously long!");
+		}
+		return str || "";
+	}
 	doc.rows.forEach(function(row, i){
 		if(i != 0){ return; } // just one for now
 		var obj = row.value,
@@ -28,7 +37,7 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Kronans Droghandel" }, fun
 		    if (err) {throw err;}
 			var errors = [], info = $(".apoteksinfo"), rows = info.contents(), ret, text = rows.text(), imgsrc = $(".apoteksinforight img").attr("src");
 			ret = {
-				namn: $("h1").eq(0).text(),
+				namn: ensureOkString("name",$("h1").eq(0).text(),errors),
 				chain: "Kronans Droghandel",
 				address: {
 					street: getMatch("Street",text,/Adress\r\n\s*(.*)?\s*\r\n/,errors).replace(/\s$|\u00a0|,/g,""),
@@ -36,7 +45,15 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Kronans Droghandel" }, fun
 					city: getMatch("city",text,/Adress\r\n.*\r\n.*\r\n(.*)\r\n/,errors).replace(/\s|\u00a0|,/g,"")
 				},
 				phone: getMatch("phone",text,/Tel:\s?(.*)\r\n/,errors).replace(/\s|\u00a0|,|\u2013/g,""),
-				hours: {},
+				hours: {
+					monday: [],
+					tuesday: [],
+					wednesday: [],
+					thursday: [],
+					friday: [],
+					saturday: [],
+					sunday: []
+				},
 				coords: {
 					latitude: getMatch("latitude",imgsrc,/markers=(.*?),/,errors),
 					longitude: getMatch("longitude",imgsrc,/markers=.*,(.*),/,errors)
@@ -67,6 +84,9 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Kronans Droghandel" }, fun
 					errors.push("Unknown day "+day);
 				}
 			});
+			if (ret.hours.monday.length + ret.hours.tuesday.length + ret.hours.wednesday.length + ret.hours.thursday.length + ret.hours.friday.length + ret.hours.saturday.length + ret.hours.sunday.length < 1){
+				errors.push("No opening hours?!");
+			}
 			ret.errors = errors;			
 			console.log(ret);
 		});

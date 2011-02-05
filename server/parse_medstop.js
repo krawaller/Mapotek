@@ -27,6 +27,15 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Medstop" }, function(err, 
 		errors.push("Couldn't find "+what+" in "+source);
 		return "";
 	}
+	function ensureOkString(what,str,errors, longisok){
+		if (!str){
+			errors.push("Couldn't find "+what+"!");
+		}
+		if (!longisok && str.length > 30){
+			errors.push(what+" is suspiciously long!");
+		}
+		return str || "";
+	}
 	doc.rows.forEach(function(row, i){
 		if(i != 0){ return; } // just one for now
 		var obj = row.value,
@@ -49,8 +58,8 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Medstop" }, function(err, 
 					city: getMatch("city",raw,/<br \/>.*?<br \/>(.*?)</,errors)
 				},
 				coords: {
-					latitude: coords[0],
-					longitude: coords[1]
+					latitude: ensureOkString("latitude",coords[0],errors),
+					longitude: ensureOkString("longitude",coords[1],errors)
 				},
 				hours: {
 					monday: [],
@@ -90,6 +99,9 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Medstop" }, function(err, 
 					errors.push("Unknown day "+day);
 				}
 			});
+			if (ret.hours.monday.length + ret.hours.tuesday.length + ret.hours.wednesday.length + ret.hours.thursday.length + ret.hours.friday.length + ret.hours.saturday.length + ret.hours.sunday.length < 1){
+				errors.push("No opening hours?!");
+			}
 			ret.errors = errors;
 			console.log(ret);
 		});

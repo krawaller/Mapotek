@@ -12,6 +12,15 @@ String.prototype.zp = function(n) { return '0'.times(n - this.length) + this; };
 Number.prototype.zp = function(n) { return this.toString().zp(n); };
 
 function parseStore(err, $) {
+	function ensureOkString(what,str,errors, longisok){
+		if (!str){
+			errors.push("Couldn't find "+what+"!");
+		}
+		if (!longisok && str.length > 30){
+			errors.push(what+" is suspiciously long!");
+		}
+		return str || "";
+	}
     if (err) {throw err;}
 	var ret = {},
 	    info = $(".pharmacy-information .content"),
@@ -20,21 +29,22 @@ function parseStore(err, $) {
 		times = info.eq(0),
 		hours = times.find("dd"),
 		offset = {"Söndag":3,"Måndag":4,"Tisdag":5,"Onsdag":6,"Torsdag":7,"Fredag":8,"Lördag":9}[times.find("dt").eq(2).text()],
-		days = ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"];
+		days = ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"],
+		errors = [];
 	ret = {
 		chain: "Apotek Hjärtat",
 		address: {
-			street: addr.find(".street-address").eq(0).text(),
-			zipcode: addr.find(".postal-code").eq(0).text(),
-			city: addr.find(".locality").eq(0).text()
+			street: ensureOkString("street",addr.find(".street-address").eq(0).text(),errors),
+			zipcode: ensureOkString("zipcode",addr.find(".postal-code").eq(0).text(),errors),
+			city: ensureOkString("city",addr.find(".locality").eq(0).text(),errors)
 		},
-		phone: vcard.find(".tel > span").text().replace(/\D/g,""),
+		phone: ensureOkString("phone",vcard.find(".tel > span").text().replace(/\D/g,""),errors),
 		coords: {
-			latitude: vcard.find("#pharmacy-lat").text(),
-			longitude: vcard.find("#pharmacy-long").text()
+			latitude: ensureOkString("latitude",vcard.find("#pharmacy-lat").text(),errors),
+			longitude: ensureOkString("longitude",vcard.find("#pharmacy-long").text(),errors)
 		},
 		hours: {},
-		pic: "http://www.apotekhjartat.se"+$("div.image>img").eq(1).attr("src")
+		pic: "http://www.apotekhjartat.se"+ensureOkString("picurl",$("div.image>img").eq(1).attr("src"),errors,true)
 	};
 	
 	ret.name = ret.address.street.replace(/\d/g,"").replace(/ *$/g,"")+" "+ret.address.city;
@@ -46,7 +56,10 @@ function parseStore(err, $) {
 		}
 		ret.hours[days[i]] = spans;
 	}
-	
+	if (ret.hours.monday.length + ret.hours.tuesday.length + ret.hours.wednesday.length + ret.hours.thursday.length + ret.hours.friday.length + ret.hours.saturday.length + ret.hours.sunday.length < 1){
+		errors.push("No opening hours?!");
+	}
+	ret.errors = errors;
 	apotek.save(ret);
 }
 
