@@ -51,7 +51,10 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Cura" }, function(err, doc
 				"Häggvik": ["59.438","17.9316"],
 				"Jönköping": ["57.7611","14.1678"],
 				"Hässleholm": ["56.164264","13.779902"],
-				"Högsbo": ["57.6509","11.9455"]
+				"Högsbo": ["57.6509","11.9455"],
+				"Karlskrona": ["56.1971","15.6407"],
+				"Kungsbacka": ["57.51639", "12.07514"], // eniro
+				"Kungälv": ["57.87452", "11.97350"] // eniro
 				// TODO - resten! :P
 			};
 			var errors = [], ret,
