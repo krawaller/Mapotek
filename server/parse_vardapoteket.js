@@ -37,7 +37,7 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Vårdapoteket" }, function
 		    if (err) {throw err;}
 			var errors = [], ret, lis = $("ul.adress>li"), iframesrc = $("iframe").attr("src");
 			ret = {
-				namn: getMatch("Name",$("h1").text(),/Vårdapoteket, (.*)/,errors),
+				name: getMatch("Name",$("h1").text(),/Vårdapoteket, (.*)/,errors),
 				chain: "Vårdapoteket",
 				address: {
 					street: ensureOkString("street",lis.eq(1).text().replace(/^\s*/g,"").replace(/\s*$/g,""),errors),

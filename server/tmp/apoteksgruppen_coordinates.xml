@@ -1,0 +1,1503 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Placemark>
+    <foretag>Apoteket Orren</foretag> 
+    <adress>Hammarbyvägen 6</adress> 
+    <postadress>373 00</postadress>
+    <ort>Jämjö</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Karlskrona</kommun> 
+    <lan>Blekinge</lan> 
+    <longitude>56.18940</longitude> 
+    <latitude>15.83340</latitude> 
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Gripen</foretag> 
+    <adress>Övre Brunnsvägen 2</adress> 
+    <postadress>372 36</postadress><ort>Ronneby</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Ronneby</kommun> 
+    <lan>Blekinge</lan> 
+    <longitude>56.20730</longitude> 
+    <latitude>15.27750</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Örnen</foretag> 
+    <adress>Johan Ahlbäcks plats 8</adress> 
+    <postadress>777 23</postadress><ort>Smedjebacken</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Smedjebacken</kommun> 
+    <lan>Dalarna</lan> 
+    <longitude>60.14200</longitude> 
+    <latitude>15.41380</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Vasagatan 2</adress> 
+    <postadress>795 30</postadress><ort>Rättvik</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Rättvik</kommun> 
+    <lan>Dalarna</lan> 
+    <longitude>60.88410</longitude> 
+    <latitude>15.11870</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Norslund-Origo</foretag> 
+    <adress>Kopparvägen 28</adress> 
+    <postadress>791 41</postadress><ort>Falun</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Falun</kommun> 
+    <lan>Dalarna</lan> 
+    <longitude>60.59910</longitude> 
+    <latitude>15.66630</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Hagagatan 30</adress> 
+    <postadress>623 51</postadress><ort>Hemse</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Gotland</kommun> 
+    <lan>Gotland</lan> 
+    <longitude>57.23920</longitude> 
+    <latitude>18.37140</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Cikorian</foretag> 
+    <adress>Visbyvägen 33</adress> 
+    <postadress>622 54</postadress><ort>Romakloster</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Gotland</kommun> 
+    <lan>Gotland</lan> 
+    <longitude>57.50540</longitude> 
+    <latitude>18.45570</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Svanen</foretag> 
+    <adress>G:a Bönavägen 19</adress> 
+    <postadress>806 46</postadress><ort>Gävle</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Gävle</kommun> 
+    <lan>Gävleborg</lan> 
+    <longitude>60.70620</longitude> 
+    <latitude>17.16280</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Solgårdsgatan 2</adress> 
+    <postadress>804 30</postadress><ort>Gävle</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Gävle</kommun> 
+    <lan>Gävleborg</lan> 
+    <longitude>60.67360</longitude> 
+    <latitude>17.21350</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Pilen</foretag> 
+    <adress>Sätra Centrum</adress> 
+    <postadress>806 32</postadress><ort>Gävle</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Gävle</kommun> 
+    <lan>Gävleborg</lan> 
+    <longitude>60.69180</longitude> 
+    <latitude>17.11690</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Tjädern</foretag> 
+    <adress>Lasarettleden</adress> 
+    <postadress>811 60</postadress><ort>Sandviken</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Sandviken</kommun> 
+    <lan>Gävleborg</lan> 
+    <longitude>60.60870</longitude> 
+    <latitude>16.75970</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Orren</foretag> 
+    <adress>Skolgatan 11</adress> 
+    <postadress>813 30</postadress><ort>Hofors</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Hofors</kommun> 
+    <lan>Gävleborg</lan> 
+    <longitude>60.54560</longitude> 
+    <latitude>16.28730</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Uttern</foretag> 
+    <adress>Vårdcentralen Fogdevägen 1</adress> 
+    <postadress>430 10</postadress><ort>Tvååker</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Varberg</kommun> 
+    <lan>Halland</lan> 
+    <longitude>57.04220</longitude> 
+    <latitude>12.40830</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Danska vägen 1</adress> 
+    <postadress>310 60</postadress><ort>Ullared</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Falkenberg</kommun> 
+    <lan>Halland</lan> 
+    <longitude>57.13690</longitude> 
+    <latitude>12.71580</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Biet</foretag> 
+    <adress>Vårdcentralen Ringvägen 11</adress> 
+    <postadress>432 67</postadress><ort>Veddige</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Varberg</kommun> 
+    <lan>Halland</lan> 
+    <longitude>57.26440</longitude> 
+    <latitude>12.32160</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Lärkan</foretag> 
+    <adress>Bäckagårds Vårdcentral</adress> 
+    <postadress>302 71</postadress><ort>Halmstad</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Halmstad</kommun> 
+    <lan>Halland</lan> 
+    <longitude>56.66260</longitude> 
+    <latitude>12.78180</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Ekorren</foretag> 
+    <adress>Doktorsgatan 4</adress> 
+    <postadress>310 44</postadress><ort>Getinge</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Halmstad</kommun> 
+    <lan>Halland</lan> 
+    <longitude>56.81620</longitude> 
+    <latitude>12.73540</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Tärnan</foretag> 
+    <adress>Tölövägen 7</adress> 
+    <postadress>434 40</postadress><ort>Kungsbacka</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Kungsbacka</kommun> 
+    <lan>Halland</lan> 
+    <longitude>57.49420</longitude> 
+    <latitude>12.08450</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Gladan</foretag> 
+    <adress>Västra Vallgatan 8A</adress> 
+    <postadress>432 44</postadress><ort>Varberg</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Varberg</kommun> 
+    <lan>Halland</lan> 
+    <longitude>57.10470</longitude> 
+    <latitude>12.24820</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Wildhussen</foretag> 
+    <adress>Centralgatan 24</adress> 
+    <postadress>840 70</postadress><ort>Hammarstrand</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Ragunda</kommun> 
+    <lan>Jämtland</lan> 
+    <longitude>63.10770</longitude> 
+    <latitude>16.35560</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Karolinen</foretag> 
+    <adress>Årevägen 51</adress> 
+    <postadress>830 13</postadress><ort>Åre</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Åre</kommun> 
+    <lan>Jämtland</lan> 
+    <longitude>63.39560</longitude> 
+    <latitude>13.08580</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Fjällbjörken</foretag> 
+    <adress>Gastkullevägen 1</adress> 
+    <postadress>830 05</postadress><ort>Järpen</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Åre</kommun> 
+    <lan>Jämtland</lan> 
+    <longitude>63.34740</longitude> 
+    <latitude>13.45840</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Ugglan</foretag> 
+    <adress>Tornfalksgatan 11</adress> 
+    <postadress>556 14</postadress><ort>Jönköping</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Jönköping</kommun> 
+    <lan>Jönköping</lan> 
+    <longitude>57.73860</longitude> 
+    <latitude>14.15080</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Rosenlund</foretag> 
+    <adress>Rosenlunds vårdcentrum</adress> 
+    <postadress>551 85</postadress><ort>Jönköping</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Jönköping</kommun> 
+    <lan>Jönköping</lan> 
+    <longitude>57.77780</longitude> 
+    <latitude>14.20690</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Enen</foretag> 
+    <adress>Torggatan 4-6</adress> 
+    <postadress>333 30</postadress><ort>Smålandsstenar</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Gislaved</kommun> 
+    <lan>Jönköping</lan> 
+    <longitude>57.16380</longitude> 
+    <latitude>13.41170</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Tranan</foretag> 
+    <adress>Järnvägsgatan 49</adress> 
+    <postadress>335 32</postadress><ort>Gnosjö</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Gnosjö</kommun> 
+    <lan>Jönköping</lan> 
+    <longitude>57.35590</longitude> 
+    <latitude>13.74020</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Hinden</foretag> 
+    <adress>Linnégatan 7</adress> 
+    <postadress>567 30</postadress><ort>Vaggeryd</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Vaggeryd</kommun> 
+    <lan>Jönköping</lan> 
+    <longitude>57.49750</longitude> 
+    <latitude>14.14770</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Mården</foretag> 
+    <adress>Storgatan 51</adress> 
+    <postadress>578 23</postadress><ort>Aneby</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Aneby</kommun> 
+    <lan>Jönköping</lan> 
+    <longitude>57.83930</longitude> 
+    <latitude>14.81780</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Häradshövdingegatan 3</adress> 
+    <postadress>383 30</postadress><ort>Mönsterås</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Mönsterås</kommun> 
+    <lan>Kalmar</lan> 
+    <longitude>57.04090</longitude> 
+    <latitude>16.44470</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Linnean</foretag> 
+    <adress>Järnvägsgatan 26</adress> 
+    <postadress>361 30</postadress><ort>Emmaboda</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Emmaboda</kommun> 
+    <lan>Kalmar</lan> 
+    <longitude>56.63040</longitude> 
+    <latitude>15.53830</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Hjorten</foretag> 
+    <adress>Storgatan 14</adress> 
+    <postadress>387 31</postadress><ort>Borgholm</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Borgholm</kommun> 
+    <lan>Kalmar</lan> 
+    <longitude>56.87940</longitude> 
+    <latitude>16.65480</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Lejonet</foretag> 
+    <adress>Västra Sjögatan 22</adress> 
+    <postadress>392 32</postadress><ort>Kalmar</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Kalmar</kommun> 
+    <lan>Kalmar</lan> 
+    <longitude>56.66490</longitude> 
+    <latitude>16.36480</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Näktergalen</foretag> 
+    <adress>Ölands Köpstad</adress> 
+    <postadress>386 31</postadress><ort>Färjestaden</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Mörbylånga</kommun> 
+    <lan>Kalmar</lan> 
+    <longitude>56.65190</longitude> 
+    <latitude>16.46970</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Teleborg</foretag> 
+    <adress>Vallviksvägen 1</adress> 
+    <postadress>350 05</postadress><ort>Växjö</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Växjö</kommun> 
+    <lan>Kronoberg</lan> 
+    <longitude>56.85510</longitude> 
+    <latitude>14.82010</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Ripan</foretag> 
+    <adress>Olofsgatan 11</adress> 
+    <postadress>360 70</postadress><ort>Åseda</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Uppvidinge</kommun> 
+    <lan>Kronoberg</lan> 
+    <longitude>57.17030</longitude> 
+    <latitude>15.34420</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Älgen</foretag> 
+    <adress>Storgatan 31</adress> 
+    <postadress>360 73</postadress><ort>Lenhovda</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Uppvidinge</kommun> 
+    <lan>Kronoberg</lan> 
+    <longitude>56.99680</longitude> 
+    <latitude>15.28770</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Strandgatan 10</adress> 
+    <postadress>952 33</postadress><ort>Kalix</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Kalix</kommun> 
+    <lan>Norrbotten</lan> 
+    <longitude>65.85520</longitude> 
+    <latitude>23.13950</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Älgen</foretag> 
+    <adress>Storgatan 15</adress> 
+    <postadress>982 31</postadress><ort>Gällivare</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Gällivare</kommun> 
+    <lan>Norrbotten</lan> 
+    <longitude>67.13470</longitude> 
+    <latitude>20.66110</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Akkjan</foretag> 
+    <adress>Storgatan 40</adress> 
+    <postadress>962 32</postadress><ort>Jokkmokk</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Jokkmokk</kommun> 
+    <lan>Norrbotten</lan> 
+    <longitude>66.60560</longitude> 
+    <latitude>19.82970</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Lavskrikan</foretag> 
+    <adress>Ugglegatan 14</adress> 
+    <postadress>961 73</postadress><ort>Boden</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Boden</kommun> 
+    <lan>Norrbotten</lan> 
+    <longitude>65.81780</longitude> 
+    <latitude>21.70710</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Tärnan</foretag> 
+    <adress>Storhedsvägen 1</adress> 
+    <postadress>973 45</postadress><ort>Luleå</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Luleå</kommun> 
+    <lan>Norrbotten</lan> 
+    <longitude>65.61850</longitude> 
+    <latitude>22.04160</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Björnen</foretag> 
+    <adress>Drottninggatan 14</adress> 
+    <postadress>251 10</postadress><ort>Helsingborg</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Helsingborg</kommun> 
+    <lan>Skåne</lan> 
+    <longitude>56.04750</longitude> 
+    <latitude>12.69260</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Linden</foretag> 
+    <adress>Herrevadsgatan 11</adress> 
+    <postadress>268 22</postadress><ort>Svalöv</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Svalöv</kommun> 
+    <lan>Skåne</lan> 
+    <longitude>55.91440</longitude> 
+    <latitude>13.10670</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Bjuv</foretag> 
+    <adress>Mejerigatan 1B</adress> 
+    <postadress>267 34</postadress><ort>Bjuv</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Bjuv</kommun> 
+    <lan>Skåne</lan> 
+    <longitude>56.08530</longitude> 
+    <latitude>12.91620</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Vågen</foretag> 
+    <adress>Vikingavägen 1</adress> 
+    <postadress>237 22</postadress><ort>Bjärred</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Lomma</kommun> 
+    <lan>Skåne</lan> 
+    <longitude>55.72220</longitude> 
+    <latitude>13.02620</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Måsen</foretag> 
+    <adress>Kirsebergstorg 15</adress> 
+    <postadress>212 20</postadress><ort>Malmö</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Malmö</kommun> 
+    <lan>Skåne</lan> 
+    <longitude>55.60920</longitude> 
+    <latitude>13.03680</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Pilen</foretag> 
+    <adress>Östergatan 7</adress> 
+    <postadress>235 33</postadress><ort>Vellinge</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Vellinge</kommun> 
+    <lan>Skåne</lan> 
+    <longitude>55.46980</longitude> 
+    <latitude>13.02260</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Flädern</foretag> 
+    <adress>Köpmannagatan 22</adress> 
+    <postadress>296 31</postadress><ort>Åhus</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Kristianstad</kommun> 
+    <lan>Skåne</lan> 
+    <longitude>55.92520</longitude> 
+    <latitude>14.29900</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Hjorten</foretag> 
+    <adress>Brunnsviksvägen 2</adress> 
+    <postadress>277 50</postadress><ort>Brösarp</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Tomelilla</kommun> 
+    <lan>Skåne</lan> 
+    <longitude>55.72540</longitude> 
+    <latitude>14.10030</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Storken</foretag> 
+    <adress>Köpmangatan 2</adress> 
+    <postadress>276 30</postadress><ort>Borrby</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Simrishamn</kommun> 
+    <lan>Skåne</lan> 
+    <longitude>55.45820</longitude> 
+    <latitude>14.18040</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Lejonet</foretag> 
+    <adress>Storgatan 14B</adress> 
+    <postadress>272 31</postadress><ort>Simrishamn</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Simrishamn</kommun> 
+    <lan>Skåne</lan> 
+    <longitude>55.55680</longitude> 
+    <latitude>14.35090</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Klinten</foretag> 
+    <adress>Esplanaden 11</adress> 
+    <postadress>265 34</postadress><ort>Åstorp</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Åstorp</kommun> 
+    <lan>Skåne</lan> 
+    <longitude>56.13580</longitude> 
+    <latitude>12.94940</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Graniten</foretag> 
+    <adress>Bokelundsgatan 5</adress> 
+    <postadress>280 70</postadress><ort>Lönsboda</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Osby</kommun> 
+    <lan>Skåne</lan> 
+    <longitude>56.39810</longitude> 
+    <latitude>14.31850</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Lärkan</foretag> 
+    <adress>Påls väg 2</adress> 
+    <postadress>289 31</postadress><ort>Knislinge</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Östra Göinge</kommun> 
+    <lan>Skåne</lan> 
+    <longitude>56.19300</longitude> 
+    <latitude>14.08910</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Stora gatan 56</adress> 
+    <postadress>193 30</postadress><ort>Sigtuna</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Sigtuna</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.61580</longitude> 
+    <latitude>17.71960</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Flygplatsapoteket Arlanda</foretag> 
+    <adress>Sky City Arlanda Flygplats</adress> 
+    <postadress>190 46</postadress><ort>Stockholm</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Sigtuna</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.64970</longitude> 
+    <latitude>17.92920</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Draken</foretag> 
+    <adress>Karlbergsvägen 43B</adress> 
+    <postadress>113 37</postadress><ort>Stockholm</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Stockholm</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.34230</longitude> 
+    <latitude>18.03750</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Najaden</foretag> 
+    <adress>Bergshamra torg</adress> 
+    <postadress>170 72</postadress><ort>Solna</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Solna</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.37930</longitude> 
+    <latitude>18.03700</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Skeppet</foretag> 
+    <adress>Eskadervägen 4</adress> 
+    <postadress>183 54</postadress><ort>Täby</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Täby</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.43060</longitude> 
+    <latitude>18.09430</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Lotsen</foretag> 
+    <adress>Hamngatan 14</adress> 
+    <postadress>185 32</postadress><ort>Vaxholm</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Vaxholm</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.40250</longitude> 
+    <latitude>18.35340</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Tre Rosor</foretag> 
+    <adress>Vendevägen 14</adress> 
+    <postadress>182 69</postadress><ort>Djursholm</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Danderyd</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.39790</longitude> 
+    <latitude>18.08780</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Vallmon</foretag> 
+    <adress>Kung Hans väg 12B</adress> 
+    <postadress>192 68</postadress><ort>Sollentuna</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Sollentuna</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.47530</longitude> 
+    <latitude>17.91370</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Löwenströmska sjukhuset</foretag> 
+    <adress>Löwenströmska sjukhuset</adress> 
+    <postadress>194 89</postadress><ort>Upplands Väsby</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Upplands-Väsby</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.54490</longitude> 
+    <latitude>17.90920</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Vipan</foretag> 
+    <adress>Hammargatan 5</adress> 
+    <postadress>195 03</postadress><ort>Märsta</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Sigtuna</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.61610</longitude> 
+    <latitude>17.82870</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Elgen</foretag> 
+    <adress>Drottning Kristinas väg 1</adress> 
+    <postadress>114 28</postadress><ort>Stockholm</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Stockholm</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.34610</longitude> 
+    <latitude>18.07110</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket S:t Erik</foretag> 
+    <adress>Polhemsgatan 50</adress> 
+    <postadress>112 30</postadress><ort>Stockholm</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Stockholm</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.33480</longitude> 
+    <latitude>18.03980</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Myran</foretag> 
+    <adress>Gullmarsplan 1</adress> 
+    <postadress>121 40</postadress><ort>Johanneshov</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Stockholm</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.29850</longitude> 
+    <latitude>18.08050</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Uttern</foretag> 
+    <adress>Hjälmarsvägen 26</adress> 
+    <postadress>120 53</postadress><ort>Årsta</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Stockholm</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.29760</longitude> 
+    <latitude>18.05280</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Delfinen</foretag> 
+    <adress>Nacka Närsjukhus Lasarettsvägen 4</adress> 
+    <postadress>131 83</postadress><ort>Nacka</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Nacka</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.31190</longitude> 
+    <latitude>18.19710</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Baggen</foretag> 
+    <adress>Saltsjöbaden Centrum</adress> 
+    <postadress>133 31</postadress><ort>Saltsjöbaden</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Nacka</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.28550</longitude> 
+    <latitude>18.27610</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Tumlaren</foretag> 
+    <adress>Orminge Centrum</adress> 
+    <postadress>132 22</postadress><ort>Saltsjö-Boo</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Nacka</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.32660</longitude> 
+    <latitude>18.25740</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Näktergalen</foretag> 
+    <adress>Sköndalsvägen 87</adress> 
+    <postadress>128 07</postadress><ort>Sköndal</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Stockholm</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.25580</longitude> 
+    <latitude>18.11480</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Hjorten</foretag> 
+    <adress>Hallonbergens centrum</adress> 
+    <postadress>174 52</postadress><ort>Sundbyberg</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Sundbyberg</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.37580</longitude> 
+    <latitude>17.96850</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Fenix</foretag> 
+    <adress>Bro Centrum</adress> 
+    <postadress>197 31</postadress><ort>Bro</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Upplands-Bro</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.51610</longitude> 
+    <latitude>17.64380</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Åkermyntan</foretag> 
+    <adress>Åkermyntans Centrum</adress> 
+    <postadress>165 11</postadress><ort>Hässelby</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Stockholm</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.38010</longitude> 
+    <latitude>17.81670</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Tranan</foretag> 
+    <adress>Tranebergsplan 1</adress> 
+    <postadress>167 44</postadress><ort>Bromma</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Stockholm</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.33510</longitude> 
+    <latitude>17.97830</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Grävlingen</foretag> 
+    <adress>Edvard Griegsgången 11</adress> 
+    <postadress>164 32</postadress><ort>Kista</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Stockholm</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.40970</longitude> 
+    <latitude>17.92560</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Orren</foretag> 
+    <adress>Telefonplan</adress> 
+    <postadress>126 37</postadress><ort>Hägersten</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Stockholm</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.29860</longitude> 
+    <latitude>17.99730</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Misteln</foretag> 
+    <adress>Storgatan 11</adress> 
+    <postadress>153 21</postadress><ort>Järna</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Södertälje</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.08920</longitude> 
+    <latitude>17.56630</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Hägern</foretag> 
+    <adress>Säby Torg 6</adress> 
+    <postadress>144 30</postadress><ort>Rönninge</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Salem</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.20140</longitude> 
+    <latitude>17.76680</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Mullvaden</foretag> 
+    <adress>Kvällsvägen 5</adress> 
+    <postadress>146 31</postadress><ort>Tullinge</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Botkyrka</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.20550</longitude> 
+    <latitude>17.90730</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Hägern</foretag> 
+    <adress>Värtavägen 55</adress> 
+    <postadress>115 38</postadress><ort>Stockholm</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Stockholm</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.34690</longitude> 
+    <latitude>18.10180</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Orfeus</foretag> 
+    <adress>Holländargatan 4</adress> 
+    <postadress>111 36</postadress><ort>Stockholm</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Stockholm</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.33580</longitude> 
+    <latitude>18.06130</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Trollsländan</foretag> 
+    <adress>Kumla Allé 3</adress> 
+    <postadress>135 53</postadress><ort>Tyresö</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Tyresö</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.22240</longitude> 
+    <latitude>18.20130</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Nyckelpigan</foretag> 
+    <adress>Hammarby allé 91</adress> 
+    <postadress>120 63</postadress><ort>Stockholm</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Stockholm</kommun> 
+    <lan>Stockholm</lan> 
+    <longitude>59.30400</longitude> 
+    <latitude>18.09280</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Bondegatan 8-10</adress> 
+    <postadress>643 30</postadress><ort>Vingåker</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Vingåker</kommun> 
+    <lan>Södermanland</lan> 
+    <longitude>59.04300</longitude> 
+    <latitude>15.87280</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Katten</foretag> 
+    <adress>Marieströmsgatan 6</adress> 
+    <postadress>646 31</postadress><ort>Gnesta</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Gnesta</kommun> 
+    <lan>Södermanland</lan> 
+    <longitude>59.04760</longitude> 
+    <latitude>17.31000</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Högbergsgatan 27</adress> 
+    <postadress>619 33</postadress><ort>Trosa</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Trosa</kommun> 
+    <lan>Södermanland</lan> 
+    <longitude>58.89640</longitude> 
+    <latitude>17.54980</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Ejdern</foretag> 
+    <adress>Järntorget 2</adress> 
+    <postadress>613 30</postadress><ort>Oxelösund</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Oxelösund</kommun> 
+    <lan>Södermanland</lan> 
+    <longitude>58.66930</longitude> 
+    <latitude>17.10440</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Vårdcentralen</adress> 
+    <postadress>647 31</postadress><ort>Mariefred</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Strängnäs</kommun> 
+    <lan>Södermanland</lan> 
+    <longitude>59.26480</longitude> 
+    <latitude>17.21650</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Uplands Vapen</foretag> 
+    <adress>Svavagallerian</adress> 
+    <postadress>753 20</postadress><ort>Uppsala</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Uppsala</kommun> 
+    <lan>Uppsala</lan> 
+    <longitude>59.85820</longitude> 
+    <latitude>17.64340</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Mården</foretag> 
+    <adress>Ängbyvägen 8</adress> 
+    <postadress>741 30</postadress><ort>Knivsta</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Knivsta</kommun> 
+    <lan>Uppsala</lan> 
+    <longitude>59.72540</longitude> 
+    <latitude>17.78450</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Svartbäcken</foretag> 
+    <adress>Svartbäcksgatan 52A</adress> 
+    <postadress>750 16</postadress><ort>Uppsala</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Uppsala</kommun> 
+    <lan>Uppsala</lan> 
+    <longitude>59.86820</longitude> 
+    <latitude>17.62640</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Furan</foretag> 
+    <adress>Lillängsgatan 8</adress> 
+    <postadress>814 22</postadress><ort>Skutskär</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Älvkarleby</kommun> 
+    <lan>Uppsala</lan> 
+    <longitude>60.62610</longitude> 
+    <latitude>17.41290</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Brogatan 16</adress> 
+    <postadress>744 32</postadress><ort>Heby</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Heby</kommun> 
+    <lan>Uppsala</lan> 
+    <longitude>59.94210</longitude> 
+    <latitude>16.86190</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Liljan</foretag> 
+    <adress>Rapsgatan 1K</adress> 
+    <postadress>753 23</postadress><ort>Uppsala</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Uppsala</kommun> 
+    <lan>Uppsala</lan> 
+    <longitude>59.84600</longitude> 
+    <latitude>17.69230</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Ulven</foretag> 
+    <adress>Skolgatan 3A</adress> 
+    <postadress>660 60</postadress><ort>Molkom</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Karlstad</kommun> 
+    <lan>Värmland</lan> 
+    <longitude>59.5996</longitude> 
+    <latitude>13.7219</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Fyren</foretag> 
+    <adress>Åråsvägen 1</adress> 
+    <postadress>663 30</postadress><ort>Skoghall</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Hammarö</kommun> 
+    <lan>Värmland</lan> 
+    <longitude>59.32470</longitude> 
+    <latitude>13.46550</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Humlan</foretag> 
+    <adress>Hälsans hus Hammargatan 3</adress> 
+    <postadress>688 30</postadress><ort>Storfors</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Storfors</kommun> 
+    <lan>Värmland</lan> 
+    <longitude>59.53170</longitude> 
+    <latitude>14.27700</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Viktoriagatan 3</adress> 
+    <postadress>682 30</postadress><ort>Filipstad</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Filipstad</kommun> 
+    <lan>Värmland</lan> 
+    <longitude>59.71310</longitude> 
+    <latitude>14.17100</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Vågen</foretag> 
+    <adress>Våxnäs Centrum</adress> 
+    <postadress>653 44</postadress><ort>Karlstad</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Karlstad</kommun> 
+    <lan>Värmland</lan> 
+    <longitude>59.38460</longitude> 
+    <latitude>13.46350</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Rönnen</foretag> 
+    <adress>Rudstorget 5</adress> 
+    <postadress>650 07</postadress><ort>Karlstad</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Karlstad</kommun> 
+    <lan>Värmland</lan> 
+    <longitude>59.40520</longitude> 
+    <latitude>13.51830</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Nornan</foretag> 
+    <adress>Storgatan 74</adress> 
+    <postadress>935 32</postadress><ort>Norsjö</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Norsjö</kommun> 
+    <lan>Västerbotten</lan> 
+    <longitude>64.91380</longitude> 
+    <latitude>19.47970</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Myran</foretag> 
+    <adress>Storgatan 19</adress> 
+    <postadress>930 70</postadress><ort>Malå</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Malå</kommun> 
+    <lan>Västerbotten</lan> 
+    <longitude>65.18150</longitude> 
+    <latitude>18.74290</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Tallen</foretag> 
+    <adress>Sundsvägen 13</adress> 
+    <postadress>892 33</postadress><ort>Domsjö</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Örnsköldsvik</kommun> 
+    <lan>Västernorrland</lan> 
+    <longitude>63.26580</longitude> 
+    <latitude>18.69070</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Lokatten Granlo</foretag> 
+    <adress>Västra Vägen 50</adress> 
+    <postadress>857 40</postadress><ort>Sundsvall</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Sundsvall</kommun> 
+    <lan>Västernorrland</lan> 
+    <longitude>62.40400</longitude> 
+    <latitude>17.25510</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Humlan</foretag> 
+    <adress>Repslagargatan 1-2</adress> 
+    <postadress>724 60</postadress><ort>Västerås</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Västerås</kommun> 
+    <lan>Västmanland</lan> 
+    <longitude>59.60600</longitude> 
+    <latitude>16.53200</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Engelbrektsgatan 50</adress> 
+    <postadress>738 30</postadress><ort>Norberg</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Norberg</kommun> 
+    <lan>Västmanland</lan> 
+    <longitude>60.06270</longitude> 
+    <latitude>15.92610</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Vipan</foretag> 
+    <adress>Malmgatan 36</adress> 
+    <postadress>532 32</postadress><ort>Skara</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Skara</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>58.39201</longitude> 
+    <latitude>13.42995</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Aspen</foretag> 
+    <adress>Doktorsvägen 3</adress> 
+    <postadress>533 21</postadress><ort>Götene</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Götene</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>58.52750</longitude> 
+    <latitude>13.49360</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Affärsvägen 1</adress> 
+    <postadress>457 30</postadress><ort>Tanumshede</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Tanum</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>58.72330</longitude> 
+    <latitude>11.32360</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Sälen</foretag> 
+    <adress>Nestorsvägen 9</adress> 
+    <postadress>450 71</postadress><ort>Fjällbacka</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Tanum</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>58.59680</longitude> 
+    <latitude>11.29240</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Vipan</foretag> 
+    <adress>Vårdcentralen Uppegårdsgatan 2</adress> 
+    <postadress>516 34</postadress><ort>Dalsjöfors</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Borås</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>57.71410</longitude> 
+    <latitude>13.09260</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Tranan</foretag> 
+    <adress>Tärnavägen 6</adress> 
+    <postadress>513 33</postadress><ort>Fristad</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Borås</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>57.82610</longitude> 
+    <latitude>13.01090</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Svalan</foretag> 
+    <adress>Torggatan 1</adress> 
+    <postadress>512 22</postadress><ort>Svenljunga</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Svenljunga</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>57.49620</longitude> 
+    <latitude>13.11230</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Axet</foretag> 
+    <adress>Centrumgatan 2</adress> 
+    <postadress>447 31</postadress><ort>Vårgårda</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Vårgårda</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>58.03230</longitude> 
+    <latitude>12.81070</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Lärkan</foretag> 
+    <adress>Torpavägen 23</adress> 
+    <postadress>462 36</postadress><ort>Vänersborg</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Vänersborg</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>58.36750</longitude> 
+    <latitude>12.33400</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kaprifolen</foretag> 
+    <adress>Norgårdsvägen 10</adress> 
+    <postadress>475 32</postadress><ort>Öckerö</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Öckerö</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>57.70810</longitude> 
+    <latitude>11.65490</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Tallen</foretag> 
+    <adress>Vallhamra Torg 5</adress> 
+    <postadress>433 65</postadress><ort>Sävedalen</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Partille</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>57.72010</longitude> 
+    <latitude>12.07030</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Atomen</foretag> 
+    <adress>Bergsgårdsgärdet 89B</adress> 
+    <postadress>424 02</postadress><ort>Angered</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Göteborg</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>57.76880</longitude> 
+    <latitude>12.01890</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Trasten</foretag> 
+    <adress>Munkebäckstorget 7</adress> 
+    <postadress>416 73</postadress><ort>Göteborg</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Göteborg</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>57.71920</longitude> 
+    <latitude>12.02620</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Duvan</foretag> 
+    <adress>Amund Grefwegatan 5</adress> 
+    <postadress>411 31</postadress><ort>Göteborg</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Göteborg</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>57.69290</longitude> 
+    <latitude>11.97280</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Svalan</foretag> 
+    <adress>Eklandagatan 76</adress> 
+    <postadress>412 61</postadress><ort>Göteborg</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Göteborg</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>57.68630</longitude> 
+    <latitude>11.98620</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Hjorten</foretag> 
+    <adress>Karl Johansgatan 72</adress> 
+    <postadress>414 55</postadress><ort>Göteborg</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Göteborg</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>57.69390</longitude> 
+    <latitude>11.92010</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Stenbocken</foretag> 
+    <adress>Tuve torg 9</adress> 
+    <postadress>417 45</postadress><ort>Göteborg</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Göteborg</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>57.75510</longitude> 
+    <latitude>11.92690</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Vipan</foretag> 
+    <adress>Långedragsvägen 134</adress> 
+    <postadress>426 05</postadress><ort>Västra Frölunda</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Göteborg</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>57.66990</longitude> 
+    <latitude>11.87210</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kärra</foretag> 
+    <adress>Kärraplatsen 16</adress> 
+    <postadress>425 34</postadress><ort>Hisings Kärra</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Göteborg</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>57.79430</longitude> 
+    <latitude>11.98780</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Fyren</foretag> 
+    <adress>Sundsbyvägen 1</adress> 
+    <postadress>471 94</postadress><ort>Kållekärr</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Tjörn</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>58.02460</longitude> 
+    <latitude>11.65900</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Ytterby</foretag> 
+    <adress>Lekmannagatan 2</adress> 
+    <postadress>442 50</postadress><ort>Ytterby</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Kungälv</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>57.86110</longitude> 
+    <latitude>11.92300</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Ejdern</foretag> 
+    <adress>Opalgatan 79</adress> 
+    <postadress>421 62</postadress><ort>Västra Frölunda</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Göteborg</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>57.63860</longitude> 
+    <latitude>11.89780</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Överby</foretag> 
+    <adress>SIBA-huset Överby</adress> 
+    <postadress>461 70</postadress><ort>Trollhättan</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Trollhättan</kommun> 
+    <lan>Västra Götaland</lan> 
+    <longitude>58.31230</longitude> 
+    <latitude>12.30630</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Adolfsbergs VC</foretag> 
+    <adress>Lindhultsvägen 2</adress> 
+    <postadress>702 30</postadress><ort>Örebro</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Örebro</kommun> 
+    <lan>Örebro</lan> 
+    <longitude>59.23910</longitude> 
+    <latitude>15.16070</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Storgatan 21B</adress> 
+    <postadress>716 30</postadress><ort>Fjugesta</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Lekeberg</kommun> 
+    <lan>Örebro</lan> 
+    <longitude>59.17410</longitude> 
+    <latitude>14.87240</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Humlan</foretag> 
+    <adress>Haga Centrum</adress> 
+    <postadress>700 14</postadress><ort>Örebro</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Örebro</kommun> 
+    <lan>Örebro</lan> 
+    <longitude>59.27430</longitude> 
+    <latitude>15.16850</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Vasen</foretag> 
+    <adress>Sundsbrogatan 12</adress> 
+    <postadress>696 30</postadress><ort>Askersund</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Askersund</kommun> 
+    <lan>Örebro</lan> 
+    <longitude>58.87930</longitude> 
+    <latitude>14.90350</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Bävern</foretag> 
+    <adress>Stationsvägen 1</adress> 
+    <postadress>712 30</postadress><ort>Hällefors</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Hällefors</kommun> 
+    <lan>Örebro</lan> 
+    <longitude>59.78340</longitude> 
+    <latitude>14.52060</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Prästgatan 8B</adress> 
+    <postadress>713 31</postadress><ort>Nora</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Nora</kommun> 
+    <lan>Örebro</lan> 
+    <longitude>59.52010</longitude> 
+    <latitude>15.04040</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Hinden</foretag> 
+    <adress>Boglundsgatan 2</adress> 
+    <postadress>701 19</postadress><ort>Örebro</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Örebro</kommun> 
+    <lan>Örebro</lan> 
+    <longitude>59.29920</longitude> 
+    <latitude>15.18630</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Wasen</foretag> 
+    <adress>Stora Torget 9</adress> 
+    <postadress>582 19</postadress><ort>Linköping</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Linköping</kommun> 
+    <lan>Östergötland</lan> 
+    <longitude>58.41090</longitude> 
+    <latitude>15.62200</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Gyllene Axet</foretag> 
+    <adress>Nya Tanneforsvägen 60</adress> 
+    <postadress>582 42</postadress><ort>Linköping</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Linköping</kommun> 
+    <lan>Östergötland</lan> 
+    <longitude>58.40580</longitude> 
+    <latitude>15.64240</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Eken</foretag> 
+    <adress>Berga Centrum</adress> 
+    <postadress>587 35</postadress><ort>Linköping</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Linköping</kommun> 
+    <lan>Östergötland</lan> 
+    <longitude>58.39200</longitude> 
+    <latitude>15.64420</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Svalan</foretag> 
+    <adress>Evastigen 9</adress> 
+    <postadress>590 71</postadress><ort>Ljungsbro</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Linköping</kommun> 
+    <lan>Östergötland</lan> 
+    <longitude>58.50850</longitude> 
+    <latitude>15.50400</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Gripen</foretag> 
+    <adress>Stora Torget 2</adress> 
+    <postadress>590 40</postadress><ort>Kisa</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Kinda</kommun> 
+    <lan>Östergötland</lan> 
+    <longitude>57.98720</longitude> 
+    <latitude>15.63320</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kopparormen</foretag> 
+    <adress>Adelsvärdsgatan 4A</adress> 
+    <postadress>597 30</postadress><ort>Åtvidaberg</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Åtvidaberg</kommun> 
+    <lan>Östergötland</lan> 
+    <longitude>58.20200</longitude> 
+    <latitude>15.99840</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Eken</foretag> 
+    <adress>Munkvägen 13</adress> 
+    <postadress>618 30</postadress><ort>Kolmården</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Norrköping</kommun> 
+    <lan>Östergötland</lan> 
+    <longitude>58.66900</longitude> 
+    <latitude>16.36370</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Mården</foretag> 
+    <adress>Nyköpingsvägen 21</adress> 
+    <postadress>616 30</postadress><ort>Åby</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Norrköping</kommun> 
+    <lan>Östergötland</lan> 
+    <longitude>58.66550</longitude> 
+    <latitude>16.18080</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Östgöta Lejon</foretag> 
+    <adress>Kungsgatan 36</adress> 
+    <postadress>602 20</postadress><ort>Norrköping</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Norrköping</kommun> 
+    <lan>Östergötland</lan> 
+    <longitude>58.59100</longitude> 
+    <latitude>16.17800</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Ripan</foretag> 
+    <adress>Kneipgatan 4</adress> 
+    <postadress>602 36</postadress><ort>Norrköping</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Norrköping</kommun> 
+    <lan>Östergötland</lan> 
+    <longitude>58.58560</longitude> 
+    <latitude>16.16270</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Hagatorget 1</adress> 
+    <postadress>614 30</postadress><ort>Söderköping</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Söderköping</kommun> 
+    <lan>Östergötland</lan> 
+    <longitude>58.48000</longitude> 
+    <latitude>16.32290</latitude> 
+
+  </Placemark>
+  <Placemark>
+    <foretag>Apoteket Kronan</foretag> 
+    <adress>Storgatan 17</adress> 
+    <postadress>615 30</postadress><ort>Valdemarsvik</ort><telefon></telefon><hemsida></hemsida> 
+    <kommun>Valdemarsvik</kommun> 
+    <lan>Östergötland</lan> 
+    <longitude>58.20460</longitude> 
+    <latitude>16.60280</latitude>
+  </Placemark>
+</kml>
+

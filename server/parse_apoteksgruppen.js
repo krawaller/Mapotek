@@ -6,6 +6,10 @@ för varje butik.
 Kartan verkar pluppas in dynamiskt! Hittar bara latitud i urspungskoden... :P
 
 Ibland lunchstängt!
+
+Finns en xml-fil på http://www.apoteksgruppen.se/upl/files/46862.xml som används i kartinläsningen. Här finns alla koortinater! :)
+Sparat en version här som apoteksgruppen_coordinates.xml i tmpkatalogen.
+
 */
 
 var scraper = require('./scraper'),
@@ -43,7 +47,7 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Apoteksgruppen" }, functio
 				dayrows = $(".toggletext > table > tr");
 			//console.log(dayrows.length);
 			ret = {
-				namn: $("h2 > span").eq(0).text().replace("Apoteket ",""),
+				name: $("h2 > span").eq(0).text().replace("Apoteket ",""),
 				chain: "Apoteksgruppen",
 				address: {
 					street: ensureOkString("street",$("h2 > span").eq(2).text(),errors),

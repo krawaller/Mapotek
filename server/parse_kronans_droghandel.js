@@ -37,7 +37,7 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Kronans Droghandel" }, fun
 		    if (err) {throw err;}
 			var errors = [], info = $(".apoteksinfo"), rows = info.contents(), ret, text = rows.text(), imgsrc = $(".apoteksinforight img").attr("src");
 			ret = {
-				namn: ensureOkString("name",$("h1").eq(0).text(),errors),
+				name: ensureOkString("name",$("h1").eq(0).text(),errors),
 				chain: "Kronans Droghandel",
 				address: {
 					street: getMatch("Street",text,/Adress\r\n\s*(.*)?\s*\r\n/,errors).replace(/\s$|\u00a0|,/g,""),

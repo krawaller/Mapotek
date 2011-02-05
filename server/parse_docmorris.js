@@ -41,7 +41,7 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Doc Morris" }, function(er
 				address = getMatch("adresstring",info,/^(.*?)[A-ZÅÄÖ][a-zåäö]*?:/,errors),
 				times = info.substr(address.length);
 			ret = {
-				namn: ensureOkString("name",article.find("h1").text().replace(/\s*$/,""),errors),
+				name: ensureOkString("name",article.find("h1").text().replace(/\s*$/,""),errors),
 				chain: "Doc Morris",
 				address: {
 					street: getMatch("street",address,/^(.*?)\d\d\d\s*\d\d/,errors).replace(/,\s*$/g,""),
