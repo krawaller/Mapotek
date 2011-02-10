@@ -2,7 +2,7 @@
 Vårdapoteket!
 Egentligen verkar all nödvändig info finnas på sidan som listar alla apotek, men vafan, jag parsar de apoteksspecifika sidorna.
 Har öppettider för vardag, lördag och söndag. Vore enkelt om inte Ängelholmarna hade fritextat åt helvete. Jaja.
-Vissa har helgöppettider, men FACK THEM
+Vissa har storhelgöppettider, men FACK THEM
 */
 
 var scraper = require('./scraper'),

@@ -3,6 +3,8 @@ Cura dårå! Observera att jag vill parsa det individuella apotekets KONTAKTSIDA
 Verkar som att de allihop har samma öppettider alla dagar? Hmm.
 Kontaktinfolistan innehåller ibland fax, ibland inte. Careful!
 
+apotekslista på http://www.ica.se/curaapoteket
+
 OBS! Ingen jävla geoinfo! No coords! :( Hämtar manuellt.
 	
 Observera att apotekets NAMN är lite inkonsekvent. Hämtar det från rubriken uppe till vänster på kontaktsidan!
@@ -34,15 +36,15 @@ db.view('/mapotek/_design/v1.0/_view/apotek', { key: "Cura" }, function(err, doc
 	doc.rows.forEach(function(row, i){
 		if(i != 0){ return; } // just one for now
 		var obj = row.value,
-			url =  'http://localhost/mapotek/server/tmp/parse_cura.html'; // should be obj.href
+			url =  'http://localhost/mapotek/server/tmp/parse_cura_2.html'; // should be obj.href
 		
 		scraper(url, function(err, $) {
 		    if (err) {throw err;}
 			var coords = { // Hämtar manuellt genom att söka på http://www.koordinater.se där de flesta ica verkar finnas.
-				"Alingsås": ["57.9244","12.5441"],
-				"Botkyrka": ["59.2366","17,8324"],
-				"Eskilstuna": ["59.3895","16.534"],
-				"Gävle": ["60.6479","17.1488"],
+				"Alingsås": ["57.92401","12.54588"], // eniro
+				"Botkyrka": ["59.23704","17,83116"], // eniro
+				"Eskilstuna": ["59.38790","16.53505"], // eniro
+				"Gävle": ["60.64843","17.14905"], // eniro
 				"Göteborg": ["57.682","12.0023"],
 				"Flygstaden Halmstad": ["56.6864","12.7868"],
 				"Högskolan, Halmstad": ["56.6648","12.8779"],
