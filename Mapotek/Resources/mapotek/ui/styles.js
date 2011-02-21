@@ -21,6 +21,9 @@
 		Window: {
 			
 		},
+		View: {
+			
+		},
 		Button: {
 			height:50,
 			width:250,
