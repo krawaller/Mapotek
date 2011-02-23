@@ -1,3 +1,4 @@
+Ti.include("/assets/kralib.js");
 Ti.include("/mapotek/mapotek.js");
 
 Titanium.UI.setBackgroundColor('#FFF');

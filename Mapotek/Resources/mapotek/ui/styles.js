@@ -5,7 +5,7 @@
 		headerColor:'#333333',
 		lightBlue:'#006cb1',
 		darkBlue:'#93caed',
-		fontFamily: M.os({
+		fontFamily: K.os({
 			iphone:'Helvetica Neue',
 			android:'Droid Sans'
 		})
@@ -48,7 +48,7 @@
 			color:'#000000',
 			clearButtonMode: Titanium.UI.INPUT_BUTTONMODE_ALWAYS
 		},
-		headerView: {
+		HeaderView: {
 			backgroundColor:'#CCC',
 			height:40
 		}

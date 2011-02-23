@@ -1,6 +1,6 @@
 (function(){
 	M.ui.createCompanyView = function(){
-		var view = Ti.UI.createView(Object.combine($$.View,{}));
+		var view = K.create({k_type:"View"});
 		return view;
 	};
 })();
