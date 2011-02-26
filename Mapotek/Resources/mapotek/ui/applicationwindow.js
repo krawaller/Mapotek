@@ -73,6 +73,10 @@
 		});
 		win.add(reportview);
 		win.add(reportbtn);
+		Ti.App.addEventListener("app:start",function(e){
+			Ti.API.log("Caught start event in filmstrip!");
+			filmstrip.fireEvent("changeIndex",{idx:0,force:true});
+		});
 		return win;
 	};
 })();

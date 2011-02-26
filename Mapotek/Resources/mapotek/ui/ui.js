@@ -6,7 +6,7 @@
 		}
 		var view = K.create(K.merge({k_type:"View"},o));
 		view.addEventListener("show",function(e){
-			var reportData;
+			var reportData = "";
 			Ti.API.log("SHOW event caught in "+e.source.MapotekViewId+". Was it me?");
 			Ti.API.log([e.source,view,e.source === view,view.MapotekViewId === e.source.MapotekViewId]);
 			if (e.source.MapotekViewId === view.MapotekViewId){
@@ -27,9 +27,30 @@
 		return view;
 	};
 	M.ui.createListZoomView = function(_args) {
-		function flip(zoomingin){
-			list.animate({opacity: zoomingin ? 0 : 1})//list.opacity = zoomingin ? 0 : 1;
-			zoom.animate({opacity: zoomingin ? 1 : 0}); //zoom.opacity = zoomingin ? 1 : 0;
+		function showZoom(anim,args){
+			zooming = true;
+			Ti.API.log("ZOOOOOOOOOOOM");
+			zoom.fireEvent("show",args);
+			if (anim){
+				list.animate({opacity: 0});
+				zoom.animate({opacity: 1});
+			}
+			else {
+				list.opacity = 0;
+				zoom.opacity = 1;
+			}
+		}
+		function showList(anim){
+			zooming = false;
+			list.fireEvent("show");
+			if (anim){
+				list.animate({opacity: 1});
+				zoom.animate({opacity: 0});
+			}
+			else {
+				list.opacity = 1;
+				zoom.opacity = 0;
+			}
 		}
 		if (!_args.MapotekViewId){
 			throw "No MapotekViewId!";
@@ -55,31 +76,26 @@
 			k_click: function(){
 				//list.fireEvent("show");
 				Ti.API.log("Clicked back to list");
-				zooming = false;
-				flip();
+				showList(true);
 			}
 		}));
 		root.add(zoom);
 		root.add(list);
 		root.addEventListener("show",function(e){
-			Ti.API.log("ListZoom show event caught. Is it me?");
+			Ti.API.log(["ListZoom show event caught. Is it me?",e.source.MapotekViewId,root.MapotekViewId]);
 			if (e.source.MapotekViewId === root.MapotekViewId){
 				Ti.API.log("--- Showing a ListZoom view!");
-				zooming = false;
-				list.fireEvent("show");
-				setTimeout(function(){
-					flip();
-				},10);
+				if (e.zoom){
+					showZoom(false,e.zoom);
+				}
+				else {
+					showList(false);
+				}
 			}
 		});
 		list.addEventListener("zoom",function(e){
-			zooming = true;
 			Ti.API.log("zoom event caught");
-			zoom.fireEvent("show",e);
-			setTimeout(function(){
-				Ti.API.log("performing zooming!");
-				flip(true);
-			},10);
+			showZoom(true,e);
 		});
 		return root;
 	};
@@ -113,7 +129,7 @@
 
 		//set the currently visible index
 		root.addEventListener('changeIndex', function(e) {
-			if (index != e.idx) {
+			if (index != e.idx || e.force) {
 				previndex = index;
 				index = e.idx;
 				if (_args.leave) {

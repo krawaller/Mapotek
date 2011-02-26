@@ -6,7 +6,4 @@ Titanium.UI.setBackgroundColor('#FFF');
 M.app.mainWindow = M.ui.createApplicationWindow();
 M.app.mainWindow.open();
 
-Ti.App.fireEvent("app:arrivedAtTab",{idx:0});
-M.app.current = {
-	what: "About"
-};
+Ti.App.fireEvent("app:start");

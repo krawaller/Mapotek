@@ -7,19 +7,26 @@ var M = {};
 	M.data = {
 		loadData: function(callback) {
 			var fakeData = {
-				pharmacies: [{
-					"chain": "Apotek Hjärtat",
-					"name": "Örnen",
-					"address": {
-						"street": "Storgatan 3E",
-						"zipcode": "12345",
-						"city": "Storstad"
-					},
-					"coords": {
-						"latitude": 55.21341324,
-						"longitude": 16.5431434
+				pharmacies: {
+					ah1: {
+						"chain": "Apotek Hjärtat",
+						"name": "Örnen",
+						"address": {
+							"street": "Storgatan 3E",
+							"zipcode": "12345",
+							"city": "Storstad"
+						},
+						"coords": {
+							"latitude": 55.21341324,
+							"longitude": 16.5431434
+						}
 					}
-				}]
+				},
+				chains: {
+					hjartat: {
+						
+					}
+				}
 			};
 			setTimeout(function(){callback(data);},500);
 		},
