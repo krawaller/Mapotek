@@ -22,7 +22,7 @@
 			
 		},
 		View: {
-			
+			show: function(){}
 		},
 		Button: {
 			height:50,

@@ -21,7 +21,7 @@
 			else {
 				visible = 1;
 				view.animate({opacity:1});
-				label.text = "Reporting about "+e.about+"!";
+				label.text = "Reporting about "+e.view+(e.what ? ", "+e.what:"")+"!";
 			}
 		});
 		

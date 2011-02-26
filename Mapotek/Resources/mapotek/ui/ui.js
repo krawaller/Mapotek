@@ -1,49 +1,145 @@
-(function(){
-	M.ui = {
+(function() {
+	M.ui = {};
+	M.ui.createView = function(o){
+		if (!o.MapotekViewId){
+			throw "No MapotekViewId!";
+		}
+		var view = K.create(K.merge({k_type:"View"},o));
+		view.addEventListener("show",function(e){
+			var reportData;
+			Ti.API.log("SHOW event caught in "+e.source.MapotekViewId+". Was it me?");
+			Ti.API.log([e.source,view,e.source === view,view.MapotekViewId === e.source.MapotekViewId]);
+			if (e.source.MapotekViewId === view.MapotekViewId){
+				Ti.API.log("--- Was me!!! "+e.source.MapotekViewId);
+				if (K.isFunc(e.source.render)){
+					Ti.API.log("--- I have a render function! Calling!");
+					reportData = e.source.render(e);
+				};
+				if (!e.source.MapotekCompositeView){
+					Ti.API.log("--- Updating report data!");
+					M.app.current = {
+						view: e.source.MapotekViewId,
+						what: reportData
+					};
+				}
+			}
+		});
+		return view;
+	};
+	M.ui.createListZoomView = function(_args) {
+		function flip(zoomingin){
+			list.animate({opacity: zoomingin ? 0 : 1})//list.opacity = zoomingin ? 0 : 1;
+			zoom.animate({opacity: zoomingin ? 1 : 0}); //zoom.opacity = zoomingin ? 1 : 0;
+		}
+		if (!_args.MapotekViewId){
+			throw "No MapotekViewId!";
+		}
+		var root = K.create({
+			k_type: "View"
+		}),
+		zooming = false,
+		zoom = _args.zoom,
+		list = _args.list;
+		zoom.opacity = 0;
+		zoom.add(K.create({
+			k_type: "View",
+			top: 10,
+			left: 10,
+			height: 30,
+			width: 60,
+			borderColor: "#000",
+			borderWidth: 1,
+			k_children: [{
+				text: "<---"
+			}],
+			k_click: function(){
+				//list.fireEvent("show");
+				Ti.API.log("Clicked back to list");
+				zooming = false;
+				flip();
+			}
+		}));
+		root.add(zoom);
+		root.add(list);
+		root.addEventListener("show",function(e){
+			Ti.API.log("ListZoom show event caught. Is it me?");
+			if (e.source.MapotekViewId === root.MapotekViewId){
+				Ti.API.log("--- Showing a ListZoom view!");
+				zooming = false;
+				list.fireEvent("show");
+				setTimeout(function(){
+					flip();
+				},10);
+			}
+		});
+		list.addEventListener("zoom",function(e){
+			zooming = true;
+			Ti.API.log("zoom event caught");
+			zoom.fireEvent("show",e);
+			setTimeout(function(){
+				Ti.API.log("performing zooming!");
+				flip(true);
+			},10);
+		});
+		return root;
 	};
 	M.ui.createFilmStripView = function(_args) {
-		var root = K.create({k_type:"View"}),
+		var root = K.create({
+			k_type: "View"
+		}),
 		views = _args.views,
 		index = 0,
 		previndex = 0,
 		container = K.create({
 			k_type: "View",
-			top:0,
-			left:0,
-			bottom:0,
-			width:$$.platformWidth*_args.views.length
+			top: 0,
+			left: 0,
+			bottom: 0,
+			width: $$.platformWidth * _args.views.length
 		});
-			
-		for (var i = 0, l = views.length; i<l; i++) {
+
+		for (var i = 0, l = views.length; i < l; i++) {
 			var newView = K.create({
 				k_type: "View",
-				top:0,
-				bottom:0,
-				left:$$.platformWidth*i,
-				width:$$.platformWidth
+				top: 0,
+				bottom: 0,
+				left: $$.platformWidth * i,
+				width: $$.platformWidth
 			});
 			newView.add(views[i]);
 			container.add(newView);
 		}
 		root.add(container);
-		
+
 		//set the currently visible index
 		root.addEventListener('changeIndex', function(e) {
-			previndex = index;
-			index = e.idx;
-			if (_args.leave){
-				_args.leave({from:previndex,to:index});
-			}
-			container.animate({
-				duration:$$.animationDuration,
-				left:$$.platformWidth*e.idx*-1
-			},function(){
-				if (_args.arrive){
-					_args.arrive({from:previndex,to:index});
+			if (index != e.idx) {
+				previndex = index;
+				index = e.idx;
+				if (_args.leave) {
+					_args.leave({
+						from: previndex,
+						to: index
+					});
 				}
-			});
+				Ti.API.log("Tabclick, navigating to "+index);
+				views[index].fireEvent("show",{viewtarget:views[index].MapotekViewId});
+				container.animate({
+					duration: $$.animationDuration,
+					left: $$.platformWidth * e.idx * -1
+				},
+				function() {
+					Ti.API.log("Arrived at new tab");
+					if (_args.arrive) {
+						_args.arrive({
+							from: previndex,
+							to: index
+						});
+					}
+				});
+			}
 		});
-		
+
 		return root;
 	};
 })();

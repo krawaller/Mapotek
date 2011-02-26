@@ -5,14 +5,22 @@
 			exitOnClose:true,
 			orientationModes:[Ti.UI.PORTRAIT]
 		}),
-		mapview = M.ui.createMapView(),
-		aboutview = M.ui.createAboutView(),
-		pharmacyview = M.ui.createPharmacyView(),
-		companyview = M.ui.createCompanyView(),
+		maptab = M.ui.createMapView(),
+		abouttab = M.ui.createAboutView(),
+		pharmacytab = M.ui.createListZoomView({
+			MapotekViewId: "PharmacyTab",
+			list: M.ui.createPharmacyListView(),
+			zoom: M.ui.createPharmacyView()
+		}),
+		companytab = M.ui.createListZoomView({
+			MapotekViewId: "CompanyTab",
+			list: M.ui.createCompanyListView(),
+			zoom: M.ui.createCompanyView()
+		}),
 		reportview = M.ui.createReportView(),
 		tabs = ["about","map","pharmacies","companies"],
 		filmstrip = M.ui.createFilmStripView({
-			views: [aboutview,mapview,pharmacyview,companyview],
+			views: [abouttab,maptab,pharmacytab,companytab],
 			leave: function(e){Ti.App.fireEvent("app:leftTab",{idx:e.from});},
 			arrive: function(e){Ti.App.fireEvent("app:arrivedAtTab",{idx:e.to});M.app.currentTab = tabs[e.to];}
 		}),
@@ -29,8 +37,7 @@
 				text: "!!!"
 			}],
 			k_click: function(e){
-				Ti.API.log("FAKKINELL");
-				Ti.App.fireEvent("app:report",{about:M.app.currentTab});
+				Ti.App.fireEvent("app:report",M.app.current);
 			}
 		});
 		win.add(filmstrip);

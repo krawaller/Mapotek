@@ -1,6 +1,8 @@
 (function(){
 	M.ui.createDatastateView = function(){
-		var view = K.create({k_type:"View"});
+		var view = M.ui.createView({
+			MapotekViewId: "Datastate"
+		});
 		return view;
 	};
 })();

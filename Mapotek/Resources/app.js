@@ -7,4 +7,6 @@ M.app.mainWindow = M.ui.createApplicationWindow();
 M.app.mainWindow.open();
 
 Ti.App.fireEvent("app:arrivedAtTab",{idx:0});
-M.app.currentTab = 0;
+M.app.current = {
+	what: "About"
+};
