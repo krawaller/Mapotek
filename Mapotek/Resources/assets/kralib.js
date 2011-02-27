@@ -95,11 +95,11 @@
      //   delete o.id;
         if (o.k_class){
              if (typeof o.k_class === "string") {
-                 o = K.merge(o,defopts[o.k_class] || {});
+                 o = K.merge(o,styles[o.k_class] || {});
              }
              else {
                  o.k_class.map(function(s){
-                      o = K.merge(o,defopts[s] || {});
+                      o = K.merge(o,styles[s] || {});
                  });
              }
         }

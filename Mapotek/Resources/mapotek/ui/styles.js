@@ -33,6 +33,29 @@
 				fontWeight:'bold'
 			}
 		},
+		NavButtonView: {
+			k_type: "View",
+			height: 30,
+			width: 100,
+			borderColor: "#000",
+			borderWidth: 1,
+			backgroundColor: "#CCC"
+		},
+		NavButtonLabel: {
+		},
+		TitleView: {
+			height: 40,
+			k_type: "View"
+		},
+		TitleLabel: {
+			k_type: "Label",
+			font: {
+				fontWeight: "bold",
+				fontSize: 20
+			},
+			shadowColor:'#CCC',
+		    shadowOffset:{x:0,y:1}
+		},
 		Label: {
 			color:theme.textColor,
 			font: {

@@ -24,8 +24,11 @@ var M = {};
 				},
 				chains: {
 					hjartat: {
-						
-					}
+						name: "Apotek hjärtat",
+						description: "Mooo",
+						logo: ""
+					},
+					pharmacies: ["ah1"]
 				}
 			};
 			setTimeout(function(){callback(data);},500);

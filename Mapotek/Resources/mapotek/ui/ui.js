@@ -4,23 +4,37 @@
 		if (!o.MapotekViewId){
 			throw "No MapotekViewId!";
 		}
-		var view = K.create(K.merge({k_type:"View"},o));
+		var view = K.create(K.merge({k_type:"View"},o)),
+			title = K.create({
+				k_class: "TitleView",
+				top: 10,
+				k_children: [{
+					k_class: "TitleLabel",
+					k_id: "title",
+					text: o.MapotekViewTitle
+				}]
+			});
+		view.add(title);
 		view.addEventListener("show",function(e){
-			var reportData = "";
+			var renderResult = "";
 			Ti.API.log("SHOW event caught in "+e.source.MapotekViewId+". Was it me?");
 			Ti.API.log([e.source,view,e.source === view,view.MapotekViewId === e.source.MapotekViewId]);
 			if (e.source.MapotekViewId === view.MapotekViewId){
 				Ti.API.log("--- Was me!!! "+e.source.MapotekViewId);
 				if (K.isFunc(e.source.render)){
 					Ti.API.log("--- I have a render function! Calling!");
-					reportData = e.source.render(e);
+					renderResult = e.source.render(e) || {};
 				};
 				if (!e.source.MapotekCompositeView){
 					Ti.API.log("--- Updating report data!");
 					M.app.current = {
 						view: e.source.MapotekViewId,
-						what: reportData
+						what: renderResult.reportData
 					};
+					if (renderResult.title){
+						Ti.API.log("--- Updating title");
+						title.k_children.title.text = renderResult.title;
+					}
 				}
 			}
 		});
@@ -63,7 +77,7 @@
 		list = _args.list;
 		zoom.opacity = 0;
 		zoom.add(K.create({
-			k_type: "View",
+			k_class: "NavButtonView",
 			top: 10,
 			left: 10,
 			height: 30,
@@ -71,7 +85,8 @@
 			borderColor: "#000",
 			borderWidth: 1,
 			k_children: [{
-				text: "<---"
+				label: "NavButtonLabel",
+				text: _args.backLabel || "<---"
 			}],
 			k_click: function(){
 				//list.fireEvent("show");
@@ -139,7 +154,7 @@
 					});
 				}
 				Ti.API.log("Tabclick, navigating to "+index);
-				views[index].fireEvent("show",{viewtarget:views[index].MapotekViewId});
+				views[index].fireEvent("show",K.merge({viewtarget:views[index].MapotekViewId},e));
 				container.animate({
 					duration: $$.animationDuration,
 					left: $$.platformWidth * e.idx * -1

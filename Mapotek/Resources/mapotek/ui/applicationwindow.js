@@ -15,7 +15,8 @@
 		companytab = M.ui.createListZoomView({
 			MapotekViewId: "CompanyTab",
 			list: M.ui.createCompanyListView(),
-			zoom: M.ui.createCompanyView()
+			zoom: M.ui.createCompanyView(),
+			backLabel: "all"
 		}),
 		reportview = M.ui.createReportView(),
 		tabs = ["about","map","pharmacies","companies"],
@@ -25,15 +26,12 @@
 			arrive: function(e){Ti.App.fireEvent("app:arrivedAtTab",{idx:e.to});M.app.currentTab = tabs[e.to];}
 		}),
 		reportbtn = K.create({
-			k_type: "View",
-			height: 30,
+			k_class: "NavButtonView",
 			width: 30,
 			top: 10,
 			right: 10,
-			borderColor: "#000",
-			borderWidth: 1,
-			backgroundColor: "#CCC",
 			k_children: [{
+				k_class: "NavButtonLabel",
 				text: "!!!"
 			}],
 			k_click: function(e){
@@ -43,15 +41,12 @@
 		win.add(filmstrip);
 		tabs.forEach(function(label,i){
 			var btn = K.create({
-				k_type:"View",
-				height: 30,
+				k_class: "NavButtonView",
 				width: 50,
 				bottom: 10,
 				left: 10 + i*60,
-				backgroundColor: "#CCC",
-				borderColor: "#000",
-				borderWidth: 1,
 				k_children: [{
+					k_class: "NavButtonLabel",
 					text: label.substr(0,3)
 				}],
 				k_click: function(e){
@@ -76,6 +71,10 @@
 		Ti.App.addEventListener("app:start",function(e){
 			Ti.API.log("Caught start event in filmstrip!");
 			filmstrip.fireEvent("changeIndex",{idx:0,force:true});
+		});
+		Ti.App.addEventListener("showCompany",function(e){
+			Ti.API.log("Catching companyshow event!");
+			filmstrip.fireEvent("changeIndex",{idx:3,zoom:{company:e.company}});
 		});
 		return win;
 	};
