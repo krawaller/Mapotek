@@ -2,11 +2,16 @@
 	M.ui.createReportView = function(){
 		var view = K.create({
 			k_type:"View",
-			backgroundColor:"#CCC",
+			backgroundColor: "rgba(0,0,0,0.8)",
 			opacity:0,
 			k_children:[{
 				text: "Reporting about something!",
-				k_id: "label"
+				k_id: "label",
+				height: 40,
+				width: 150,
+				backgroundColor: "#FFF",
+				borderWidth: 1,
+				borderColor: "#000"
 			}]}),
 		label = view.k_children.label,
 		visible = 0;

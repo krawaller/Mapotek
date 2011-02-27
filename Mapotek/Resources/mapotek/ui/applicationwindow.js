@@ -28,7 +28,7 @@
 		reportbtn = K.create({
 			k_class: "NavButtonView",
 			width: 30,
-			top: 10,
+			bottom: 10,
 			right: 10,
 			k_children: [{
 				k_class: "NavButtonLabel",
