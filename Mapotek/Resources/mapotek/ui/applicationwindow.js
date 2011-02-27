@@ -29,7 +29,7 @@
 			k_class: "NavButtonView",
 			width: 30,
 			bottom: 10,
-			right: -40,
+			right: -40, // animated to 10
 			k_children: [{
 				k_class: "NavButtonLabel",
 				text: "!!!"
@@ -39,16 +39,12 @@
 			}
 		});
 		win.add(filmstrip);
-		var tabbar = K.create({
-			k_type: "View",
-			height: 40,
-			bottom: -40
-		});
+		var tabbtns = [];
 		tabs.forEach(function(label,i){
 			var btn = K.create({
 				k_class: "NavButtonView",
 				width: 50,
-				bottom: 10,
+				bottom: -50, // animated to 10
 				left: 10 + i*60,
 				k_children: [{
 					k_class: "NavButtonLabel",
@@ -69,20 +65,22 @@
 					btn.k_children[0].text = btn.k_children[0].text.toUpperCase();
 				}
 			});
-			tabbar.add(btn);
+			tabbtns.push(btn);
+			win.add(btn);
 		});
-		win.add(tabbar);
 		win.add(reportview);
 		win.add(reportbtn);
 		Ti.App.addEventListener("app:start",function(e){
 			Ti.API.log("Caught start event in filmstrip!");
 			filmstrip.fireEvent("changeIndex",{idx:0,force:true});
+			tabbtns.forEach(function(e,i){
+				setTimeout(function(){
+					e.animate({bottom:10,duration:400,curve:Titanium.UI.ANIMATION_CURVE_EASE_IN_OUT});
+				},500+i*150);
+			});			
 			setTimeout(function(){
-				tabbar.animate({bottom:0,duration:400});
-			},500);
-			setTimeout(function(){
-				reportbtn.animate({right:10,duration:400});
-			},1000);
+				reportbtn.animate({right:10,duration:400,curve:Titanium.UI.ANIMATION_CURVE_EASE_IN_OUT});
+			},1200);
 		});
 		Ti.App.addEventListener("showCompany",function(e){
 			Ti.API.log("Catching companyshow event!");
