@@ -21,6 +21,7 @@
 		reportview = M.ui.createReportView(),
 		tabs = ["about","map","pharmacies","companies"],
 		filmstrip = M.ui.createFilmStripView({
+			MapotekViewId: "mainfilmstrip",
 			views: [abouttab,maptab,pharmacytab,companytab],
 			leave: function(e){Ti.App.fireEvent("app:leftTab",{idx:e.from});},
 			arrive: function(e){Ti.App.fireEvent("app:arrivedAtTab",{idx:e.to});M.app.currentTab = tabs[e.to];}
@@ -76,7 +77,7 @@
 			tabbtns.forEach(function(e,i){
 				setTimeout(function(){
 					e.animate({bottom:10,duration:400,curve:Titanium.UI.ANIMATION_CURVE_EASE_IN_OUT});
-				},500+i*150);
+				},500+i*100);
 			});			
 			setTimeout(function(){
 				reportbtn.animate({right:10,duration:400,curve:Titanium.UI.ANIMATION_CURVE_EASE_IN_OUT});

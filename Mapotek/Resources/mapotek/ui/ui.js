@@ -53,6 +53,12 @@
 				list.opacity = 0;
 				zoom.opacity = 1;
 			}
+			setTimeout(function(){
+				listbtn.opacity = 1;
+				listbtn.animate({
+					right: 10
+				});
+			},500);
 		}
 		function showList(anim){
 			zooming = false;
@@ -65,6 +71,11 @@
 				list.opacity = 1;
 				zoom.opacity = 0;
 			}
+			listbtn.animate({
+				right: -70
+			},function(){
+				listbtn.opacity = 0;
+			});
 		}
 		if (!_args.MapotekViewId){
 			throw "No MapotekViewId!";
@@ -76,26 +87,27 @@
 		zoom = _args.zoom,
 		list = _args.list;
 		zoom.opacity = 0;
-		zoom.add(K.create({
+		var listbtn = K.create({
 			k_class: "NavButtonView",
 			top: 10,
-			left: 10,
+			right: 10,
 			height: 30,
 			width: 60,
 			borderColor: "#000",
 			borderWidth: 1,
 			k_children: [{
 				label: "NavButtonLabel",
-				text: _args.backLabel || "<---"
+				text: _args.backLabel || "<xxx"
 			}],
 			k_click: function(){
 				//list.fireEvent("show");
 				Ti.API.log("Clicked back to list");
 				showList(true);
 			}
-		}));
+		});
 		root.add(zoom);
 		root.add(list);
+		root.add(listbtn);
 		root.addEventListener("show",function(e){
 			Ti.API.log(["ListZoom show event caught. Is it me?",e.source.MapotekViewId,root.MapotekViewId]);
 			if (e.source.MapotekViewId === root.MapotekViewId){
@@ -115,6 +127,9 @@
 		return root;
 	};
 	M.ui.createFilmStripView = function(_args) {
+		if (!_args.MapotekViewId){
+			throw "No MapotekViewId!";
+		}
 		var root = K.create({
 			k_type: "View"
 		}),
@@ -144,7 +159,7 @@
 
 		//set the currently visible index
 		root.addEventListener('changeIndex', function(e) {
-			if (index != e.idx || e.force) {
+			if ((e.source.MapotekViewId === root.MapotekViewId) && (index != e.idx || e.force)) {
 				previndex = index;
 				index = e.idx;
 				if (_args.leave) {
