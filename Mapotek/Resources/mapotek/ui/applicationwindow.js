@@ -69,19 +69,48 @@
 			tabbtns.push(btn);
 			win.add(btn);
 		});
+		var titleview = K.create({
+			k_type: "View",
+			height: 30,
+			top: 10,
+			width: 200,
+			left: 10,
+			borderWidth: 1,
+			borderColor: "#000",
+			k_children: [{
+				k_class: "TitleLabel"
+			}]
+		}), titlelabel = titleview.k_children[0];
+		win.add(titleview);
+		Ti.App.addEventListener("app:settitle",function(e){
+			titleview.animate({transform:Ti.UI.create2DMatrix().scale(1,0.1)},function(){
+				titlelabel.text = e.title;
+				titleview.animate({transform:Ti.UI.create2DMatrix().scale(1,1)});
+			});
+		});
+		
 		win.add(reportview);
 		win.add(reportbtn);
-		Ti.App.addEventListener("app:start",function(e){
-			Ti.API.log("Caught start event in filmstrip!");
-			filmstrip.fireEvent("changeIndex",{idx:0,force:true});
+		function animateControls(){
 			tabbtns.forEach(function(e,i){
+				e.bottom = -40;
 				setTimeout(function(){
 					e.animate({bottom:10,duration:400,curve:Titanium.UI.ANIMATION_CURVE_EASE_IN_OUT});
 				},500+i*100);
 			});			
 			setTimeout(function(){
+				reportbtn.right = -80;
 				reportbtn.animate({right:10,duration:400,curve:Titanium.UI.ANIMATION_CURVE_EASE_IN_OUT});
 			},1200);
+		}
+		Ti.App.addEventListener("app:start",function(e){
+			Ti.API.log("Caught start event in filmstrip!");
+			filmstrip.fireEvent("changeIndex",{idx:0,force:true});
+			animateControls();
+		});
+		Ti.App.addEventListener("focus",function(e){
+			alert("FOCUS!!");
+			animateControls();
 		});
 		Ti.App.addEventListener("showCompany",function(e){
 			Ti.API.log("Catching companyshow event!");

@@ -4,8 +4,8 @@
 		if (!o.MapotekViewId){
 			throw "No MapotekViewId!";
 		}
-		var view = K.create(K.merge({k_type:"View"},o)),
-			title = K.create({
+		var view = K.create(K.merge({k_type:"View"},o)); //,
+			/*title = K.create({
 				k_class: "TitleView",
 				top: 10,
 				k_children: [{
@@ -14,7 +14,7 @@
 					text: o.MapotekViewTitle
 				}]
 			});
-		view.add(title);
+		view.add(title);*/
 		view.addEventListener("show",function(e){
 			var renderResult = "";
 			Ti.API.log("SHOW event caught in "+e.source.MapotekViewId+". Was it me?");
@@ -31,10 +31,11 @@
 						view: e.source.MapotekViewId,
 						what: renderResult.reportData
 					};
-					if (renderResult.title){
+					Ti.App.fireEvent("app:settitle",{title:renderResult.title || o.MapotekViewTitle});
+					/*if (renderResult.title){
 						Ti.API.log("--- Updating title");
 						title.k_children.title.text = renderResult.title;
-					}
+					}*/
 				}
 			}
 		});
@@ -95,9 +96,10 @@
 			width: 60,
 			borderColor: "#000",
 			borderWidth: 1,
+			opacity: 0,
 			k_children: [{
 				label: "NavButtonLabel",
-				text: _args.backLabel || "<xxx"
+				text: _args.backLabel || "<---"
 			}],
 			k_click: function(){
 				//list.fireEvent("show");
