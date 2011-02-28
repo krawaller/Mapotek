@@ -58,12 +58,20 @@
 			});
 			Ti.App.addEventListener("app:leftTab",function(e){
 				if (e.idx === i){
-					btn.k_children[0].text = btn.k_children[0].text.toLowerCase();
+					var lbl = btn.k_children[0];
+					lbl.text = lbl.text.toLowerCase();
+					lbl.font = {
+						fontWeight: "normal"
+					};
 				}
 			});
 			Ti.App.addEventListener("app:arrivedAtTab",function(e){
 				if (e.idx === i){
-					btn.k_children[0].text = btn.k_children[0].text.toUpperCase();
+					var lbl = btn.k_children[0];
+					lbl.text = lbl.text.toUpperCase();
+					lbl.font = {
+						fontWeight: "bold"
+					};
 				}
 			});
 			tabbtns.push(btn);
@@ -112,9 +120,16 @@
 			alert("FOCUS!!");
 			animateControls();
 		});
-		Ti.App.addEventListener("showCompany",function(e){
+		Ti.App.addEventListener("showChain",function(e){
 			Ti.API.log("Catching companyshow event!");
-			filmstrip.fireEvent("changeIndex",{idx:3,zoom:{company:e.company}});
+			filmstrip.fireEvent("changeIndex",{idx:3,zoom:{chain:e.chain}});
+		});
+		Ti.App.addEventListener("showPharmacy",function(e){
+			Ti.API.log("Catching pharmacyshow event!");
+			filmstrip.fireEvent("changeIndex",{idx:2,zoom:{pharmacy:e.pharmacy}});
+		});
+		Ti.App.addEventListener("showMap",function(e){
+			filmstrip.fireEvent("changeIndex",{idx:1,coords:e.coords});
 		});
 		return win;
 	};

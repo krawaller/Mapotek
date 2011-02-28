@@ -9,29 +9,89 @@ var M = {};
 			var fakeData = {
 				pharmacies: {
 					ah1: {
-						"chain": "Apotek Hjärtat",
-						"name": "Örnen",
-						"address": {
-							"street": "Storgatan 3E",
-							"zipcode": "12345",
-							"city": "Storstad"
+						pharmacyid: "ah1",
+						chainid: "hjartat",
+						name: "Örnen",
+						address: {
+							street: "Storgatan 3E",
+							zipcode: "12345",
+							city: "Storstad"
 						},
-						"coords": {
-							"latitude": 55.21341324,
-							"longitude": 16.5431434
+						coords: {
+							latitude: 1,
+							longitude: 2
+						}
+					},
+					ah2: {
+						pharmacyid: "ah2",
+						chainid: "hjartat",
+						name: "Falken",
+						address: {
+							street: "Lillgatan 222E",
+							zipcode: "54321",
+							city: "Lillstad"
+						},
+						coords: {
+							latitude: 3,
+							longitude: 4
+						}
+					},
+					m1: {
+						pharmacyid: "m1",
+						chainid: "medstop",
+						name: "Medstop Mellanstad",
+						address: {
+							street: "Mellangatan 666",
+							zipcode: "66666",
+							city: "Mellanstad"
+						},
+						coords: {
+							latitude: 5,
+							longitude: 6
 						}
 					}
 				},
 				chains: {
 					hjartat: {
+						chainid: "hjartat",
 						name: "Apotek hjärtat",
-						description: "Mooo",
-						logo: ""
+						description: "Apotek hjärtat dårå! Woo!",
+						pharmacyids: ["ah1","ah2"]
 					},
-					pharmacies: ["ah1"]
+					medstop: {
+						chainid: "medstop",
+						name: "Medstop",
+						description: "Medstop pledstop kredstop.",
+						pharmacyids: ["m1"]
+					}
 				}
 			};
-			setTimeout(function(){callback(data);},500);
+			//setTimeout(function(){callback(data);},500);
+			callback(fakeData);
+		},
+		getPharmacyById: function(id){
+			return K.merge({chain:M.app.data.chains[M.app.data.pharmacies[id].chainid]},M.app.data.pharmacies[id]);
+		},
+		getPharmacyList: function(){
+			var ret = [];
+			for(var pid in M.app.data.pharmacies){
+				ret.push(M.data.getPharmacyById(pid));
+			}
+			return ret;
+		},
+		getChainById: function(id){
+			var chain = K.merge({pharmacies:[]},M.app.data.chains[id]);
+			chain.pharmacyids.forEach(function(pid){
+				chain.pharmacies.push(M.app.data.pharmacies[pid]);
+			});
+			return chain;
+		},
+		getChainList: function(){
+			var ret = [];
+			for(var cid in M.app.data.chains){
+				ret.push(M.data.getChainById(cid));
+			}
+			return ret;
 		},
 		receiveData: function(data) {
 			M.app.data = data;
@@ -40,6 +100,8 @@ var M = {};
 	};
 
 })();
+
+M.data.loadData(M.data.receiveData);
 
 Ti.include("/assets/kralib.js");
 Ti.include("/mapotek/ui/ui.js");

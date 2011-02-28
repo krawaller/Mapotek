@@ -4,24 +4,26 @@
 			MapotekViewId: "CompanyList",
 			MapotekViewTitle: "Alla apotekskedjor",
 			k_children: [{
-				text:"CompanyList!"
+				top: 60,
+				height: 20,
+				text:"Alla olika apotekskedjor dårå!"
+			},{
+				k_type: "TableView",
+				k_id: "chaintable",
+				top: 100,
+				k_click: function(e){
+					view.fireEvent("zoom",{chain:e.row.chain});
+				}
 			}]
 		});
-		["foo","bar","baz"].forEach(function(label,i){
-			view.add(K.create({
-				k_class:"NavButtonView",
-				width: 160,
-				left: 100,
-				top: 50*(i+1),
-				k_children: [{
-					k_class: "NavButtonLabel",
-					text: label
-				}],
-				k_click: function(){
-					view.fireEvent("zoom",{company:label});
-				}
-			}));
-		});
+		var chainlist = M.data.getChainList();
+		view.k_children.chaintable.setData(chainlist.map(function(c){
+			return K.create({
+				k_type: "TableViewRow",
+				title: c.name,
+				chain: c
+			});
+		}));
 		return view;
 	};
 })();

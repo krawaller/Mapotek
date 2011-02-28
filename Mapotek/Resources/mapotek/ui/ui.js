@@ -57,7 +57,7 @@
 			setTimeout(function(){
 				listbtn.opacity = 1;
 				listbtn.animate({
-					right: 10
+					top: 10
 				});
 			},500);
 		}
@@ -73,7 +73,7 @@
 				zoom.opacity = 0;
 			}
 			listbtn.animate({
-				right: -70
+				top: -70
 			},function(){
 				listbtn.opacity = 0;
 			});

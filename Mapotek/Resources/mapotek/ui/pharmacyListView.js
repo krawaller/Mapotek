@@ -4,20 +4,26 @@
 			MapotekViewId: "PharmacyList",
 			MapotekViewTitle: "Alla apotek",
 			k_children: [{
-				k_class: "NavButtonView",
-				width: 100,
+				top: 60,
+				height: 20,
+				text:"Alla apotekskontor i heeeela landet WOOOO"
+			},{
+				k_type: "TableView",
+				k_id: "pharmacytable",
 				top: 100,
-				left: 50,
-				k_children: [{
-					k_class: "NavButtonLabel",
-					text: "Booyah!"
-				}],
-				k_click: function(){
-					Ti.App.fireEvent("showCompany",{company:"BOOYAH!"});
+				k_click: function(e){
+					view.fireEvent("zoom",{pharmacy:e.row.pharmacy});
 				}
 			}]
 		});
-		view.add( K.create({k_type:"Label",text:"PharmacyList!"}) );
+		var pharmacylist = M.data.getPharmacyList();
+		view.k_children.pharmacytable.setData(pharmacylist.map(function(p){
+			return K.create({
+				k_type: "TableViewRow",
+				title: p.name,
+				pharmacy: p
+			});
+		}));
 		return view;
 	};
 })();

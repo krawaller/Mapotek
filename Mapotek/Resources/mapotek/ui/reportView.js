@@ -7,8 +7,8 @@
 			k_children:[{
 				text: "Reporting about something!",
 				k_id: "label",
-				height: 40,
-				width: 150,
+				height: 80,
+				width: 200,
 				backgroundColor: "#FFF",
 				borderWidth: 1,
 				borderColor: "#000"

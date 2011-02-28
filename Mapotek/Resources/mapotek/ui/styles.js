@@ -42,6 +42,7 @@
 			backgroundColor: "#CCC"
 		},
 		NavButtonLabel: {
+			k_type: "Label"
 		},
 		TitleView: {
 			height: 40,
@@ -55,6 +56,9 @@
 			},
 			shadowColor:'#CCC',
 		    shadowOffset:{x:0,y:1}
+		},
+		InfoLabel: {
+			
 		},
 		Label: {
 			color:theme.textColor,
