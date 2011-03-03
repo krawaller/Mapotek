@@ -6,11 +6,12 @@
 			orientationModes:[Ti.UI.PORTRAIT]
 		}),
 		maptab = M.ui.createMapView(),
-		abouttab = M.ui.createAboutView(),
+		hometab = M.ui.createHomeTab(),
 		pharmacytab = M.ui.createListZoomView({
 			MapotekViewId: "PharmacyTab",
 			list: M.ui.createPharmacyListView(),
-			zoom: M.ui.createPharmacyView()
+			zoom: M.ui.createPharmacyView(),
+			width: $$.platformWidth // for some reason this gets doubled?!
 		}),
 		companytab = M.ui.createListZoomView({
 			MapotekViewId: "CompanyTab",
@@ -19,12 +20,10 @@
 			backLabel: "all"
 		}),
 		reportview = M.ui.createReportView(),
-		tabs = ["about","map","pharmacies","companies"],
+		tabs = ["home","map","pharmacies","companies"],
 		filmstrip = M.ui.createFilmStripView({
 			MapotekViewId: "mainfilmstrip",
-			views: [abouttab,maptab,pharmacytab,companytab],
-			leave: function(e){Ti.App.fireEvent("app:leftTab",{idx:e.from});},
-			arrive: function(e){Ti.App.fireEvent("app:arrivedAtTab",{idx:e.to});M.app.currentTab = tabs[e.to];}
+			views: [hometab,maptab,pharmacytab,companytab]
 		}),
 		reportbtn = K.create({
 			k_class: "NavButtonView",
@@ -56,8 +55,8 @@
 					Ti.API.log("Clicked "+label);
 				}
 			});
-			Ti.App.addEventListener("app:leftTab",function(e){
-				if (e.idx === i){
+			filmstrip.addEventListener("leftTab",function(e){
+				if (e.source.MapotekViewId === "mainfilmstrip" && e.idx === i){
 					var lbl = btn.k_children[0];
 					lbl.text = lbl.text.toLowerCase();
 					lbl.font = {
@@ -65,8 +64,8 @@
 					};
 				}
 			});
-			Ti.App.addEventListener("app:arrivedAtTab",function(e){
-				if (e.idx === i){
+			filmstrip.addEventListener("arriveAtTab",function(e){
+				if (e.source.MapotekViewId === "mainfilmstrip" && e.idx === i){
 					var lbl = btn.k_children[0];
 					lbl.text = lbl.text.toUpperCase();
 					lbl.font = {

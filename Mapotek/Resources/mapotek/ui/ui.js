@@ -4,23 +4,14 @@
 		if (!o.MapotekViewId){
 			throw "No MapotekViewId!";
 		}
-		var view = K.create(K.merge({k_type:"View"},o)); //,
-			/*title = K.create({
-				k_class: "TitleView",
-				top: 10,
-				k_children: [{
-					k_class: "TitleLabel",
-					k_id: "title",
-					text: o.MapotekViewTitle
-				}]
-			});
-		view.add(title);*/
+		var view = K.create(K.merge({
+			k_type:"View",
+			width: $$.platformWidth
+		},o));
 		view.addEventListener("show",function(e){
 			var renderResult = "";
-			Ti.API.log("SHOW event caught in "+e.source.MapotekViewId+". Was it me?");
-			Ti.API.log([e.source,view,e.source === view,view.MapotekViewId === e.source.MapotekViewId]);
 			if (e.source.MapotekViewId === view.MapotekViewId){
-				Ti.API.log("--- Was me!!! "+e.source.MapotekViewId);
+				Ti.API.log("SHOW event caught in "+view.MapotekViewId);
 				if (K.isFunc(e.source.render)){
 					Ti.API.log("--- I have a render function! Calling!");
 					renderResult = e.source.render(e) || {};
@@ -32,10 +23,6 @@
 						what: renderResult.reportData
 					};
 					Ti.App.fireEvent("app:settitle",{title:renderResult.title || o.MapotekViewTitle});
-					/*if (renderResult.title){
-						Ti.API.log("--- Updating title");
-						title.k_children.title.text = renderResult.title;
-					}*/
 				}
 			}
 		});
@@ -44,7 +31,7 @@
 	M.ui.createListZoomView = function(_args) {
 		function showZoom(anim,args){
 			zooming = true;
-			Ti.API.log("ZOOOOOOOOOOOM");
+			Ti.API.log("--- firing show event in zoom view "+zoom.MapotekViewId);
 			zoom.fireEvent("show",args);
 			if (anim){
 				list.animate({opacity: 0});
@@ -63,6 +50,7 @@
 		}
 		function showList(anim){
 			zooming = false;
+			Ti.API.log("--- firing show event in List view "+list.MapotekViewId);
 			list.fireEvent("show");
 			if (anim){
 				list.animate({opacity: 1});
@@ -81,9 +69,9 @@
 		if (!_args.MapotekViewId){
 			throw "No MapotekViewId!";
 		}
-		var root = K.create({
+		var root = K.create(K.merge({
 			k_type: "View"
-		}),
+		},_args)),
 		zooming = false,
 		zoom = _args.zoom,
 		list = _args.list;
@@ -111,9 +99,8 @@
 		root.add(list);
 		root.add(listbtn);
 		root.addEventListener("show",function(e){
-			Ti.API.log(["ListZoom show event caught. Is it me?",e.source.MapotekViewId,root.MapotekViewId]);
 			if (e.source.MapotekViewId === root.MapotekViewId){
-				Ti.API.log("--- Showing a ListZoom view!");
+				Ti.API.log("SHOW event caught in ListZoom view "+root.MapotekViewId+" (width="+e.source.width+", left="+e.source.left+")");
 				if (e.zoom){
 					showZoom(false,e.zoom);
 				}
@@ -123,40 +110,45 @@
 			}
 		});
 		list.addEventListener("zoom",function(e){
-			Ti.API.log("zoom event caught");
+			Ti.API.log("ZOOM event caught in "+root.MapotekViewId);
 			showZoom(true,e);
 		});
 		return root;
 	};
-	M.ui.createFilmStripView = function(_args) {
+	M.ui.createCompositeView = function(_args) {
 		if (!_args.MapotekViewId){
 			throw "No MapotekViewId!";
 		}
-		var root = K.create({
+		var root = K.create(K.merge({
+			k_type: "View",
+			width: $$.platformWidth
+		},_args)),
+		container = K.create(K.merge({
+			left: 0,
+			top: 0,
 			k_type: "View"
-		}),
+		},_args)),
 		views = _args.views,
 		index = 0,
-		previndex = 0,
-		container = K.create({
-			k_type: "View",
-			top: 0,
-			left: 0,
-			bottom: 0,
-			width: $$.platformWidth * _args.views.length
-		});
-
-		for (var i = 0, l = views.length; i < l; i++) {
-			var newView = K.create({
-				k_type: "View",
+		previndex = 0;
+		views.forEach(function(view,i){
+			/*var newView = M.ui.createView({
+				MapotekViewId: "Composite---"+_args.MapotekViewId+"---"+i,
 				top: 0,
 				bottom: 0,
-				left: $$.platformWidth * i,
+				left:0, // $$.platformWidth * i,
 				width: $$.platformWidth
 			});
-			newView.add(views[i]);
-			container.add(newView);
-		}
+			newView.add(view);
+			newView.addEventListener("show",function(e){
+				if (e.source.MapotekViewId === newView.MapotekViewId){
+					view.fireEvent("show",e);
+				}
+			});
+			container.add(newView); */
+			container.add(views[i]);
+			//root.add(views[i]);
+		});
 		root.add(container);
 
 		//set the currently visible index
@@ -164,31 +156,62 @@
 			if ((e.source.MapotekViewId === root.MapotekViewId) && (index != e.idx || e.force)) {
 				previndex = index;
 				index = e.idx;
-				if (_args.leave) {
-					_args.leave({
-						from: previndex,
-						to: index
-					});
-				}
-				Ti.API.log("Tabclick, navigating to "+index);
+				Ti.API.log(["Changing index in "+root.MapotekViewId+" to "+index+", firing show event in view "+views[index].MapotekViewId,views[index].def]);
 				views[index].fireEvent("show",K.merge({viewtarget:views[index].MapotekViewId},e));
-				container.animate({
-					duration: $$.animationDuration,
-					left: $$.platformWidth * e.idx * -1
-				},
-				function() {
-					Ti.API.log("Arrived at new tab");
-					if (_args.arrive) {
-						_args.arrive({
-							from: previndex,
-							to: index
-						});
-					}
-				});
+				_args.changeIndex(container,views,index,previndex);
 			}
 		});
-
+		
+		root.addEventListener('show',function(e){
+			if (e.source.MapotekViewId === root.MapotekViewId){
+				Ti.API.log("SHOW caught in composite "+root.MapotekViewId+" with left "+root.left+"! Firing show event in subview "+index+" ("+views[index||0].MapotekViewId+")");
+				views[index || 0].fireEvent("show",K.merge({viewtarget:views[index||0].MapotekViewId},e));
+			}
+		});
+		root.views = views;
 		return root;
+	};
+	M.ui.createFilmStripView = function(o){
+		var changeIndex = function(container,views,index,previndex){
+			Ti.API.log("---FilmStrip "+o.MapotekViewId+" changeindex callback, firing lefttab event");
+			filmstrip.fireEvent("leftTab",{idx:previndex});
+			container.animate({
+				duration: $$.animationDuration,
+				left: $$.platformWidth * index * -1
+			},
+			function() {
+				filmstrip.fireEvent("arriveAtTab",{idx:index});
+			});
+		},
+		filmstrip = M.ui.createCompositeView(K.merge({changeIndex:changeIndex,width:$$.platformWidth*o.views.length},o));
+		filmstrip.views.forEach(function(view,i){
+			view.left = $$.platformWidth * i;
+		});
+		return filmstrip;
+	};
+	M.ui.createFlipView = function(o){
+		var changeIndex = function(container,views,index,previndex){
+			Ti.API.log("---FlipView "+o.MapotekViewId+" changeindex callback, firing lefttab event");
+			flipview.fireEvent("leftTab",{idx:previndex});
+			container.animate({
+				duration: $$.animationDuration,
+				transform: Ti.UI.create2DMatrix().scale(0.1,1)
+			},function(){
+				flipview.fireEvent("arriveAtTab",{idx:index});
+				views.forEach(function(view,i){
+					view.opacity = (i===index ? 1 : 0);
+				});
+				container.animate({
+					duration: $$.animationDuration,
+					transform: Ti.UI.create2DMatrix()
+				});
+			});
+		},
+		flipview = M.ui.createCompositeView(K.merge({changeIndex:changeIndex,width:$$.platformWidth},o));
+		flipview.views.forEach(function(view,i){
+			view.opacity = (i? 0 : 1); // only 1st view visible from the beginning
+		});
+		return flipview;
 	};
 })();
 
@@ -204,3 +227,4 @@ Ti.include("/mapotek/ui/mapView.js");
 Ti.include("/mapotek/ui/pharmacyListView.js");
 Ti.include("/mapotek/ui/pharmacyView.js");
 Ti.include("/mapotek/ui/reportView.js");
+Ti.include("/mapotek/ui/homeTab.js");
