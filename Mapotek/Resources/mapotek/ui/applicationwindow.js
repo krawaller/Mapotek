@@ -39,7 +39,21 @@
 			}
 		});
 		win.add(filmstrip);
-		var tabbtns = [];
+		var tabbtns = [], pointer;
+		pointer = K.create({
+			k_type: "View",
+			width: 10,
+			backgroundColor: "#000",
+			bottom: 0,
+			height: 50,
+			left: 30
+		});
+		win.add(pointer);
+		filmstrip.addEventListener("changeIndex",function(e){
+			if (e.source.MapotekViewId === "mainfilmstrip"){
+				pointer.animate({left:e.idx*60+30,duration:$$.animationDuration});
+			}
+		});
 		tabs.forEach(function(label,i){
 			var btn = K.create({
 				k_class: "NavButtonView",
@@ -99,6 +113,10 @@
 		win.add(reportview);
 		win.add(reportbtn);
 		function animateControls(){
+			pointer.bottom = -pointer.height;
+			setTimeout(function(){
+				pointer.animate({bottom: 0});
+			},1000);
 			tabbtns.forEach(function(e,i){
 				e.bottom = -40;
 				setTimeout(function(){
