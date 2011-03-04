@@ -190,7 +190,7 @@
 			Ti.API.log("---FlipView "+o.MapotekViewId+" changeindex callback, firing lefttab event");
 			flipview.fireEvent("leftTab",{idx:previndex});
 			container.animate({
-				duration: $$.animationDuration,
+				duration: $$.animationDuration/2,
 				transform: Ti.UI.create2DMatrix().scale(0.1,1)
 			},function(){
 				flipview.fireEvent("arriveAtTab",{idx:index});
@@ -198,7 +198,7 @@
 					view.opacity = (i===index ? 1 : 0);
 				});
 				container.animate({
-					duration: $$.animationDuration,
+					duration: $$.animationDuration/2,
 					transform: Ti.UI.create2DMatrix()
 				});
 			});

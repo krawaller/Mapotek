@@ -11,7 +11,8 @@
 			MapotekViewId: "PharmacyTab",
 			list: M.ui.createPharmacyListView(),
 			zoom: M.ui.createPharmacyView(),
-			width: $$.platformWidth // for some reason this gets doubled?!
+			width: $$.platformWidth, // for some reason this gets doubled?!
+			backLabel: "all"
 		}),
 		companytab = M.ui.createListZoomView({
 			MapotekViewId: "CompanyTab",
@@ -23,7 +24,27 @@
 		tabs = ["home","map","pharmacies","companies"],
 		filmstrip = M.ui.createFilmStripView({
 			MapotekViewId: "mainfilmstrip",
-			views: [hometab,maptab,pharmacytab,companytab]
+			views: [hometab,maptab,pharmacytab,companytab],
+			k_events: {
+				leftTab: function(e){
+					if (e.source.MapotekViewId === "mainfilmstrip"){
+						var lbl = tabbtns[e.idx].k_children[0];
+						lbl.text = lbl.text.toLowerCase();
+						lbl.font = {
+							fontWeight: "normal"
+						};
+					}
+				},
+				arriveAtTab: function(e){
+					if (e.source.MapotekViewId === "mainfilmstrip"){
+						var lbl = tabbtns[e.idx].k_children[0];
+						lbl.text = lbl.text.toUpperCase();
+						lbl.font = {
+							fontWeight: "bold"
+						};
+					}
+				}
+			}
 		}),
 		reportbtn = K.create({
 			k_class: "NavButtonView",
@@ -67,24 +88,6 @@
 				k_click: function(e){
 					filmstrip.fireEvent('changeIndex',{idx:i});
 					Ti.API.log("Clicked "+label);
-				}
-			});
-			filmstrip.addEventListener("leftTab",function(e){
-				if (e.source.MapotekViewId === "mainfilmstrip" && e.idx === i){
-					var lbl = btn.k_children[0];
-					lbl.text = lbl.text.toLowerCase();
-					lbl.font = {
-						fontWeight: "normal"
-					};
-				}
-			});
-			filmstrip.addEventListener("arriveAtTab",function(e){
-				if (e.source.MapotekViewId === "mainfilmstrip" && e.idx === i){
-					var lbl = btn.k_children[0];
-					lbl.text = lbl.text.toUpperCase();
-					lbl.font = {
-						fontWeight: "bold"
-					};
 				}
 			});
 			tabbtns.push(btn);
