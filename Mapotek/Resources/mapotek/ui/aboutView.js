@@ -4,7 +4,7 @@
 			MapotekViewId: "About",
 			MapotekViewTitle: "Start"
 		});
-		view.add( K.create({k_type:"Label",text:"About!"}) );
+		view.add( K.create({k_type:"Label",text:"Homescreen with text about the app and some instructions detailing the nav!"}) );
 		return view;
 	};
 })();

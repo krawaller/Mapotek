@@ -18,7 +18,7 @@
 					text: "Se på karta"
 				}],
 				k_click: function(){
-					Ti.App.fireEvent("showMap",{coords:pharmacy.coords});
+					Ti.App.fireEvent("showMap",{pharmacy:pharmacy});
 				}
 			},{
 				top: 150,

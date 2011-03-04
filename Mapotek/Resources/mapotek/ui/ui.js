@@ -143,26 +143,7 @@
 		index = 0,
 		previndex = 0;
 		views.forEach(function(view,i){
-			/*var newView = M.ui.createView({
-				MapotekViewId: "Composite---"+_args.MapotekViewId+"---"+i,
-				top: 0,
-				bottom: 0,
-				left:0, // $$.platformWidth * i,
-				width: $$.platformWidth
-			});
-			newView.add(view);
-			newView.addEventListener("show",function(e){
-				if (e.source.MapotekViewId === newView.MapotekViewId){
-					view.fireEvent("show",e);
-				}
-			});
-			container.add(newView); */
 			container.add(views[i]);
-			//root.add(views[i]);
-			/*if (view.setMapotekViewParent){
-				Ti.API.log(["MOOO",view.setMapotekViewParent,typeof view.setMapotekViewParent,K.isFunc(view.setMapotekViewParent)]);
-				view.setMapotekViewParent(root,i);
-			}*/
 		});
 		root.add(container);
 
@@ -235,7 +216,7 @@
 		},o));
 		tableView.render = function(o){ // o can have chainid and callback
 			pharmacies = [];
-			o = (o || {});
+			o = (o || ({}));
 			for(var pid in M.app.data.pharmacies){
 				var pharmacy = M.app.data.pharmacies[pid];
 				if ((!o.chainid) || (o.chainid == pharmacy.chainid)){

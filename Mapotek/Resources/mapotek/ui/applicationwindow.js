@@ -128,7 +128,7 @@
 			filmstrip.fireEvent("changeIndex",{idx:2,zoom:{pharmacy:e.pharmacy}});
 		});
 		Ti.App.addEventListener("showMap",function(e){
-			filmstrip.fireEvent("changeIndex",{idx:1,coords:e.coords});
+			filmstrip.fireEvent("changeIndex",{idx:1,pharmacy:e.pharmacy});
 		});
 		return win;
 	};
