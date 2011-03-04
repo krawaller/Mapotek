@@ -7,23 +7,18 @@
 				top: 60,
 				height: 20,
 				text:"Alla apotekskontor i heeeela landet WOOOO"
-			},{
-				k_type: "TableView",
-				k_id: "pharmacytable",
-				top: 100,
-				k_click: function(e){
-					view.fireEvent("zoom",{pharmacy:e.row.pharmacy});
-				}
 			}]
+		}),
+		table = M.ui.createPharmacyTable({
+			top: 100,
+			callback: function(e){
+				view.fireEvent("zoom",{pharmacy:e.row.pharmacy});
+			}
 		});
-		var pharmacylist = M.data.getPharmacyList();
-		view.k_children.pharmacytable.setData(pharmacylist.map(function(p){
-			return K.create({
-				k_type: "TableViewRow",
-				title: p.name,
-				pharmacy: p
-			});
-		}));
+		view.add(table);
+		view.render = function(){
+			table.render();
+		};
 		return view;
 	};
 })();

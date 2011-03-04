@@ -70,7 +70,7 @@ var M = {};
 			callback(fakeData);
 		},
 		getPharmacyById: function(id){
-			return K.merge({chain:M.app.data.chains[M.app.data.pharmacies[id].chainid]},M.app.data.pharmacies[id]);
+			return M.app.data.pharmacies[id];
 		},
 		getPharmacyList: function(){
 			var ret = [];
@@ -80,10 +80,7 @@ var M = {};
 			return ret;
 		},
 		getChainById: function(id){
-			var chain = K.merge({pharmacies:[]},M.app.data.chains[id]);
-			chain.pharmacyids.forEach(function(pid){
-				chain.pharmacies.push(M.app.data.pharmacies[pid]);
-			});
+			var chain = M.app.data.chains[id];
 			return chain;
 		},
 		getChainList: function(){

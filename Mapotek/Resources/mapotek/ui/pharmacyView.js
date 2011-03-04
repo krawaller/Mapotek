@@ -1,6 +1,6 @@
 (function(){
 	M.ui.createPharmacyView = function(){
-		var pharmacy;
+		var pharmacy, chain;
 		var view = M.ui.createView({
 			MapotekViewId: "Pharmacy",
 			MapotekViewTitle: "foobar",
@@ -28,15 +28,16 @@
 					k_class: "NavButtonLabel"
 				}],
 				k_click: function(){
-					Ti.App.fireEvent("showChain",{chain:M.data.getChainById(pharmacy.chain.chainid)});
+					Ti.App.fireEvent("showChain",{chain:M.data.getChainById(chain.chainid)});
 				}
 			}]
 		}),
 		label = view.k_children.pharmacyname;
 		view.render = function(e){
 			pharmacy = e.pharmacy;
+			chain = M.data.getChainById(e.pharmacy.chainid);
 			label.text = e.pharmacy.name+" i "+e.pharmacy.address.city;
-			view.k_children.chainlinkview.k_children[0].text = e.pharmacy.chain.name;
+			view.k_children.chainlinkview.k_children[0].text = chain.name;
 			return {
 				title: e.pharmacy.name+" i "+e.pharmacy.address.city,
 				reportData: e.pharmacy.name+"/"+e.pharmacy.address.city

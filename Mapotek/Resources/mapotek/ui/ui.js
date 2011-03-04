@@ -4,13 +4,15 @@
 		if (!o.MapotekViewId){
 			throw "No MapotekViewId!";
 		}
-		var view = K.create(K.merge({
+		var view = K.create(K.merge(o,{
 			k_type:"View",
 			width: $$.platformWidth
-		},o));
+		})),
+		showing = false;
 		view.addEventListener("show",function(e){
 			var renderResult = "";
 			if (e.source.MapotekViewId === view.MapotekViewId){
+				showing = true;
 				Ti.API.log("SHOW event caught in "+view.MapotekViewId);
 				if (K.isFunc(e.source.render)){
 					Ti.API.log("--- I have a render function! Calling!");
@@ -23,6 +25,16 @@
 						what: renderResult.reportData
 					};
 					Ti.App.fireEvent("app:settitle",{title:renderResult.title || o.MapotekViewTitle});
+				}
+			}
+			else {
+				if (showing){
+					Ti.API.log("--- leaving "+view.MapotekViewId);
+					showing = false;
+					if (view.leave){
+						Ti.API.log("--- Calling leave in "+view.MapotekViewId+"");
+						view.leave(e);
+					}
 				}
 			}
 		});
@@ -119,8 +131,7 @@
 		if (!_args.MapotekViewId){
 			throw "No MapotekViewId!";
 		}
-		var root = K.create(K.merge({
-			k_type: "View",
+		var root = M.ui.createView(K.merge({
 			width: $$.platformWidth
 		},_args)),
 		container = K.create(K.merge({
@@ -148,6 +159,10 @@
 			container.add(newView); */
 			container.add(views[i]);
 			//root.add(views[i]);
+			/*if (view.setMapotekViewParent){
+				Ti.API.log(["MOOO",view.setMapotekViewParent,typeof view.setMapotekViewParent,K.isFunc(view.setMapotekViewParent)]);
+				view.setMapotekViewParent(root,i);
+			}*/
 		});
 		root.add(container);
 
@@ -212,6 +227,28 @@
 			view.opacity = (i? 0 : 1); // only 1st view visible from the beginning
 		});
 		return flipview;
+	};
+	M.ui.createPharmacyTable = function(o){ // o has callback
+		var tableView = K.create(K.merge({
+			k_type: "TableView",
+			k_click: o.callback
+		},o));
+		tableView.render = function(o){ // o can have chainid and callback
+			pharmacies = [];
+			o = (o || {});
+			for(var pid in M.app.data.pharmacies){
+				var pharmacy = M.app.data.pharmacies[pid];
+				if ((!o.chainid) || (o.chainid == pharmacy.chainid)){
+					pharmacies.push({
+						k_type: "TableViewRow",
+						title: pharmacy.name,
+						pharmacy: pharmacy
+					});
+				}
+			};
+			tableView.setData(pharmacies);	
+		};
+		return tableView;
 	};
 })();
 
